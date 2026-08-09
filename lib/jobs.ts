@@ -5,7 +5,7 @@ import type { JobRecord } from "./types";
 export type { JobRecord } from "./types";
 
 function jobsJsonPath(): string {
-  return path.join(process.cwd(), "..", "data", "jobs.json");
+  return path.join(process.cwd(), "data", "jobs.json");
 }
 
 export function loadJobs(): JobRecord[] {

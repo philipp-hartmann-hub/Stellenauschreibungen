@@ -547,23 +547,25 @@ def run_crawl(
 
 
 def main(argv: list[str] | None = None) -> int:
+    here = Path(__file__).resolve().parent
+    repo_root = here.parent
     parser = argparse.ArgumentParser(description="Crawl ministry job listings")
     parser.add_argument(
         "--registry",
         type=Path,
-        default=Path("registry.yaml"),
+        default=here / "registry.yaml",
         help="Path to registry.yaml",
     )
     parser.add_argument(
         "--db",
         type=Path,
-        default=Path("data/jobs.sqlite"),
+        default=repo_root / "data" / "jobs.sqlite",
         help="SQLite database path",
     )
     parser.add_argument(
         "--json",
         type=Path,
-        default=Path("data/jobs.json"),
+        default=repo_root / "data" / "jobs.json",
         help="Optional JSON export path (active jobs)",
     )
     parser.add_argument(

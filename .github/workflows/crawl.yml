@@ -12,6 +12,9 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: crawler
     steps:
       - uses: actions/checkout@v4
 
@@ -19,14 +22,16 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: crawler/requirements.txt
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Run crawler
-        run: python crawler.py -v
+        run: python crawler.py -v --db ../data/jobs.sqlite --json ../data/jobs.json
 
       - name: Commit data
+        working-directory: .
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

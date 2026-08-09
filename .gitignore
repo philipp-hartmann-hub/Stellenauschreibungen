@@ -7,8 +7,8 @@ __pycache__/
 .venv/
 venv/
 node_modules/
-web/.next/
-web/out/
+.next/
+out/
 .DS_Store
 .env
 .env.*
