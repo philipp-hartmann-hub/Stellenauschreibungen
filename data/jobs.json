@@ -1,0 +1,826 @@
+[
+  {
+    "uid": "5e89bf5b08db0c6c5176eebe",
+    "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640740",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
+    }
+  },
+  {
+    "uid": "a6dd7b7bfef4f72090018c9a",
+    "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640722",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmbfsfj",
+    "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
+    }
+  },
+  {
+    "uid": "7f1e6717b42b8230093b35f7",
+    "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640728",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmi",
+    "source_name": "Bundesministerium des Innern",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58"
+    }
+  },
+  {
+    "uid": "cdb9ddc349625069d6fba1c3",
+    "title": "Bauingenieur/-in (m/w/d) im Referat 131 \"Innerer Dienst; Sicherheit; Veranstaltungen\"",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/bauingenieur-in-m-w-d-im-referat-131-innerer-dienst-sicherheit-veranstaltungen/25588348",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
+    }
+  },
+  {
+    "uid": "0d3d24e751e64061e97cfc59",
+    "title": "Beschäftigte/r (m/w/d) im Team des „Zugangsmanagements / sicherheitliche Bauüberwachung für die Baumaßnahme Erweiterungsbau Bundeskanzleramt“",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/beschaeftigte-r-m-w-d-im-team-des-zugangsmanagements-sicherheitliche-bauueberwachung-fuer-die-baumassnahme-erweiterungsbau-bundeskanzleramt/25629884",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
+    }
+  },
+  {
+    "uid": "4a444844f0a864caf8ae1f43",
+    "title": "Dolmetscherin/Übersetzerin bzw. Dolmetscher/Übersetzer (m/w/d) für Polnisch",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/dolmetscherin-uebersetzerin-bzw-dolmetscher-uebersetzer-m-w-d-fuer-polnisch/25577384",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "aa",
+    "source_name": "Auswärtiges Amt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "e8763e69db632ed4d018d98c",
+    "title": "eine Referentin / ein Referent (m/w/d) BMBFSFJ-2026-012",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-ein-referent-m-w-d-bmbfsfj-2026-012/25650916",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmbfsfj",
+    "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
+    }
+  },
+  {
+    "uid": "74e9cd33cfc0475e119efc5b",
+    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 3 „Telekommunikationsrecht“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-017",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-3-telekommunikationsrecht-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-017/25618804",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "8bb959011b0250935e8433e5",
+    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 5 „Förderung des Breitbandausbaus“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-016",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-5-foerderung-des-breitbandausbaus-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-016/25618756",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "3185e5749c27077e33a265c7",
+    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 5 „Förderung des Breitbandausbaus“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-021",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-5-foerderung-des-breitbandausbaus-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-021/25674914",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "7d9ba489a2500d63b92939f1",
+    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DS I 4 „IT-Betriebskonsolidierung Bund“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-022",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-ds-i-4-it-betriebskonsolidierung-bund-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-022/25680346",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "a2dee0b4a0401be31f63a451",
+    "title": "eine Referentin / einen Referenten (w/m/d) - BMG-2026-034 - befristet bis zum 30.06.2029 - Berlin",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-bmg-2026-034-befristet-bis-zum-30062029-berlin/25582630",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmg",
+    "source_name": "Bundesministerium für Gesundheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
+    }
+  },
+  {
+    "uid": "870a42bb10ff277b7e8ca77a",
+    "title": "eine Referentin / einen Referenten (w/m/d) - BMG-2026-034 - befristet bis zum 30.06.2029 - Bonn",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-bmg-2026-034-befristet-bis-zum-30062029-bonn/25582618",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmg",
+    "source_name": "Bundesministerium für Gesundheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
+    }
+  },
+  {
+    "uid": "f40dd123fee845ddb827727c",
+    "title": "eine Referentin / einen Referenten (w/m/d) - BMG-2026-036 - befristet bis zum 31.03.2029 - Berlin",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-bmg-2026-036-befristet-bis-zum-31032029-berlin/25640902",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmg",
+    "source_name": "Bundesministerium für Gesundheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
+    }
+  },
+  {
+    "uid": "964e205484474b9f7c8fcb79",
+    "title": "eine Referentin / einen Referenten. (w / m / d) - BMG-2026-033 - befristet bis zum 31.12.2029 - Berlin",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-bmg-2026-033-befristet-bis-zum-31122029-berlin/25582434",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmg",
+    "source_name": "Bundesministerium für Gesundheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
+    }
+  },
+  {
+    "uid": "e61e068d0b04b33c12986d58",
+    "title": "eine Sachbearbeiterin /ein Sachbearbeiter (m/w/d) für das Referat S1 „Personalmanagement“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS), Berlin - BMDS-2026-020",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-sachbearbeiterin-ein-sachbearbeiter-m-w-d-fuer-das-referat-s1-personalmanagement-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-berlin-bmds-2026-020/25645818",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "3cf476cdea004883d38562ff",
+    "title": "eine Sachbearbeiterin /ein Sachbearbeiter (m/w/d) für das Referat S1 „Personalmanagement“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS), Bonn - BMDS-2026-020",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-sachbearbeiterin-ein-sachbearbeiter-m-w-d-fuer-das-referat-s1-personalmanagement-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bonn-bmds-2026-020/25645850",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "1c4c78141f2cca0f0efc0c5a",
+    "title": "Expertin bzw. Experte (w/m/d) in Kulturwissenschaften oder Kunstgeschichte",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/expertin-bzw-experte-w-m-d-in-kulturwissenschaften-oder-kunstgeschichte/25679046",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmf",
+    "source_name": "Bundesministerium der Finanzen",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-finanzen/55"
+    }
+  },
+  {
+    "uid": "15f737375993d83b17fa3fe4",
+    "title": "Fachreferentin bzw. Fachreferent (m/w/d) im Sprachlernzentrum",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/fachreferentin-bzw-fachreferent-m-w-d-im-sprachlernzentrum/25680494",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "aa",
+    "source_name": "Auswärtiges Amt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "426f57cd1caf67fffd149338",
+    "title": "IT-Servicemanagerin oder IT-Servicemanager (m/w/d) mit Schwerpunkt SAP",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/it-servicemanagerin-oder-it-servicemanager-m-w-d-mit-schwerpunkt-sap/25608790",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "aa",
+    "source_name": "Auswärtiges Amt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "590605fb8854cee9837c8d4d",
+    "title": "Jurist*innen mit 1. Staatsexamen (m/w/d)",
+    "url": "https://bmas.stellen.center/76KFY32T5/juristinnen-mit-1-staatsexamen-mwd",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmas",
+    "source_name": "Bundesministerium für Arbeit und Soziales",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://bmas.stellen.center/"
+    }
+  },
+  {
+    "uid": "38429b3ef9a9711cf88b061d",
+    "title": "Juristen / Juristinnen (m/w/d) mit dem ersten juristischen Staatsexamen",
+    "url": "https://www.bmleh.de/SharedDocs/Stellenangebote/DE/Jurist_1-Staatsexamen_6Monate_2024.html",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmleh",
+    "source_name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
+    }
+  },
+  {
+    "uid": "fce63d14bb61def5b7a1b306",
+    "title": "Kraftfahrer/in (m/w/d)",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/kraftfahrer-in-m-w-d/25599346",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmjv",
+    "source_name": "Bundesministerium der Justiz und für Verbraucherschutz",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-justiz/56"
+    }
+  },
+  {
+    "uid": "cc59426dd42c7c9396c9b126",
+    "title": "Kraftfahrerin / Kraftfahrer (m/w/d)",
+    "url": "https://www.bmleh.de/SharedDocs/Stellenangebote/DE/kraftfahrer-in_bmleh.html",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmleh",
+    "source_name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
+    }
+  },
+  {
+    "uid": "bd5a7c87c29c7d23ad22d88d",
+    "title": "Laureat*in (m/w/d)",
+    "url": "https://bmas.stellen.center/A3QTBPEBX/laureatin-mwd",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmas",
+    "source_name": "Bundesministerium für Arbeit und Soziales",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://bmas.stellen.center/"
+    }
+  },
+  {
+    "uid": "baca77fa13e52d47155756a0",
+    "title": "Qualifizierungsmaßnahme für den gehobenen Auswärtigen Dienst 26/27",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/qualifizierungsmassnahme-fuer-den-gehobenen-auswaertigen-dienst-26-27/25663430",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "aa",
+    "source_name": "Auswärtiges Amt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "0e2c7010529a0f82ca0c7eeb",
+    "title": "Rechtsreferendar*innen (m/w/d)",
+    "url": "https://bmas.stellen.center/6SBRXWB76/rechtsreferendarinnen-mwd",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmas",
+    "source_name": "Bundesministerium für Arbeit und Soziales",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://bmas.stellen.center/"
+    }
+  },
+  {
+    "uid": "b64350f511819a9cb628e217",
+    "title": "Referatsleitung (m/w/d)",
+    "url": "https://interamt.de/koop/app/stelle?id=1466089",
+    "location": "10969 Berlin",
+    "posted_at": "2026-07-23",
+    "deadline": "2026-08-14",
+    "source_id": "bmwsb",
+    "source_name": "Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "interamt",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "partner": "4747",
+      "item": {
+        "Id": 1466089,
+        "Kennung": "L I 7 - RL",
+        "Behoerde": "Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen",
+        "StellenBezeichnung": "Referatsleitung (m/w/d)",
+        "Dienstverhaeltnisse": [
+          "Arbeitnehmer",
+          "Beamter"
+        ],
+        "BeschaeftigungDauer": "unbefristet",
+        "Teilzeit": "beides möglich",
+        "Bezahlung": {
+          "Besoldung": "B1",
+          "Entgelt": "B 1"
+        },
+        "StellenangebotOrt": [
+          {
+            "Strasse": "Rudi-Dutschke-Straße",
+            "Hausnummer": "4",
+            "Zusatz": "",
+            "PLZ": "10969",
+            "Ort": "Berlin",
+            "Breite": 52.49762,
+            "Laenge": 13.41121
+          }
+        ],
+        "Daten": {
+          "Eingestellt": "23.07.2026",
+          "Bewerbungsfrist": "14.08.2026"
+        }
+      }
+    }
+  },
+  {
+    "uid": "e6ae67e44adb98e5f6e833fd",
+    "title": "Referent*in (m/w/d) N III 3 befristet",
+    "url": "https://jobs.bundesumweltministerium.de/job/Referentin-%28mwd%29-N-III-3-befristet/1257",
+    "location": "Berlin, BE, DEU, 10117; Bonn, NW, DEU, 53175",
+    "posted_at": "2026-07-21",
+    "deadline": "2026-08-11",
+    "source_id": "bmukn",
+    "source_name": "Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "successfactors",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "jobLocationShort": [
+        "Berlin, BE, DEU, 10117<br/>",
+        "Bonn, NW, DEU, 53175<br/>"
+      ],
+      "unifiedStandardEnd": "11.08.26",
+      "supportedLocales": [
+        "de_DE"
+      ],
+      "custJobStartDate": "15.09.2026",
+      "custLaufbahngruppe": [
+        "höherer Dienst"
+      ],
+      "unifiedUrlTitle": "Referentin-%28mwd%29-N-III-3-befristet",
+      "unifiedStandardStart": "21.07.26",
+      "unifiedStandardTitle": "Referent*in (m/w/d) N III 3 befristet",
+      "id": "1257",
+      "sfstd_jobLocation_obj": [
+        "Berlin",
+        "Bonn"
+      ],
+      "jobLocationShortWithCoordinates": [
+        {
+          "value": "Bonn, NW, DEU, 53175<br/>",
+          "key": "50.6860994,7.1528987"
+        },
+        {
+          "value": "Berlin, BE, DEU, 10117<br/>",
+          "key": "52.57031501,13.4103444"
+        }
+      ],
+      "urlTitle": "Referentin-%28mwd%29-N-III-3-befristet"
+    }
+  },
+  {
+    "uid": "2351fc3915cb133323d72ff6",
+    "title": "Referent/in (m/w/d) bei KS 4",
+    "url": "https://jobs.bundesumweltministerium.de/job/Referentin-%28mwd%29-bei-KS-4/1255",
+    "location": "Berlin, BE, DEU, 10117; Bonn, NW, DEU, 53175",
+    "posted_at": "2026-07-29",
+    "deadline": "2026-08-12",
+    "source_id": "bmukn",
+    "source_name": "Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "successfactors",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "jobLocationShort": [
+        "Berlin, BE, DEU, 10117<br/>",
+        "Bonn, NW, DEU, 53175<br/>"
+      ],
+      "unifiedStandardEnd": "12.08.26",
+      "supportedLocales": [
+        "de_DE"
+      ],
+      "custJobStartDate": "zum nächstmöglichen Zeitpunkt",
+      "custLaufbahngruppe": [
+        "höherer Dienst"
+      ],
+      "unifiedUrlTitle": "Referentin-%28mwd%29-bei-KS-4",
+      "unifiedStandardStart": "29.07.26",
+      "unifiedStandardTitle": "Referent/in (m/w/d) bei KS 4",
+      "id": "1255",
+      "sfstd_jobLocation_obj": [
+        "Berlin",
+        "Bonn"
+      ],
+      "jobLocationShortWithCoordinates": [
+        {
+          "value": "Bonn, NW, DEU, 53175<br/>",
+          "key": "50.6860994,7.1528987"
+        },
+        {
+          "value": "Berlin, BE, DEU, 10117<br/>",
+          "key": "52.57031501,13.4103444"
+        }
+      ],
+      "urlTitle": "Referentin-%28mwd%29-bei-KS-4"
+    }
+  },
+  {
+    "uid": "de69b83d56e69954ae95ac28",
+    "title": "Sachbearbeiter*in (m/w/d) im Bereich E-Learning",
+    "url": "https://bmas.stellen.center/MKFNAXL4N/sachbearbeiterin-mwd-im-bereich-e-learning",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmas",
+    "source_name": "Bundesministerium für Arbeit und Soziales",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://bmas.stellen.center/"
+    }
+  },
+  {
+    "uid": "7bccca657e073b20abaf75e5",
+    "title": "Sachbearbeiter/in (m/w/d) im Referat Z III 1",
+    "url": "https://jobs.bundesumweltministerium.de/job/Sachbearbeiterin-%28mwd%29-im-Referat-Z-III-1/1244",
+    "location": "Berlin, BE, DEU, 10117; Bonn, NW, DEU, 53175",
+    "posted_at": "2026-07-29",
+    "deadline": "2026-08-12",
+    "source_id": "bmukn",
+    "source_name": "Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "successfactors",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "jobLocationShort": [
+        "Berlin, BE, DEU, 10117<br/>",
+        "Bonn, NW, DEU, 53175<br/>"
+      ],
+      "unifiedStandardEnd": "12.08.26",
+      "supportedLocales": [
+        "de_DE"
+      ],
+      "custJobStartDate": "zum nächstmöglichen Zeitpunkt",
+      "custLaufbahngruppe": [
+        "gehobener Dienst"
+      ],
+      "unifiedUrlTitle": "Sachbearbeiterin-%28mwd%29-im-Referat-Z-III-1",
+      "unifiedStandardStart": "29.07.26",
+      "unifiedStandardTitle": "Sachbearbeiter/in (m/w/d) im Referat Z III 1",
+      "id": "1244",
+      "sfstd_jobLocation_obj": [
+        "Berlin",
+        "Bonn"
+      ],
+      "jobLocationShortWithCoordinates": [
+        {
+          "value": "Bonn, NW, DEU, 53175<br/>",
+          "key": "50.6860994,7.1528987"
+        },
+        {
+          "value": "Berlin, BE, DEU, 10117<br/>",
+          "key": "52.57031501,13.4103444"
+        }
+      ],
+      "urlTitle": "Sachbearbeiterin-%28mwd%29-im-Referat-Z-III-1"
+    }
+  },
+  {
+    "uid": "52e7d936cc739edee1f86c91",
+    "title": "technischer Hausmeisterinnen und Hausmeister (m/w/d) für den weltweiten Einsatz",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/technischer-hausmeisterinnen-und-hausmeister-m-w-d-fuer-den-weltweiten-einsatz/25679010",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "aa",
+    "source_name": "Auswärtiges Amt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "d8a3f64d2478ba1e9cf09078",
+    "title": "Volljuristinnen / Volljuristen als Referentinnen / Referenten (w / m / d) - BMG-2026-035 - Berlin",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/volljuristinnen-volljuristen-als-referentinnen-referenten-w-m-d-bmg-2026-035-berlin/25577038",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmg",
+    "source_name": "Bundesministerium für Gesundheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
+    }
+  },
+  {
+    "uid": "ba0346bc9f5c5073cffd595d",
+    "title": "Volljuristinnen / Volljuristen als Referentinnen / Referenten (w / m / d) - BMG-2026-035 - Bonn",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/volljuristinnen-volljuristen-als-referentinnen-referenten-w-m-d-bmg-2026-035-bonn/25577032",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmg",
+    "source_name": "Bundesministerium für Gesundheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
+    }
+  },
+  {
+    "uid": "5a442ab577652f24ee2736e5",
+    "title": "Vorzimmerkraft (m/w/d)",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/vorzimmerkraft-m-w-d/25611528",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmvg",
+    "source_name": "Bundesministerium der Verteidigung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-verteidigung/57"
+    }
+  },
+  {
+    "uid": "89a13a089576719379d97b07",
+    "title": "Überprüferin/Überprüfer für völkerrechtliche Verträge (m/w/d)",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ueberprueferin-ueberpruefer-fuer-voelkerrechtliche-vertraege-m-w-d/25645838",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "aa",
+    "source_name": "Auswärtiges Amt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-09T13:09:40+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  }
+]

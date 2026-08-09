@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #14213d;
+  --paper: #f6f1e7;
+  --accent: #c45c26;
+  --line: #d9d0c1;
+  --muted: #5c6578;
+  --new: #1f6f5b;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 500px at 10% -10%, #fff8ea 0%, transparent 55%),
+    radial-gradient(900px 400px at 100% 0%, #e7eef8 0%, transparent 50%),
+    var(--paper);
+  font-family: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino,
+    serif;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}

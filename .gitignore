@@ -1,0 +1,14 @@
+data/*
+!data/.gitkeep
+!data/jobs.json
+!data/jobs.sqlite
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+web/.next/
+web/out/
+.DS_Store
+.env
+.env.*

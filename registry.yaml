@@ -1,0 +1,271 @@
+# Registry der Ausschreibungsquellen
+#
+# Schema (pro Eintrag):
+#   id:          stabiler Kurzschlüssel (slug)
+#   name:        Anzeigename
+#   ebene:       bund | land
+#   land:        ISO-ähnlich / Name, nur bei ebene=land (sonst null)
+#   type:        Adapter-Typ (interamt | successfactors | generic_html)
+#   enabled:     false = überspringen
+#   params:      adapter-spezifisch (siehe Kommentare unten)
+#   notes:       Freitext / TODOs — keine Logik
+#
+# Adapter-Parameter:
+#   interamt:
+#     partner_id | integration_id  → öffentlicher webservice_v2-Feed
+#     trefferliste_url              → HTML-Fallback
+#   successfactors:
+#     base_url, locale (default de_DE)
+#   generic_html:
+#     list_url, item_selector, title_selector?, link_selector?,
+#     location_selector?, date_selector?, link_must_contain?, base_url?
+#
+# Ressortzuschnitt: Kabinett Merz (ab Mai 2025). Quellsysteme verifiziert Aug 2026.
+# Partner-IDs nur eintragen, wenn am echten Embed/URL gesehen — nicht raten.
+
+sources:
+  # --- Interamt (öffentlicher Widget-Feed) ---------------------------------
+  - id: bmwsb
+    name: Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen
+    ebene: bund
+    land: null
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "4747"
+      careers_url: https://www.bmwsb.bund.de/DE/ministerium/stellenangebote/stellenangebote_node.html
+    notes: "Interamt-Integration/Widget ID 4747 auf der Ministeriumsseite verifiziert."
+
+  # --- SuccessFactors RMK --------------------------------------------------
+  - id: bmukn
+    name: Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit
+    ebene: bund
+    land: null
+    type: successfactors
+    enabled: true
+    params:
+      base_url: https://jobs.bundesumweltministerium.de
+      locale: de_DE
+    notes: "SF RMK POST /services/recruiting/v1/jobs verifiziert. Altes Label BMUV auf karriere.bund.de."
+
+  - id: bmv
+    name: Bundesministerium für Verkehr
+    ebene: bund
+    land: null
+    type: successfactors
+    enabled: true
+    params:
+      base_url: https://karriere.min.damit-alles-laeuft.de
+      locale: de_DE
+      company: bundesmi01
+    notes: "SF-Karriereseite von bmv.de verlinkt. Zum Prüfzeitpunkt 0 offene Stellen — Adapter bleibt aktiv."
+
+  # --- Config-getriebenes HTML ---------------------------------------------
+  - id: bmas
+    name: Bundesministerium für Arbeit und Soziales
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://bmas.stellen.center/
+      base_url: https://bmas.stellen.center/
+      item_selector: "div.card.job"
+      title_selector: "h3.card-title a, h3.card-title"
+      link_selector: "a.stretched-link, h3.card-title a, a[href]"
+    notes: "Eigenes Jobboard stellen.center (nicht softgarden/rexx/Interamt). Anbieter im Impressum nicht weiter klassifiziert."
+
+  - id: bmleh
+    name: Bundesministerium für Landwirtschaft, Ernährung und Heimat
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html
+      base_url: https://www.bmleh.de/
+      item_selector: "table a[href*='SharedDocs/Stellenangebote']"
+      title_selector: null
+      link_selector: null
+      link_must_contain: SharedDocs/Stellenangebote
+    notes: "CMS-Tabelle; Bewerbung beispielhaft per E-Mail, kein Interamt-Widget sichtbar."
+
+  - id: bmds
+    name: Bundesministerium für Digitales und Staatsmodernisierung
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Bewerbung laut Arbeitgeberseite über Interamt — Interamt-partner_id TODO. Listing über karriere.bund.de."
+
+  - id: bkamt
+    name: Bundeskanzleramt
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Ausschreibungen/Bewerbung über Interamt (Stellen-IDs in Anzeigen) — partner_id TODO. Listing karriere.bund.de."
+
+  - id: bmf
+    name: Bundesministerium der Finanzen
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-finanzen/55
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "FAQ bestätigt Interamt. bundesfinanzministerium.de teils Bot-geschützt — Listing über karriere.bund.de. partner_id TODO."
+
+  - id: aa
+    name: Auswärtiges Amt
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Bewerbung laut AA-Seiten über Interamt — partner_id TODO."
+
+  - id: bmwe
+    name: Bundesministerium für Wirtschaft und Energie
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-wirtschaft-und-klimaschutz/66
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "karriere.bund.de nutzt noch den alten Slug 'wirtschaft-und-klimaschutz'. Interamt-partner_id TODO."
+
+  - id: bmftr
+    name: Bundesministerium für Forschung, Technologie und Raumfahrt
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-und-forschung/60
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Portal-Slug noch BMBF. Bewerbung Interamt — partner_id TODO. Eigene CMS-Liste unter bmftr.bund.de."
+
+  - id: bmz
+    name: Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-wirtschaftliche-zusammenarbeit-und-entwicklung/68
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Bewerbung ausschließlich über Interamt — partner_id TODO."
+
+  - id: bmjv
+    name: Bundesministerium der Justiz und für Verbraucherschutz
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-justiz/56
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Eigene CMS-Suche oft leer; Abordnungen per E-Mail. Listing-Fallback karriere.bund.de."
+
+  - id: bmg
+    name: Bundesministerium für Gesundheit
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Viele Bewerbungen über bewerbung.dienstleistungszentrum.de (BVA) — eigener Adapter TODO."
+
+  - id: bmbfsfj
+    name: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "BVA-Dienstleistungszentrum als Bewerbungskanal — Adapter TODO."
+
+  - id: bmi
+    name: Bundesministerium des Innern
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Ressortzuschnitt 2025: BMI ohne 'Heimat' im Namen; Portal-Slug noch alt. PDF-ATS auf bmi.bund.de unklar — TODO."
+
+  - id: bmvg
+    name: Bundesministerium der Verteidigung
+    ebene: bund
+    land: null
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-verteidigung/57
+      base_url: https://karriere.bund.de
+      item_selector: "div.jsFlipCardFront.card--job"
+      title_selector: "h3"
+      link_selector: "a[href*='/stellenangebote/']"
+      link_must_contain: /stellenangebote/
+    notes: "Onlinebewerbung über bewerbung.bundeswehr-karriere.de (SAP eRece) — spezieller Adapter TODO. Listing karriere.bund.de."
