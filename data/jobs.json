@@ -12,7 +12,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -31,7 +31,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
@@ -50,48 +50,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58"
-    }
-  },
-  {
-    "uid": "cdb9ddc349625069d6fba1c3",
-    "title": "Bauingenieur/-in (m/w/d) im Referat 131 \"Innerer Dienst; Sicherheit; Veranstaltungen\"",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/bauingenieur-in-m-w-d-im-referat-131-innerer-dienst-sicherheit-veranstaltungen/25588348",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bkamt",
-    "source_name": "Bundeskanzleramt",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
-    }
-  },
-  {
-    "uid": "0d3d24e751e64061e97cfc59",
-    "title": "Beschäftigte/r (m/w/d) im Team des „Zugangsmanagements / sicherheitliche Bauüberwachung für die Baumaßnahme Erweiterungsbau Bundeskanzleramt“",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/beschaeftigte-r-m-w-d-im-team-des-zugangsmanagements-sicherheitliche-bauueberwachung-fuer-die-baumassnahme-erweiterungsbau-bundeskanzleramt/25629884",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bkamt",
-    "source_name": "Bundeskanzleramt",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
@@ -107,7 +69,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -126,7 +88,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
@@ -145,7 +107,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -164,7 +126,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -183,7 +145,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -202,7 +164,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -221,7 +183,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -240,7 +202,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -259,7 +221,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -278,7 +240,26 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
+    }
+  },
+  {
+    "uid": "7ab200d3764d4675886eda9c",
+    "title": "eine Referentin / einen Referenten. (w / m / d) - BMG-2026-033 - befristet bis zum 31.12.2029 - Bonn",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-bmg-2026-033-befristet-bis-zum-31122029-bonn/25582396",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmg",
+    "source_name": "Bundesministerium für Gesundheit",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-11T06:05:22+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -297,7 +278,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -316,7 +297,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -335,7 +316,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-finanzen/55"
@@ -354,10 +335,29 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "5d86abc29ed281cf4454b5a6",
+    "title": "Ingenieur/-in für Elektrotechnik (m/w/d) für den Erweiterungsbau des Bundeskanzleramtes im Referat 131 \"Innerer Dienst; Sicherheit; Veranstaltungen\"",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ingenieur-in-fuer-elektrotechnik-m-w-d-fuer-den-erweiterungsbau-des-bundeskanzleramtes-im-referat-131-innerer-dienst-sicherheit-veranstaltungen/25692288",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-11T06:05:22+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
@@ -373,7 +373,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -392,7 +392,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -411,7 +411,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
@@ -430,7 +430,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-justiz/56"
@@ -449,29 +449,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
-    }
-  },
-  {
-    "uid": "bd5a7c87c29c7d23ad22d88d",
-    "title": "Laureat*in (m/w/d)",
-    "url": "https://bmas.stellen.center/A3QTBPEBX/laureatin-mwd",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmas",
-    "source_name": "Bundesministerium für Arbeit und Soziales",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://bmas.stellen.center/"
     }
   },
   {
@@ -487,7 +468,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -506,7 +487,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -525,7 +506,7 @@
     "land": null,
     "adapter": "interamt",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "partner": "4747",
@@ -575,7 +556,7 @@
     "land": null,
     "adapter": "successfactors",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "jobLocationShort": [
@@ -624,7 +605,7 @@
     "land": null,
     "adapter": "successfactors",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "jobLocationShort": [
@@ -661,25 +642,6 @@
     }
   },
   {
-    "uid": "de69b83d56e69954ae95ac28",
-    "title": "Sachbearbeiter*in (m/w/d) im Bereich E-Learning",
-    "url": "https://bmas.stellen.center/MKFNAXL4N/sachbearbeiterin-mwd-im-bereich-e-learning",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmas",
-    "source_name": "Bundesministerium für Arbeit und Soziales",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://bmas.stellen.center/"
-    }
-  },
-  {
     "uid": "7bccca657e073b20abaf75e5",
     "title": "Sachbearbeiter/in (m/w/d) im Referat Z III 1",
     "url": "https://jobs.bundesumweltministerium.de/job/Sachbearbeiterin-%28mwd%29-im-Referat-Z-III-1/1244",
@@ -692,7 +654,7 @@
     "land": null,
     "adapter": "successfactors",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "jobLocationShort": [
@@ -741,48 +703,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
-    }
-  },
-  {
-    "uid": "d8a3f64d2478ba1e9cf09078",
-    "title": "Volljuristinnen / Volljuristen als Referentinnen / Referenten (w / m / d) - BMG-2026-035 - Berlin",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/volljuristinnen-volljuristen-als-referentinnen-referenten-w-m-d-bmg-2026-035-berlin/25577038",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmg",
-    "source_name": "Bundesministerium für Gesundheit",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
-    }
-  },
-  {
-    "uid": "ba0346bc9f5c5073cffd595d",
-    "title": "Volljuristinnen / Volljuristen als Referentinnen / Referenten (w / m / d) - BMG-2026-035 - Bonn",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/volljuristinnen-volljuristen-als-referentinnen-referenten-w-m-d-bmg-2026-035-bonn/25577032",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmg",
-    "source_name": "Bundesministerium für Gesundheit",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
     }
   },
   {
@@ -798,7 +722,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-verteidigung/57"
@@ -817,7 +741,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-10T06:43:45+00:00",
+    "last_seen": "2026-08-11T06:05:22+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
