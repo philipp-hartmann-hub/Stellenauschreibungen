@@ -1,8 +1,8 @@
 [
   {
-    "uid": "f9ff7ab99bf7f3f9bec9b404",
+    "uid": "5e89bf5b08db0c6c5176eebe",
     "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25640740",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640740",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -11,17 +11,36 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-12T06:43:49+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
-    "uid": "25c24137052899728cd020d8",
+    "uid": "a6dd7b7bfef4f72090018c9a",
     "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25640728",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640722",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmbfsfj",
+    "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
+    }
+  },
+  {
+    "uid": "7f1e6717b42b8230093b35f7",
+    "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640728",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -30,36 +49,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-12T06:43:49+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58"
     }
   },
   {
-    "uid": "35b72bf98ad4e76474b63fd3",
-    "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25640722",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmbfsfj",
-    "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
-    }
-  },
-  {
-    "uid": "0fdbaaa61ece253ccc8dfa28",
+    "uid": "4a444844f0a864caf8ae1f43",
     "title": "Dolmetscherin/Übersetzerin bzw. Dolmetscher/Übersetzer (m/w/d) für Polnisch",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25577384",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/dolmetscherin-uebersetzerin-bzw-dolmetscher-uebersetzer-m-w-d-fuer-polnisch/25577384",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -68,17 +68,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
     }
   },
   {
-    "uid": "c8c835d9ae74709eb66580ed",
+    "uid": "e8763e69db632ed4d018d98c",
     "title": "eine Referentin / ein Referent (m/w/d) BMBFSFJ-2026-012",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25650916",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-ein-referent-m-w-d-bmbfsfj-2026-012/25650916",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -87,17 +87,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
     }
   },
   {
-    "uid": "d38481656f1ccade15ee9511",
+    "uid": "74e9cd33cfc0475e119efc5b",
     "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 3 „Telekommunikationsrecht“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-017",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25618804",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-3-telekommunikationsrecht-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-017/25618804",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -106,17 +106,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
-    "uid": "f6c086285d84113b28e9d754",
+    "uid": "8bb959011b0250935e8433e5",
     "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 5 „Förderung des Breitbandausbaus“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-016",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25618756",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-5-foerderung-des-breitbandausbaus-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-016/25618756",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -125,17 +125,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
-    "uid": "3ffb4511688e47a829aa36f6",
+    "uid": "3185e5749c27077e33a265c7",
     "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 5 „Förderung des Breitbandausbaus“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-021",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25674914",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-5-foerderung-des-breitbandausbaus-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-021/25674914",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -144,17 +144,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
-    "uid": "80a007a71d39241472f985f0",
+    "uid": "7d9ba489a2500d63b92939f1",
     "title": "eine Referentin / einen Referenten (m/w/d) für Referat DS I 4 „IT-Betriebskonsolidierung Bund“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-022",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25680346",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-ds-i-4-it-betriebskonsolidierung-bund-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-022/25680346",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -163,17 +163,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
-    "uid": "1a652f7a932364e4d5653edb",
+    "uid": "f40dd123fee845ddb827727c",
     "title": "eine Referentin / einen Referenten (w/m/d) - BMG-2026-036 - befristet bis zum 31.03.2029 - Berlin",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25640902",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-bmg-2026-036-befristet-bis-zum-31032029-berlin/25640902",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -182,17 +182,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
     }
   },
   {
-    "uid": "25af01455ca45f6a2e13685c",
+    "uid": "e61e068d0b04b33c12986d58",
     "title": "eine Sachbearbeiterin /ein Sachbearbeiter (m/w/d) für das Referat S1 „Personalmanagement“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS), Berlin - BMDS-2026-020",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25645818",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-sachbearbeiterin-ein-sachbearbeiter-m-w-d-fuer-das-referat-s1-personalmanagement-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-berlin-bmds-2026-020/25645818",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -201,17 +201,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
-    "uid": "8ea41a2d21bb56ca9aa7507f",
+    "uid": "3cf476cdea004883d38562ff",
     "title": "eine Sachbearbeiterin /ein Sachbearbeiter (m/w/d) für das Referat S1 „Personalmanagement“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS), Bonn - BMDS-2026-020",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25645850",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-sachbearbeiterin-ein-sachbearbeiter-m-w-d-fuer-das-referat-s1-personalmanagement-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bonn-bmds-2026-020/25645850",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -220,17 +220,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
-    "uid": "c057cd744b7c51ed3d021440",
+    "uid": "1c4c78141f2cca0f0efc0c5a",
     "title": "Expertin bzw. Experte (w/m/d) in Kulturwissenschaften oder Kunstgeschichte",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25679046",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/expertin-bzw-experte-w-m-d-in-kulturwissenschaften-oder-kunstgeschichte/25679046",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -239,17 +239,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-finanzen/55"
     }
   },
   {
-    "uid": "2e969440716b6cbe3b16d11f",
+    "uid": "15f737375993d83b17fa3fe4",
     "title": "Fachreferentin bzw. Fachreferent (m/w/d) im Sprachlernzentrum",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25680494",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/fachreferentin-bzw-fachreferent-m-w-d-im-sprachlernzentrum/25680494",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -258,17 +258,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
     }
   },
   {
-    "uid": "1671c978770f7c6aa751ec2e",
+    "uid": "5d86abc29ed281cf4454b5a6",
     "title": "Ingenieur/-in für Elektrotechnik (m/w/d) für den Erweiterungsbau des Bundeskanzleramtes im Referat 131 \"Innerer Dienst; Sicherheit; Veranstaltungen\"",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25692288",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ingenieur-in-fuer-elektrotechnik-m-w-d-fuer-den-erweiterungsbau-des-bundeskanzleramtes-im-referat-131-innerer-dienst-sicherheit-veranstaltungen/25692288",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -277,17 +277,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-12T06:43:49+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-11T06:05:22+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
-    "uid": "8f56790bcbf5309996ccdcef",
+    "uid": "426f57cd1caf67fffd149338",
     "title": "IT-Servicemanagerin oder IT-Servicemanager (m/w/d) mit Schwerpunkt SAP",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25608790",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/it-servicemanagerin-oder-it-servicemanager-m-w-d-mit-schwerpunkt-sap/25608790",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -296,11 +296,30 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "83e399fa55c53e5e00cb63a2",
+    "title": "IT-Spezialist/-in (m/w/d) für den IT-Betrieb, Schwerpunkt Servicemanagement-Werkzeuge im Referat 132 \"Informations- und Kommunikationstechnik\"",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/it-spezialist-in-m-w-d-fuer-den-it-betrieb-schwerpunkt-servicemanagement-werkzeuge-im-referat-132-informations-und-kommunikationstechnik/25703880",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-14T06:43:54+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
@@ -316,7 +335,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -335,16 +354,16 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
     }
   },
   {
-    "uid": "cc6310f310a6a5c95d2d3a47",
+    "uid": "fce63d14bb61def5b7a1b306",
     "title": "Kraftfahrer/in (m/w/d)",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25599346",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/kraftfahrer-in-m-w-d/25599346",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -353,8 +372,8 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-justiz/56"
@@ -373,16 +392,16 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
     }
   },
   {
-    "uid": "dbf73bab3126a63ca7784423",
+    "uid": "baca77fa13e52d47155756a0",
     "title": "Qualifizierungsmaßnahme für den gehobenen Auswärtigen Dienst 26/27",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25663430",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/qualifizierungsmassnahme-fuer-den-gehobenen-auswaertigen-dienst-26-27/25663430",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -391,8 +410,8 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -411,7 +430,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -430,7 +449,7 @@
     "land": null,
     "adapter": "interamt",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "partner": "4747",
@@ -440,8 +459,8 @@
         "Behoerde": "Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen",
         "StellenBezeichnung": "Referatsleitung (m/w/d)",
         "Dienstverhaeltnisse": [
-          "Arbeitnehmer",
-          "Beamter"
+          "Beamter",
+          "Arbeitnehmer"
         ],
         "BeschaeftigungDauer": "unbefristet",
         "Teilzeit": "beides möglich",
@@ -468,9 +487,9 @@
     }
   },
   {
-    "uid": "8452db7b93135cd3d19dfbef",
+    "uid": "52e7d936cc739edee1f86c91",
     "title": "technischer Hausmeisterinnen und Hausmeister (m/w/d) für den weltweiten Einsatz",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25679010",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/technischer-hausmeisterinnen-und-hausmeister-m-w-d-fuer-den-weltweiten-einsatz/25679010",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -479,17 +498,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
     }
   },
   {
-    "uid": "96e08d245aa154a4e611bee7",
+    "uid": "5a442ab577652f24ee2736e5",
     "title": "Vorzimmerkraft (m/w/d)",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25611528",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/vorzimmerkraft-m-w-d/25611528",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -498,17 +517,17 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-verteidigung/57"
     }
   },
   {
-    "uid": "449db7c3ed9954473cdceb9a",
+    "uid": "89a13a089576719379d97b07",
     "title": "Überprüferin/Überprüfer für völkerrechtliche Verträge (m/w/d)",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25645838",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ueberprueferin-ueberpruefer-fuer-voelkerrechtliche-vertraege-m-w-d/25645838",
     "location": null,
     "posted_at": null,
     "deadline": null,
@@ -517,8 +536,8 @@
     "ebene": "bund",
     "land": null,
     "adapter": "generic_html",
-    "first_seen": "2026-08-13T06:46:45+00:00",
-    "last_seen": "2026-08-13T06:46:45+00:00",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-14T06:43:54+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
