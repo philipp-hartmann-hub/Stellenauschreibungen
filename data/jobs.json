@@ -12,7 +12,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -31,7 +31,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
@@ -50,7 +50,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58"
@@ -69,7 +69,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -88,86 +88,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
-    }
-  },
-  {
-    "uid": "74e9cd33cfc0475e119efc5b",
-    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 3 „Telekommunikationsrecht“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-017",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-3-telekommunikationsrecht-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-017/25618804",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
-    }
-  },
-  {
-    "uid": "8bb959011b0250935e8433e5",
-    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 5 „Förderung des Breitbandausbaus“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-016",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-5-foerderung-des-breitbandausbaus-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-016/25618756",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
-    }
-  },
-  {
-    "uid": "3185e5749c27077e33a265c7",
-    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DI 5 „Förderung des Breitbandausbaus“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-021",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-di-5-foerderung-des-breitbandausbaus-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-021/25674914",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
-    }
-  },
-  {
-    "uid": "7d9ba489a2500d63b92939f1",
-    "title": "eine Referentin / einen Referenten (m/w/d) für Referat DS I 4 „IT-Betriebskonsolidierung Bund“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-022",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-m-w-d-fuer-referat-ds-i-4-it-betriebskonsolidierung-bund-im-bundesministerium-fuer-digitales-und-staatsmodernisierung-bmds-bmds-2026-022/25680346",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
@@ -183,48 +107,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
-    }
-  },
-  {
-    "uid": "9882141d8bfb5192101ef707",
-    "title": "eine Referentin/einen Referenten (w/m/d) für das Referat DWI4 „Bilaterale Digitalpolitik“ - BMDS-2026-024",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-fuer-das-referat-dwi4-bilaterale-digitalpolitik-bmds-2026-024/25713760",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-15T05:42:50+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
-    }
-  },
-  {
-    "uid": "80da0e58200dfe2d1f1a1e15",
-    "title": "eine Sachbearbeiterin /ein Sachbearbeiter (m/w/d) für das Referat SB I 4 „Verwaltungsorganisation, Aufgabenkritik, Behördenkonsolidierung“ - BMDS-2026-023",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-sachbearbeiterin-ein-sachbearbeiter-m-w-d-fuer-das-referat-sb-i-4-verwaltungsorganisation-aufgabenkritik-behoerdenkonsolidierung-bmds-2026-023/25708618",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-15T05:42:50+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
@@ -240,7 +126,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-finanzen/55"
@@ -259,7 +145,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -278,7 +164,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-11T06:05:22+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -297,7 +183,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -316,7 +202,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-14T06:43:54+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -335,7 +221,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -354,7 +240,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
@@ -373,7 +259,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
@@ -392,7 +278,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -411,7 +297,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -430,7 +316,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -449,7 +335,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-verteidigung/57"
@@ -468,7 +354,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-15T05:42:50+00:00",
+    "last_seen": "2026-08-16T05:44:39+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
