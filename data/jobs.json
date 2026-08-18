@@ -1,5 +1,24 @@
 [
   {
+    "uid": "5e89bf5b08db0c6c5176eebe",
+    "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640740",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-09T13:09:40+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
+    }
+  },
+  {
     "uid": "a6dd7b7bfef4f72090018c9a",
     "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
     "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ausbildung-auf-bundesebene-avb-verwaltungsberufe-2027/25640722",
@@ -12,7 +31,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
@@ -31,29 +50,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58"
-    }
-  },
-  {
-    "uid": "f9ff7ab99bf7f3f9bec9b404",
-    "title": "Ausbildung auf Bundesebene, AVB-Verwaltungsberufe-2027",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25640740",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bkamt",
-    "source_name": "Bundeskanzleramt",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-12T06:43:49+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
@@ -69,7 +69,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-17T05:51:36+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -88,7 +88,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
@@ -107,7 +107,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -126,7 +126,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -145,7 +145,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -164,29 +164,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
-    }
-  },
-  {
-    "uid": "f40dd123fee845ddb827727c",
-    "title": "eine Referentin / einen Referenten (w/m/d) - BMG-2026-036 - befristet bis zum 31.03.2029 - Berlin",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/eine-referentin-einen-referenten-w-m-d-bmg-2026-036-befristet-bis-zum-31032029-berlin/25640902",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmg",
-    "source_name": "Bundesministerium für Gesundheit",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
     }
   },
   {
@@ -202,7 +183,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-15T05:42:50+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -221,7 +202,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-15T05:42:50+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
@@ -240,7 +221,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-finanzen/55"
@@ -259,10 +240,29 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "5d86abc29ed281cf4454b5a6",
+    "title": "Ingenieur/-in für Elektrotechnik (m/w/d) für den Erweiterungsbau des Bundeskanzleramtes im Referat 131 \"Innerer Dienst; Sicherheit; Veranstaltungen\"",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/ingenieur-in-fuer-elektrotechnik-m-w-d-fuer-den-erweiterungsbau-des-bundeskanzleramtes-im-referat-131-innerer-dienst-sicherheit-veranstaltungen/25692288",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-11T06:05:22+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
@@ -278,10 +278,29 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
+    }
+  },
+  {
+    "uid": "83e399fa55c53e5e00cb63a2",
+    "title": "IT-Spezialist/-in (m/w/d) für den IT-Betrieb, Schwerpunkt Servicemanagement-Werkzeuge im Referat 132 \"Informations- und Kommunikationstechnik\"",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote/it-spezialist-in-m-w-d-fuer-den-it-betrieb-schwerpunkt-servicemanagement-werkzeuge-im-referat-132-informations-und-kommunikationstechnik/25703880",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bkamt",
+    "source_name": "Bundeskanzleramt",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-08-14T06:43:54+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
     }
   },
   {
@@ -297,7 +316,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -316,7 +335,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
@@ -335,7 +354,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
@@ -354,7 +373,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -373,7 +392,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -392,7 +411,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -411,7 +430,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-verteidigung/57"
@@ -430,7 +449,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-08-17T05:51:36+00:00",
+    "last_seen": "2026-08-18T05:46:00+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
