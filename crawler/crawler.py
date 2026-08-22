@@ -16,7 +16,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from abc import ABC, abstractmethod
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urljoin, urlparse
@@ -2410,6 +2410,46 @@ def dedupe(jobs: list[Job]) -> list[Job]:
     return list(by_uid.values())
 
 
+def _parse_deadline_date(value: str | None) -> date | None:
+    """Parse Job.deadline to a calendar date; None if missing or unparseable."""
+    if not value:
+        return None
+    text = value.strip()
+    if not text:
+        return None
+    # Prefer ISO YYYY-MM-DD (and optional time suffix).
+    try:
+        return date.fromisoformat(text[:10])
+    except ValueError:
+        pass
+    for fmt in ("%d.%m.%Y", "%d.%m.%y"):
+        try:
+            return datetime.strptime(text, fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def drop_expired_jobs(
+    jobs: list[Job], *, today: date | None = None
+) -> tuple[list[Job], int]:
+    """Drop postings whose deadline is strictly before today.
+
+    Keeps jobs with missing or unparseable deadlines (e.g. „bis Besetzung“).
+    deadline == today stays open.
+    """
+    cutoff = today or date.today()
+    kept: list[Job] = []
+    dropped = 0
+    for job in jobs:
+        deadline = _parse_deadline_date(job.deadline)
+        if deadline is not None and deadline < cutoff:
+            dropped += 1
+            continue
+        kept.append(job)
+    return kept, dropped
+
+
 def run_crawl(
     registry_path: Path,
     db_path: Path,
@@ -2470,14 +2510,19 @@ def run_crawl(
 
         seen_at = utcnow_iso()
         unique = dedupe(all_jobs)
+        unique, expired = drop_expired_jobs(unique)
+        if expired:
+            log.info("Dropped %d expired jobs (deadline before today)", expired)
+            notes.append(f"expired_dropped={expired}")
         touched = store.upsert_jobs(unique, seen_at=seen_at)
         deactivated = store.mark_missing_inactive(
             crawled_source_ids, touched, seen_at=seen_at
         )
         log.info(
-            "Upserted %d jobs; deactivated %d stale rows",
+            "Upserted %d jobs; deactivated %d stale rows; expired dropped %d",
             len(touched),
             deactivated,
+            expired,
         )
         if json_path:
             n = store.export_json(json_path, active_only=True)
