@@ -5,7 +5,7 @@
 #   name:        Anzeigename
 #   ebene:       bund | land
 #   land:        ISO-ähnlich / Name, nur bei ebene=land (sonst null)
-#   type:        Adapter-Typ (interamt | successfactors | generic_html)
+#   type:        Adapter-Typ (interamt | successfactors | generic_html | gjb | karriere_bw | karriere_bb | karriere_be | karriere_by | karriere_hb | karriere_he | karriere_mv | karriere_ni | karriere_nrw | karriere_sachsen | karriere_st | karriere_sh | karriere_th | karriere_rp)
 #   enabled:     false = überspringen
 #   params:      adapter-spezifisch (siehe Kommentare unten)
 #   notes:       Freitext / TODOs — keine Logik
@@ -14,14 +14,86 @@
 #   interamt:
 #     partner_id | integration_id  → öffentlicher webservice_v2-Feed
 #     trefferliste_url              → HTML-Fallback
+#     behoerde_contains? | behoerde_equals? | behoerde_equals_any[]?
+#       → Filter auf Feld Behoerde (exakt / Liste / Substring)
+#     exclude_title_contains[]?    → Titel-Ausschluss (nachgeordnete Dienststellen)
 #   successfactors:
 #     base_url, locale (default de_DE)
 #   generic_html:
 #     list_url, item_selector, title_selector?, link_selector?,
 #     location_selector?, date_selector?, link_must_contain?, base_url?
+#   gjb:
+#     api_base, portal_base?, search_path? (default search/jobs or search/ for hrxml),
+#     search_format? (legacy | hrxml), organization_contains?,
+#     parent_organization_contains?, parent_organization_needles[]?,
+#     parent_organization_ids[]? (exakte ParentOrganization-ID, schließt Unterämter aus),
+#     search_criterion?, page_size?, referer?, origin?
+#   karriere_bw:
+#     resort_id  → GET filter.resort auf karriere.baden-wuerttemberg.de/api/job-search
+#   karriere_bb:
+#     employer | employer_contains  → Filter auf GET karriere-in-brandenburg.de/api/offers
+#     offer_type (default 92 = Stellenangebot)
+#   karriere_be:
+#     client_ids[]  → filter[client_id] auf karriereportal-stellen.berlin.de (Rexx)
+#   karriere_by:
+#     authority | authority_contains | authorities[]  → Filter auf tendering_authority_name (sei-dabay.de)
+#   karriere_hb:
+#     dienststelle_id  → POST dienststellen[] auf karriere.bremen.de (Session-Filter)
+#   karriere_he:
+#     department_name | department_names[]  → exakter Match auf Department/Name (SAP OData)
+#     api_base?, portal_base?, page_size? (default 500)
+#   karriere_mv:
+#     employer_name | employer_names[]  → exakter Match auf Arbeitgeber in uebersicht/stelle
+#     list_url?, base_url?
+#   karriere_ni:
+#     employer_name | employer_names[]  → exakter Match auf DienststelleBezeichnung (SearchStellen)
+#     search_api?, portal_base?, graphql_node_id?, stellen_typ_id? (default 1)
+#   karriere_nrw:
+#     employer_name | employer_names[]  → exakter Match auf ausschreibende_behoerde
+#       und dienststelle.benennung_dienststelle (nicht behoerde — schließt nachgeordnete
+#       Dienststellen aus, die unter derselben Dienststellen-UUID laufen)
+#     dienststelle_uuid?  → optionale Prüfung der Dienststellen-UUID
+#     exclude_title_contains[]?  → Titel-Ausschluss (Polizeipräsidium, Bezirksregierung …)
+#     api_url?, portal_base?, concurrency? (default 12), request_timeout? (default 60)
+#   karriere_sachsen:
+#     institution_id  → GET stellenanzeige?institutionId= (nur diese Institution,
+#                       nicht der gesamte Geschäftsbereich / nachgeordnete Behörden)
+#     api_url?, portal_base?, page_size? (default 100)
+#   karriere_st:
+#     employer_name | employer_names[]  → exakter Match auf Arbeitgeberzeile
+#       in p.vacancy auf karriere.sachsen-anhalt.de/stellenangebote
+#     exclude_title_contains[]?  → Titel-Ausschluss (Polizeivollzugsdienst …)
+#     list_url?, base_url?
+#   karriere_sh:
+#     employer_name | employer_names[]  → exakter Match auf c-teaser-job__employer
+#       in der zentralen Stellensuche schleswig-holstein.de
+#     exclude_title_contains[]?  → Titel-Ausschluss (z. B. LKN.SH)
+#     list_url?, form_url?, portal_base?, page_size? (default 100)
+#   karriere_th:
+#     employer_name | employer_names[]  → exakter Match auf company
+#       in POST sft/job/search-job auf karriere.thueringen.de
+#     exclude_title_contains[]?  → Titel-Ausschluss (Nationalpark, Schulamt …)
+#     search_url?, portal_base?, request_timeout?
+#   karriere_rp:
+#     employer_name | employer_names[]  → exakter Match auf aufgelösten Arbeitgeber
+#       (Einsatzdienststelle, sonst Ministeriumszeile in Bewerbungsadresse) auf
+#       karriere.rlp.de/im-beruf Detailseiten
+#     exclude_title_contains[]?  → Titel-Ausschluss
+#     list_url?, portal_base?, concurrency? (default 8), request_timeout?
 #
-# Ressortzuschnitt: Kabinett Merz (ab Mai 2025). Quellsysteme verifiziert Aug 2026.
-# Partner-IDs nur eintragen, wenn am echten Embed/URL gesehen — nicht raten.
+# Ressortzuschnitt Bund: Kabinett Merz (ab Mai 2025). Quellsysteme verifiziert Aug 2026.
+# BW: resort_id aus /api/job-filter (Aug 2026, karriere.baden-wuerttemberg.de).
+# BB: employer-Strings aus GET /api/offers (Aug 2026, karriere-in-brandenburg.de).
+# BE: client_id aus Portal-Dropdown karriereportal-stellen.berlin.de (Aug 2026, Rexx).
+# BY: authority-Strings aus POST job-postings.json (Aug 2026, sei-dabay.de / karriere.bayern.de).
+# HB: dienststelle_id aus Portal-Checkbox karriere.bremen.de (Aug 2026).
+# HH: GJB api-stellen.hamburg.de, search_format=hrxml, parent_organization_ids exakt (Aug 2026).
+# HE: SAP OData zer_cand_unreg_srv auf stellensuche.hessen.de, department_name exakt (Aug 2026).
+# MV: karriere-in-mv.de uebersicht/stelle, employer_name exakt (Aug 2026).
+# NI: webservice.jobboerse.niedersachsen.de/data/SearchStellen, employer_name exakt (Aug 2026).
+# SH: Stellensuche schleswig-holstein.de, employer_name exakt aus Facette AusschreibendeBehoerde (Aug 2026).
+# TH: karriere.thueringen.de Craft-AJAX sft/job/search-job, company exakt (Aug 2026).
+# RP: karriere.rlp.de/im-beruf Solr + Detail-DL, employer aus Einsatzdienststelle (Aug 2026).
 
 sources:
   # --- Interamt (öffentlicher Widget-Feed) ---------------------------------
@@ -269,3 +341,2034 @@ sources:
       link_selector: "a[href*='/stellenangebote/']"
       link_must_contain: /stellenangebote/
     notes: "Onlinebewerbung über bewerbung.bundeswehr-karriere.de (SAP eRece) — spezieller Adapter TODO. Listing karriere.bund.de."
+
+  # --- Baden-Württemberg (karriere.baden-wuerttemberg.de) ----------------
+  # resort_id verifiziert via GET /api/job-filter (Aug 2026).
+
+  - id: bw-stk
+    name: Staatsministerium Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "1"
+      careers_url: https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen
+    notes: "Landesportal BW; Ressortfilter Staatsministerium."
+
+  - id: bw-mi
+    name: Ministerium des Inneren, für Digitalisierung und Europa Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "2"
+      careers_url: https://im.baden-wuerttemberg.de/de/unsere-themen/arbeiten-im-ministerium
+    notes: "resort_id=2 verifiziert."
+
+  - id: bw-mk
+    name: Ministerium für Kultus, Jugend und Sport Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "7"
+      careers_url: https://km.baden-wuerttemberg.de/de/unsere-themen/karriere-im-kultusministerium
+    notes: "resort_id=7 verifiziert."
+
+  - id: bw-mj
+    name: Ministerium der Justiz und Migration Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "8"
+      careers_url: https://justiz.baden-wuerttemberg.de/de/justizministerium/karriere
+    notes: "resort_id=8 verifiziert."
+
+  - id: bw-mf
+    name: Ministerium der Finanzen Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "9"
+      careers_url: https://finanzministerium-bw.de/de/finanzministerium/karriere
+    notes: "resort_id=9 verifiziert."
+
+  - id: bw-mw
+    name: Ministerium für Wirtschaft, Handwerk und Tourismus Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "10"
+      careers_url: https://wm.baden-wuerttemberg.de/de/unsere-themen/karriere
+    notes: "resort_id=10 verifiziert."
+
+  - id: bw-mlr
+    name: Ministerium für Ländlichen Raum, Landwirtschaft und Heimat Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "11"
+      careers_url: https://mlr.baden-wuerttemberg.de/de/unsere-themen/karriere
+    notes: "resort_id=11 verifiziert."
+
+  - id: bw-msag
+    name: Ministerium für Soziales, Arbeit und Gesundheit Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "12"
+      careers_url: https://sozialministerium-bw.de/de/unsere-themen/karriere
+    notes: "resort_id=12 verifiziert."
+
+  - id: bw-muk
+    name: Ministerium für Umwelt, Klima und Energiewirtschaft Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "13"
+      careers_url: https://um.baden-wuerttemberg.de/de/unsere-themen/karriere
+    notes: "resort_id=13 verifiziert."
+
+  - id: bw-mv
+    name: Ministerium für Verkehr Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "15"
+      careers_url: https://vm.baden-wuerttemberg.de/de/unsere-themen/karriere
+    notes: "resort_id=15 verifiziert."
+
+  - id: bw-mlw
+    name: Ministerium für Landesentwicklung und Wohnen Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "18"
+      careers_url: https://mlw.baden-wuerttemberg.de/de/unsere-themen/karriere
+    notes: "resort_id=18 verifiziert."
+
+  - id: bw-mwfk
+    name: Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg
+    ebene: land
+    land: Baden-Württemberg
+    type: karriere_bw
+    enabled: true
+    params:
+      resort_id: "19"
+      careers_url: https://mwk.baden-wuerttemberg.de/de/unsere-themen/karriere
+    notes: "resort_id=19 verifiziert."
+
+  # --- Brandenburg (karriere-in-brandenburg.de) --------------------------
+  # employer-Strings verifiziert via GET /api/offers (Aug 2026).
+
+  - id: bb-stk
+    name: Staatskanzlei Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Staatskanzlei des Landes Brandenburg"
+      careers_url: https://karriere-in-brandenburg.de/stellenangebote
+    notes: "Landesportal BB."
+
+  - id: bb-mik
+    name: Ministerium des Inneren und für Kommunales Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Ministerium des Inneren und für Kommunales des Landes Brandenburg"
+      careers_url: https://mik.brandenburg.de/mik/de/ministerium/beruf-und-karriere/stellenangebote/
+    notes: "Landesportal; Haus verlinkt dorthin."
+
+  - id: bb-mdf
+    name: Ministerium der Finanzen Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "228"
+      behoerde_contains: "Ministerium der Finanzen"
+      careers_url: https://mdf.brandenburg.de/mdf/de/service/stellenausschreibungen/
+    notes: "partner=228 am DOM verifiziert (Aug 2026); Feed enthält auch nachgeordnete Behörden — Filter auf Ministerium."
+
+  - id: bb-mdjd
+    name: Ministerium der Justiz und für Digitalisierung Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Ministeriums der Justiz und für Digitalisierung des Landes Brandenburg"
+      careers_url: https://mdjd.brandenburg.de/mdjd/de/ministerium/stellenausschreibungen/
+    notes: "Employer-String exakt wie in /api/offers (Genitiv „Ministeriums“)."
+
+  - id: bb-mweke
+    name: Ministerium für Wirtschaft, Energie, Klimaschutz und Europa Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://mweke.brandenburg.de/de/stellen-im-mweke/brandenburg_06.c.900549.de
+      base_url: https://mweke.brandenburg.de/
+      item_selector: "ul.joboffers li"
+      link_selector: "a[href]"
+      link_must_contain: "jobs_"
+      careers_url: https://mweke.brandenburg.de/de/stellen-im-mweke/brandenburg_06.c.900549.de
+    notes: "Eigenes CMS (ul.joboffers); zusätzliche Stellen ggf. im Landesportal."
+
+  - id: bb-masgz
+    name: Ministerium für Arbeit, Soziales, Gesundheit und gesellschaftlichen Zusammenhalt Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Ministerium für Arbeit, Soziales, Gesundheit und gesellschaftlichen Zusammenhalt des Landes Brandenburg"
+      careers_url: https://masgz.brandenburg.de/
+    notes: "Landesportal BB."
+
+  - id: bb-mleuv
+    name: Ministerium für Land- und Ernährungswirtschaft, Umwelt und Verbraucherschutz Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Ministerium für Land- und Ernährungswirtschaft, Umwelt und Verbraucherschutz des Landes Brandenburg"
+      careers_url: https://mleuv.brandenburg.de/mleuv/de/ueber-uns/arbeiten-im-ministerium/stellenangebote/
+    notes: "Landesportal BB."
+
+  - id: bb-mwfk
+    name: Ministerium für Wissenschaft, Forschung und Kultur Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Ministerium für Wissenschaft, Forschung und Kultur des Landes Brandenburg"
+      careers_url: https://mwfk.brandenburg.de/mwfk/de/ministerium/stellenausschreibungen/
+    notes: "Landesportal BB."
+
+  - id: bb-mbjs
+    name: Ministerium für Bildung, Jugend und Sport Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Ministerium für Bildung, Jugend und Sport des Landes Brandenburg"
+      careers_url: https://mbjs.brandenburg.de/
+    notes: "Employer-String nach Portal-Konvention; derzeit oft 0 Treffer."
+
+  - id: bb-mil
+    name: Ministerium für Infrastruktur und Landesplanung Brandenburg
+    ebene: land
+    land: Brandenburg
+    type: karriere_bb
+    enabled: true
+    params:
+      employer: "Ministerium für Infrastruktur und Landesplanung des Landes Brandenburg"
+      careers_url: https://mil.brandenburg.de/
+    notes: "Landesportal BB."
+
+  # --- Berlin (karriereportal-stellen.berlin.de / Rexx) ------------------
+  # client_id aus Portal-Filter verifiziert (Aug 2026). Kein Interamt.
+
+  - id: be-sk
+    name: Senatskanzlei Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["53"]
+      careers_url: https://www.berlin.de/rbmskzl/service/stellenausschreibungen/
+    notes: "client_id=53 = Der Regierende Bürgermeister von Berlin - Senatskanzlei."
+
+  - id: be-senweb
+    name: Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["33"]
+      careers_url: https://www.berlin.de/sen/web/ueber-uns/job-und-karriere/stellenangebote/
+    notes: "client_id=33 verifiziert."
+
+  - id: be-senfin
+    name: Senatsverwaltung für Finanzen Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["2", "37"]
+      careers_url: https://www.berlin.de/sen/finanzen/ueber-uns/karriere/
+    notes: "client_id 2=Finanzen, 37=Kultur und gesellschaftlicher Zusammenhalt."
+
+  - id: be-senasgiva
+    name: Senatsverwaltung für Arbeit, Soziales, Gleichstellung, Integration, Vielfalt und Antidiskriminierung Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["42"]
+      careers_url: https://www.berlin.de/sen/asgiva/ueber-uns/stellenausschreibungen/
+    notes: "client_id=42 verifiziert."
+
+  - id: be-senbjf
+    name: Senatsverwaltung für Bildung, Jugend und Familie Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["25", "84", "102"]
+      careers_url: https://www.berlin.de/sen/bjf/karriere/
+    notes: "25=Ministerialbereich, 84=Schule, 102=Vertretungskräfte."
+
+  - id: be-senias
+    name: Senatsverwaltung für Inneres und Sport Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["15", "28"]
+      careers_url: https://www.berlin.de/sen/inneres/service/karriere/
+    notes: "15=SV Inneres und Sport, 28=Stamm."
+
+  - id: be-senjv
+    name: Senatsverwaltung für Justiz und Verbraucherschutz Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["41", "21", "43", "44", "45", "46", "48", "49", "50", "51"]
+      careers_url: https://www.berlin.de/sen/justv/ueber-uns/karriere/
+    notes: "41=SV Justiz; 21/43–51=Justizvollzug/JVA."
+
+  - id: be-senmvku
+    name: Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["32"]
+      careers_url: https://www.berlin.de/sen/uvk/service/karriere/
+    notes: "client_id=32 verifiziert (sen/uvk/)."
+
+  - id: be-senstadt
+    name: Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["31"]
+      careers_url: https://www.berlin.de/sen/stadt/service/karriere/
+    notes: "client_id=31 verifiziert."
+
+  - id: be-senwgp
+    name: Senatsverwaltung für Wissenschaft, Gesundheit und Pflege Berlin
+    ebene: land
+    land: Berlin
+    type: karriere_be
+    enabled: true
+    params:
+      client_ids: ["52"]
+      careers_url: https://www.berlin.de/sen/wgp/ueber-uns/stellenausschreibungen/
+    notes: "client_id=52 verifiziert."
+
+  # --- Bayern (karriere.bayern.de / sei-dabay.de) -------------------------
+  # API: POST job-postings.json, Pagination ?&D={page}. Filter clientseitig authority_contains.
+
+  - id: by-stk
+    name: Bayerische Staatskanzlei
+    ebene: land
+    land: Bayern
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://karriere.stk.bayern.de/api/
+      portal_base: https://karriere.stk.bayern.de/
+      careers_url: https://www.bayern.de/staatskanzlei/karriere/
+    notes: "GJB /api/search/jobs auf karriere.stk.bayern.de verifiziert (Aug 2026)."
+
+  - id: by-stmi
+    name: Bayerisches Staatsministerium des Innern, für Sport und Integration
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authority_contains: "Bayerisches Staatsministerium des Innern, für Sport und Integration"
+      careers_url: https://www.stmi.bayern.de/ministerium/karriere/
+    notes: "authority_contains aus sei-dabay.de verifiziert (Aug 2026)."
+
+  - id: by-stmb
+    name: Bayerisches Staatsministerium für Wohnen, Bau und Verkehr
+    ebene: land
+    land: Bayern
+    type: interamt
+    enabled: true
+    params:
+      integration_id: "588"
+      behoerde_contains: "Bayerisches Staatsministerium für Wohnen, Bau und Verkehr"
+      careers_url: https://www.ich-bau-bayern.de/index.html
+    notes: "integration_id 588 via ich-bau-bayern.de / webservice_v2 verifiziert (Aug 2026)."
+
+  - id: by-stmjust
+    name: Bayerisches Staatsministerium der Justiz
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authority_contains: "Bayerisches Staatsministerium der Justiz"
+      careers_url: https://www.justiz.bayern.de/berufe-und-stellen/stellenanzeigen/
+    notes: "justiz.bayern.de listet Stellen separat; Portal-Filter authority verifiziert."
+
+  - id: by-stmk
+    name: Bayerisches Staatsministerium für Unterricht und Kultus
+    ebene: land
+    land: Bayern
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50
+      base_url: https://www.verkuendung-bayern.de
+      item_selector: "table tbody tr"
+      link_selector: "a[href*='/baymbl/']"
+      link_must_contain: "/baymbl/"
+      careers_url: https://www.km.bayern.de/aktuelle-stellen
+    notes: "0 Jobs auf sei-dabay.de; Kultus-Stellen im Bayerischen Ministerialblatt ressort=5."
+
+  - id: by-stmwk
+    name: Bayerisches Staatsministerium für Wissenschaft und Kunst
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authority_contains: "Bayerisches Staatsministerium für Wissenschaft und Kunst"
+      careers_url: https://www.stmwk.bayern.de/ministerium/karriere-im-ministerium/stellenangebote.html
+    notes: "authority_contains verifiziert (Aug 2026)."
+
+  - id: by-stmfh
+    name: Bayerisches Staatsministerium der Finanzen und für Heimat
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authority_contains: "Bayerisches Staatsministerium der Finanzen und für Heimat"
+      careers_url: https://www.stmfh.bayern.de/oeffentlicher_dienst/karriere/stellenangebote.aspx
+    notes: "authority_contains verifiziert (Aug 2026)."
+
+  - id: by-stmwi
+    name: Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie
+    ebene: land
+    land: Bayern
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://www.stmwi.bayern.de/ministerium/karriere/
+      base_url: https://www.stmwi.bayern.de/
+      item_selector: "a[href*='/ministerium/karriere/stellenangebote/']"
+      link_must_contain: "/ministerium/karriere/stellenangebote/"
+      careers_url: https://www.stmwi.bayern.de/ministerium/karriere/
+    notes: "0 Jobs auf sei-dabay.de; Haus-CMS mit Einzelanzeigen (Aug 2026)."
+
+  - id: by-stmuv
+    name: Bayerisches Staatsministerium für Umwelt und Verbraucherschutz
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authority_contains: "Bayerisches Landesamt für Umwelt"
+      careers_url: https://www.karriere.stmuv.bayern.de/stellen/index.php
+    notes: >
+      Eigenes Karriereportal (JS/Form) ohne scrapebare Liste; sei-dabay filtert über LfU-Behörde.
+
+  - id: by-stmelf
+    name: Bayerisches Staatsministerium für Ernährung, Landwirtschaft, Forsten und Tourismus
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authority_contains: "Bayerisches Staatsministerium für Ernährung, Landwirtschaft, Forsten und Tourismus"
+      careers_url: https://www.stmelf.bayern.de/service/stellenangebote/index.html
+    notes: "authority_contains verifiziert (Aug 2026)."
+
+  - id: by-stmas
+    name: Bayerisches Staatsministerium für Familie, Arbeit und Soziales
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authority_contains: "Bayerisches Staatsministerium für Familie, Arbeit und Soziales"
+      careers_url: https://www.stmas.bayern.de/ministerium/karriere/stellenangebote/
+    notes: "authority_contains verifiziert (Aug 2026)."
+
+  - id: by-stmgp
+    name: Bayerisches Staatsministerium für Gesundheit, Pflege und Prävention
+    ebene: land
+    land: Bayern
+    type: karriere_by
+    enabled: true
+    params:
+      authorities:
+        - "Bayerisches Staatsministerium für Gesundheit, Pflege und Prävention"
+        - "Bayer. Staatsministerium für Gesundheit und Pflege"
+      careers_url: https://www.stmgp.bayern.de/ministerium/karriere/
+    notes: "Zwei Authority-Varianten im Portal verifiziert (Aug 2026)."
+
+  - id: by-stmd
+    name: Bayerisches Staatsministerium für Digitales
+    ebene: land
+    land: Bayern
+    type: generic_html
+    enabled: true
+    params:
+      list_url: https://www.stmd.bayern.de/ministerium/karriere/
+      base_url: https://www.stmd.bayern.de/
+      item_selector: "a[href*='interamt.de/koop/app/stelle']"
+      careers_url: https://www.stmd.bayern.de/ministerium/karriere/
+    notes: "Interamt-Einzelstellen ohne verifizierte partner_id; 0 Jobs auf sei-dabay.de."
+
+  # --- Bremen (karriere.bremen.de) ----------------------------------------
+  # Zentralportal sixcms; Filter per POST dienststellen[] (Session), Pagination skip/max.
+
+  - id: hb-sk
+    name: Senatskanzlei der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83467"
+      careers_url: https://www.bremen.de/senatskanzlei
+    notes: "dienststelle_id=83467 aus Portal-Checkbox verifiziert (Aug 2026)."
+
+  - id: hb-fin
+    name: Senator für Finanzen der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83479"
+      careers_url: https://www.finanzsenatorin.bremen.de/
+    notes: "dienststelle_id=83479 verifiziert."
+
+  - id: hb-inneres
+    name: Senatorin für Inneres und Sport der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83478"
+      careers_url: https://www.inneresenatorin.bremen.de/
+    notes: "dienststelle_id=83478 verifiziert (inkl. Polizei Bremen)."
+
+  - id: hb-justiz
+    name: Senatorin für Justiz und Verfassung der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83473"
+      careers_url: https://www.justizsenatorin.bremen.de/
+    notes: "dienststelle_id=83473 verifiziert."
+
+  - id: hb-kb
+    name: Senator für Kinder und Bildung der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83472"
+      careers_url: https://www.kinder-und-bildung.bremen.de/
+    notes: "dienststelle_id=83472 verifiziert."
+
+  - id: hb-kultur
+    name: Senator für Kultur der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83475"
+      careers_url: https://www.kultursenator.bremen.de/
+    notes: "dienststelle_id=83475 verifiziert."
+
+  - id: hb-arbeit
+    name: Senatorin für Arbeit, Soziales, Jugend und Integration der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83470"
+      careers_url: https://www.arbeit-soziales-jugend-integration.bremen.de/
+    notes: "dienststelle_id=83470 verifiziert."
+
+  - id: hb-bau
+    name: Senatorin für Bau, Mobilität und Stadtentwicklung der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83468"
+      careers_url: https://www.bau-mobilitaet-stadtentwicklung.bremen.de/
+    notes: "dienststelle_id=83468 verifiziert."
+
+  - id: hb-gesundheit
+    name: Senatorin für Gesundheit, Frauen und Verbraucherschutz der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83474"
+      careers_url: https://www.gesundheit.bremen.de/
+    notes: "dienststelle_id=83474 verifiziert (inkl. Gesundheitsamt, Klinikverbund)."
+
+  - id: hb-umwelt
+    name: Senatorin für Umwelt, Klima und Wissenschaft der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83471"
+      careers_url: https://www.umwelt.bremen.de/
+    notes: "dienststelle_id=83471 verifiziert."
+
+  - id: hb-wirtschaft
+    name: Senatorin für Wirtschaft, Häfen und Transformation der Freien Hansestadt Bremen
+    ebene: land
+    land: Bremen
+    type: karriere_hb
+    enabled: true
+    params:
+      dienststelle_id: "83469"
+      careers_url: https://www.wirtschaft.bremen.de/
+    notes: "dienststelle_id=83469 verifiziert."
+
+  # --- Hamburg (stellen.hamburg.de / api-stellen.hamburg.de) --------------
+  # GJB HR-XML: POST /search/ mit SearchParameters.FirstItem/CountItem.
+  # Gemeinsamer Feed (~152 Jobs); Filter clientseitig per parent_organization_ids
+  # (nur Stellen direkt in der Behörde, keine Unterämter/Landesbetriebe).
+
+  - id: hh-sk
+    name: Senatskanzlei der Freien und Hansestadt Hamburg
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8147"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/senatskanzlei/
+    notes: "parent_organization_id=8147 aus /lookup/parentorganization (Aug 2026)."
+
+  - id: hh-fin
+    name: Behörde für Finanzen und Bezirke
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8119"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-finanzen-und-bezirke/
+    notes: "parent_organization_id=8119 verifiziert (Aug 2026)."
+
+  - id: hh-inneres
+    name: Behörde für Inneres und Sport
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8142"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-inneres-und-sport/
+    notes: "parent_organization_id=8142; Unterämter (8148/8149) und Feuerwehr ausgeschlossen."
+
+  - id: hh-justiz
+    name: Behörde für Justiz und Verbraucherschutz
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8127"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-justiz-und-verbraucherschutz/
+    notes: "parent_organization_id=8127 verifiziert (Aug 2026)."
+
+  - id: hh-sfb
+    name: Behörde für Schule, Familie und Berufsbildung
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8133"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-schule-familie-und-berufsbildung/
+    notes: "parent_organization_id=8133 verifiziert (Aug 2026)."
+
+  - id: hh-kultur
+    name: Behörde für Kultur und Medien
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8125"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-kultur-und-medien/
+    notes: "parent_organization_id=8125 verifiziert (Aug 2026)."
+
+  - id: hh-bsi
+    name: Behörde für Gesundheit, Soziales und Integration
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["37"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-gesundheit-soziales-und-integration/
+    notes: "parent_organization_id=37 verifiziert (Aug 2026)."
+
+  - id: hh-bsw
+    name: Behörde für Stadtentwicklung und Wohnen
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8194"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-stadtentwicklung-und-wohnen/
+    notes: "parent_organization_id=8194 verifiziert (Aug 2026)."
+
+  - id: hh-umwelt
+    name: Behörde für Umwelt, Klima, Energie und Agrarwirtschaft
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8145"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-umwelt-klima-energie-und-agrarwirtschaft/
+    notes: "parent_organization_id=8145; 0 Jobs auf Behörden-Ebene Aug 2026."
+
+  - id: hh-verkehr
+    name: Behörde für Verkehr und Mobilitätswende
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8204"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-verkehr-und-mobilitaetswende/
+    notes: "parent_organization_id=8204 verifiziert (Aug 2026)."
+
+  - id: hh-wirtschaft
+    name: Behörde für Wirtschaft, Arbeit und Innovation
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8135"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-wirtschaft-arbeit-und-innovation/
+    notes: "parent_organization_id=8135; 0 Jobs auf Behörden-Ebene Aug 2026."
+
+  - id: hh-wissenschaft
+    name: Behörde für Wissenschaft, Forschung und Gleichstellung
+    ebene: land
+    land: Hamburg
+    type: gjb
+    enabled: true
+    params:
+      api_base: https://api-stellen.hamburg.de/
+      portal_base: https://stellen.hamburg.de/
+      search_format: hrxml
+      parent_organization_ids: ["8140"]
+      careers_url: https://www.hamburg.de/politik-und-verwaltung/behoerden-und-aemter/behoerde-fuer-wissenschaft-forschung-und-gleichstellung/
+    notes: "parent_organization_id=8140 verifiziert (Aug 2026)."
+
+  # --- Hessen (stellensuche.hessen.de / SAP OData) --------------------------
+  # GET PostingAbstractSet?$top=500 (~317 Jobs). Filter: exakter Department/Name
+  # (nur Stellen im Ministerium, keine Schulen/Landesämter/Polizei).
+
+  - id: he-stk
+    name: Hessische Staatskanzlei
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessische Staatskanzlei"
+      careers_url: https://staatskanzlei.hessen.de/
+    notes: "department_name exakt verifiziert (Aug 2026)."
+
+  - id: he-mwelt
+    name: Hessisches Ministerium für Wirtschaft, Energie, Verkehr und Wohnen
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium für Wirtschaft, Energie, Verkehr und Wohnen"
+      careers_url: https://wirtschaft.hessen.de/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: he-min
+    name: Hessisches Ministerium des Innern, für Sicherheit und Heimatschutz
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium des Innern, für Sicherheit und Heimatschutz"
+      careers_url: https://innen.hessen.de/
+    notes: "department_name exakt verifiziert (Aug 2026)."
+
+  - id: he-mf
+    name: Hessisches Ministerium der Finanzen
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium der Finanzen"
+      careers_url: https://finanzministerium.hessen.de/
+    notes: "department_name exakt verifiziert (Aug 2026)."
+
+  - id: he-mj
+    name: Hessisches Ministerium der Justiz
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium der Justiz"
+      careers_url: https://justiz.hessen.de/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: he-mk
+    name: Hessisches Ministerium für Kultus, Bildung und Chancen
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium für Kultus, Bildung und Chancen"
+      careers_url: https://kultus.hessen.de/
+    notes: "department_name exakt verifiziert (Aug 2026)."
+
+  - id: he-mwfk
+    name: Hessisches Ministerium für Wissenschaft und Forschung, Kunst und Kultur
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium für Wissenschaft und Forschung, Kunst und Kultur"
+      careers_url: https://wissenschaft.hessen.de/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: he-md
+    name: Hessisches Ministerium für Digitalisierung und Innovation
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium für Digitalisierung und Innovation"
+      careers_url: https://digital.hessen.de/
+    notes: "department_name exakt verifiziert (Aug 2026)."
+
+  - id: he-mlu
+    name: Hessisches Ministerium für Landwirtschaft und Umwelt, Klimaschutz und Verbraucherschutz
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_names:
+        - "Hessisches Ministerium für Landwirtschaft und Umwelt, Klimaschutz und Verbraucherschutz"
+        - "Hessisches Ministerium für Landwirtschaft und Umwelt, Weinbau, Forsten, Jagd und Heimat"
+      careers_url: https://mlu.hessen.de/
+    notes: "SAP nutzt teils alten Behördenstring (Weinbau/Forsten); beide Varianten."
+
+  - id: he-mfss
+    name: Hessisches Ministerium für Familie, Senioren, Sport, Gesundheit und Pflege
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium für Familie, Senioren, Sport, Gesundheit und Pflege"
+      careers_url: https://soziales.hessen.de/
+    notes: "department_name exakt verifiziert (Aug 2026)."
+
+  - id: he-maijs
+    name: Hessisches Ministerium für Arbeit, Integration, Jugend und Soziales
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium für Arbeit, Integration, Jugend und Soziales"
+      careers_url: https://soziales.hessen.de/arbeit-integration-jugend-und-soziales
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: he-mbe
+    name: Hessisches Ministerium für Bundes- und Europaangelegenheiten
+    ebene: land
+    land: Hessen
+    type: karriere_he
+    enabled: true
+    params:
+      department_name: "Hessisches Ministerium für Bundes- und Europaangelegenheiten und des Bevollmächtigten der Landesregierung für die Angelegenheiten des Bundes und des Landes Hessen als Europäisches Regionalland"
+      careers_url: https://staatskanzlei.hessen.de/europa
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; offizieller SAP-Name lang."
+
+  # --- Mecklenburg-Vorpommern (karriere-in-mv.de) -------------------------
+  # HTML-Liste uebersicht/stelle (~163 Stellen). Filter: exakter employer_name
+  # (nur Stellen im Ministerium, keine Schulen/Landesämter/Hochschulen).
+
+  - id: mv-stk
+    name: Ministerpräsidentin und Staatskanzlei Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_names:
+        - "Ministerpräsidentin und Staatskanzlei Mecklenburg-Vorpommern"
+        - "Staatskanzlei Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/stk/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: mv-im
+    name: Ministerium für Inneres und Bau Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_name: "Ministerium für Inneres und Bau Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/im/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: mv-jm
+    name: Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_name: "Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/jm/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: mv-fm
+    name: Ministerium für Finanzen und Digitalisierung Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_names:
+        - "Ministerium für Finanzen und Digitalisierung M-V"
+        - "Ministerium für Finanzen und Digitalisierung Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/fm/
+    notes: "employer_names verifiziert (Aug 2026)."
+
+  - id: mv-wm
+    name: Ministerium für Wirtschaft, Infrastruktur, Tourismus und Arbeit Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_name: "Ministerium für Wirtschaft, Infrastruktur, Tourismus und Arbeit Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/wm/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: mv-lm
+    name: Ministerium für Klimaschutz, Landwirtschaft, ländliche Räume und Umwelt Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_name: "Ministerium für Klimaschutz, Landwirtschaft, ländliche Räume und Umwelt M-V"
+      careers_url: https://www.regierung-mv.de/Landesregierung/lm/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: mv-bm
+    name: Ministerium für Bildung und Kindertagesförderung Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_name: "Ministerium für Bildung und Kindertagesförderung Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/bm/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: mv-wkm
+    name: Ministerium für Wissenschaft, Kultur, Bundes- und Europaangelegenheiten Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_name: "Ministerium für Wissenschaft, Kultur, Bundes- und Europaangelegenheiten Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/wkm/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: mv-sm
+    name: Ministerium für Soziales, Gesundheit und Sport Mecklenburg-Vorpommern
+    ebene: land
+    land: Mecklenburg-Vorpommern
+    type: karriere_mv
+    enabled: true
+    params:
+      employer_name: "Ministerium für Soziales, Gesundheit und Sport Mecklenburg-Vorpommern"
+      careers_url: https://www.regierung-mv.de/Landesregierung/sm/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  # --- Niedersachsen (karriere.niedersachsen.de / webservice.jobboerse) ------
+  # GET SearchStellen (~431 Stellenangebote). Filter: exakte DienststelleBezeichnung
+  # (nur Stellen im Ministerium, keine Verfassungsschutz-/Landesamt-Untereinheiten).
+
+  - id: ni-stk
+    name: Niedersächsische Staatskanzlei
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Niedersächsische Staatskanzlei"
+      careers_url: https://www.stk.niedersachsen.de/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: ni-mi
+    name: Niedersächsisches Ministerium für Inneres, Sport und Digitalisierung
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Ministerium für Inneres, Sport und Digitalisierung"
+      careers_url: https://www.mi.niedersachsen.de/
+    notes: "Verfassungsschutz-Untereinheit ausgeschlossen (exakter Name)."
+
+  - id: ni-mf
+    name: Niedersächsisches Finanzministerium
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Finanzministerium"
+      careers_url: https://www.mf.niedersachsen.de/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: ni-mj
+    name: Niedersächsisches Ministerium der Justiz
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Justizministerium"
+      careers_url: https://www.justiz.niedersachsen.de/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: ni-mk
+    name: Niedersächsisches Kultusministerium
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Kultusministerium"
+      careers_url: https://www.mk.niedersachsen.de/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: ni-ms
+    name: Niedersächsisches Ministerium für Soziales, Arbeit, Gesundheit und Gleichstellung
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Ministerium für Soziales, Arbeit, Gesundheit und Gleichstellung"
+      careers_url: https://www.ms.niedersachsen.de/
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  - id: ni-mw
+    name: Niedersächsisches Ministerium für Wirtschaft, Verkehr und Bauen
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Ministerium für Wirtschaft, Verkehr und Bauen"
+      careers_url: https://www.mw.niedersachsen.de/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: ni-mu
+    name: Niedersächsisches Ministerium für Umwelt, Energie und Klimaschutz
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Ministerium für Umwelt, Energie und Klimaschutz"
+      careers_url: https://www.umwelt.niedersachsen.de/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: ni-mwk
+    name: Niedersächsisches Ministerium für Wissenschaft und Kultur
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Ministerium für Wissenschaft und Kultur"
+      careers_url: https://www.mwk.niedersachsen.de/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: ni-mel
+    name: Niedersächsisches Ministerium für Ernährung, Landwirtschaft und Verbraucherschutz
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Ministerium für Ernährung, Landwirtschaft und Verbraucherschutz"
+      careers_url: https://www.ml.niedersachsen.de/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: ni-mbe
+    name: Niedersächsisches Ministerium für Bundes- und Europaangelegenheiten und Regionale Entwicklung
+    ebene: land
+    land: Niedersachsen
+    type: karriere_ni
+    enabled: true
+    params:
+      employer_name: "Nds. Ministerium für Bundes- und Europaangelegenheiten und Regionale Entwicklung"
+      careers_url: https://www.stk.niedersachsen.de/themen/europa-und-bund-164004.html
+    notes: "0 Jobs auf Ministeriumsebene Aug 2026; Filter vorbereitet."
+
+  # --- Nordrhein-Westfalen (karriere.nrw / api.karriere.nrw) -----------------
+  # ~68k Stellen gesamt, kein serverseitiger Filter — Adapter lädt einmal paginiert
+  # und filtert exakt auf ausschreibende_behoerde (nicht behoerde).
+
+  - id: nrw-stk
+    name: Staatskanzlei Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Staatskanzlei NRW"
+      dienststelle_uuid: "31887aa3-b940-46ad-a0e7-786b5a0c6887"
+      careers_url: https://www.land.nrw/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  - id: nrw-mi
+    name: Ministerium des Innern des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium des Innern NRW"
+      dienststelle_uuid: "acba7503-2afd-428e-87e5-ad70cb0d8cb1"
+      exclude_title_contains:
+        - "Polizeipräsidium"
+        - "Bezirksregierung"
+      careers_url: https://www.im.nrw/
+    notes: "Polizei/Bezirksregierung via ausschreibende_behoerde + Titel-Ausschluss."
+
+  - id: nrw-mf
+    name: Ministerium der Finanzen des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium der Finanzen Nordrhein-Westfalen"
+      dienststelle_uuid: "45209cc0-e3ce-49d5-b98c-35c043792512"
+      careers_url: https://www.finanzverwaltung.nrw.de/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  - id: nrw-mj
+    name: Ministerium der Justiz des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium der Justiz NRW"
+      dienststelle_uuid: "ba82be07-7a7d-447c-acd6-30a37827a7b9"
+      careers_url: https://www.justiz.nrw/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  - id: nrw-mags
+    name: Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Arbeit, Gesundheit und Soziales NRW"
+      dienststelle_uuid: "7de88ea2-64ea-47eb-88bb-a7098afdbcd9"
+      careers_url: https://www.mags.nrw/
+    notes: "Landeszentrum/Bezirksregierung via ausschreibende_behoerde ausgeschlossen."
+
+  - id: nrw-mhkbd
+    name: Ministerium für Heimat, Kommunales, Bau und Digitalisierung des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Heimat, Kommunales, Bau und Digitalisierung NRW"
+      dienststelle_uuid: "93c8c1b2-8af3-480e-a9a7-aed8bf6799a3"
+      careers_url: https://www.mhkbd.nrw/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  - id: nrw-mkjfgfi
+    name: Ministerium für Kinder, Jugend, Familie, Gleichstellung, Flucht und Integration des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Kinder, Jugend, Familie, Gleichstellung, Flucht und Integration NRW"
+      dienststelle_uuid: "cd905489-9fd2-4be0-9601-c451640f80b1"
+      careers_url: https://www.mkjfgfi.nrw/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  - id: nrw-mkw
+    name: Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Kultur und Wissenschaft NRW"
+      dienststelle_uuid: "af687ccc-ca67-49da-9a55-5101d421168f"
+      careers_url: https://www.mkw.nrw/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  - id: nrw-mlv
+    name: Ministerium für Landwirtschaft und Verbraucherschutz des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Landwirtschaft und Verbraucherschutz NRW"
+      dienststelle_uuid: "7d67ae88-4327-474b-9738-3c006f520fda"
+      exclude_title_contains:
+        - "neu zu gründende Landesamt"
+        - "neu zu gründenden Landesamt"
+      careers_url: https://www.mlv.nrw.de/
+    notes: "Landesbetrieb via ausschreibende_behoerde; neues Landesamt per Titel-Ausschluss."
+
+  - id: nrw-msb
+    name: Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Schule und Bildung NRW"
+      dienststelle_uuid: "6c015f59-af55-4ccf-8be0-94954970ccec"
+      careers_url: https://www.schulministerium.nrw/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  - id: nrw-muv
+    name: Ministerium für Umwelt, Naturschutz und Verkehr des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Umwelt, Naturschutz und Verkehr NRW"
+      dienststelle_uuid: "6e59aa7c-3835-41be-940e-62a33f608299"
+      exclude_title_contains:
+        - "Bezirksregierung"
+      careers_url: https://umwelt.nrw.de/
+    notes: "Bezirksregierung-Referendate via Titel-Ausschluss."
+
+  - id: nrw-mwike
+    name: Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes Nordrhein-Westfalen
+    ebene: land
+    land: Nordrhein-Westfalen
+    type: karriere_nrw
+    enabled: true
+    params:
+      employer_name: "Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie NRW"
+      dienststelle_uuid: "8c2c153a-a791-48ec-8fc3-fd0cacc8faea"
+      careers_url: https://www.wirtschaft.nrw/
+    notes: "employer_name + dienststelle_uuid verifiziert (Aug 2026)."
+
+  # --- Sachsen (karriere.sachsen.de / karriere-verwaltung/rest) --------------
+  # institutionId aus GET /institutioninterleave (Aug 2026). Filter liefert nur
+  # Stellen der Institution selbst (keine Finanzämter, Polizei, Schulen, …).
+
+  - id: sn-stk
+    name: Sächsische Staatskanzlei
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 80
+      careers_url: https://www.sk.sachsen.de/
+    notes: "institution_id 80 verifiziert (Aug 2026)."
+
+  - id: sn-smi
+    name: Sächsisches Staatsministerium des Innern
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 63
+      careers_url: https://www.smi.sachsen.de/
+    notes: "Polizei/Landesämter über eigene institutionIds ausgeschlossen."
+
+  - id: sn-smf
+    name: Sächsisches Staatsministerium der Finanzen
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 61
+      careers_url: https://www.smf.sachsen.de/
+    notes: "Finanzämter/SIB über eigene institutionIds ausgeschlossen."
+
+  - id: sn-smj
+    name: Sächsisches Staatsministerium der Justiz
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 62
+      careers_url: https://www.justiz.sachsen.de/
+    notes: "Gerichte/StA/JVA über eigene institutionIds ausgeschlossen."
+
+  - id: sn-smk
+    name: Sächsisches Staatsministerium für Kultus
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 64
+      careers_url: https://www.smk.sachsen.de/
+    notes: "Schulen/LaSuB über eigene institutionIds ausgeschlossen."
+
+  - id: sn-sms
+    name: Sächsisches Staatsministerium für Soziales, Gesundheit und Gesellschaftlichen Zusammenhalt
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 71
+      careers_url: https://www.sms.sachsen.de/
+    notes: "institution_id 71 verifiziert (Aug 2026)."
+
+  - id: sn-smul
+    name: Sächsisches Staatsministerium für Umwelt und Landwirtschaft
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 72
+      careers_url: https://www.smul.sachsen.de/
+    notes: "LfULG/Sachsenforst über eigene institutionIds ausgeschlossen."
+
+  - id: sn-smwaek
+    name: Sächsisches Staatsministerium für Wirtschaft, Arbeit, Energie und Klimaschutz
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 73
+      careers_url: https://www.smwa.sachsen.de/
+    notes: "institution_id 73 verifiziert (Aug 2026)."
+
+  - id: sn-smwkt
+    name: Sächsisches Staatsministerium für Wissenschaft, Kultur und Tourismus
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 74
+      careers_url: https://www.smwk.sachsen.de/
+    notes: "Hochschulen/Staatsbetriebe über eigene institutionIds ausgeschlossen."
+
+  - id: sn-smil
+    name: Sächsisches Staatsministerium für Infrastruktur und Landesentwicklung
+    ebene: land
+    land: Sachsen
+    type: karriere_sachsen
+    enabled: true
+    params:
+      institution_id: 90
+      careers_url: https://www.smil.sachsen.de/
+    notes: "institution_id 90 verifiziert (Aug 2026)."
+
+  # --- Sachsen-Anhalt (karriere.sachsen-anhalt.de, TYPO3 wv_lpsa) ------------
+  # HTML-Liste /stellenangebote; Filter: exakter Arbeitgeber-Name (erste Zeile).
+  # Nachgeordnete Behörden (Landesämter, LSBB, …) haben eigene Namen.
+
+  - id: st-stk
+    name: Staatskanzlei und Ministerium für Kultur des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Staatskanzlei und Ministerium für Kultur"
+      careers_url: https://stk.sachsen-anhalt.de/
+    notes: "employer_name aus Portal-Navigation (Aug 2026)."
+
+  - id: st-mi
+    name: Ministerium für Inneres und Sport des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium für Inneres und Sport"
+      exclude_title_contains:
+        - "Polizeivollzugsdienst"
+        - "Feldjäger"
+        - "Polizeiarzt"
+      careers_url: https://mi.sachsen-anhalt.de/
+    notes: "LKA über eigenen Namen; Polizei-Einstieg via Titel-Ausschluss."
+
+  - id: st-mj
+    name: Ministerium für Justiz und Verbraucherschutz des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium für Justiz und Verbraucherschutz"
+      careers_url: https://mj.sachsen-anhalt.de/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: st-mf
+    name: Ministerium der Finanzen des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium der Finanzen"
+      careers_url: https://mf.sachsen-anhalt.de/
+    notes: "employer_name verifiziert (Aug 2026)."
+
+  - id: st-mb
+    name: Ministerium für Bildung des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium für Bildung"
+      careers_url: https://mb.sachsen-anhalt.de/
+    notes: "Schulen/LISA über eigene Arbeitgebernamen ausgeschlossen."
+
+  - id: st-mwl
+    name: Ministerium für Wirtschaft, Tourismus, Landwirtschaft und Forsten des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium für Wirtschaft, Tourismus, Landwirtschaft und Forsten"
+      careers_url: https://mwl.sachsen-anhalt.de/
+    notes: "employer_name aus Portal-Navigation (Aug 2026)."
+
+  - id: st-ms
+    name: Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung"
+      careers_url: https://ms.sachsen-anhalt.de/
+    notes: "employer_name aus Portal-Navigation (Aug 2026)."
+
+  - id: st-mwu
+    name: Ministerium für Wissenschaft, Energie, Klimaschutz und Umwelt des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium für Wissenschaft, Energie, Klimaschutz und Umwelt"
+      careers_url: https://mwu.sachsen-anhalt.de/
+    notes: "employer_name aus Portal-Navigation (Aug 2026)."
+
+  - id: st-mid
+    name: Ministerium für Infrastruktur und Digitales des Landes Sachsen-Anhalt
+    ebene: land
+    land: Sachsen-Anhalt
+    type: karriere_st
+    enabled: true
+    params:
+      employer_name: "Ministerium für Infrastruktur und Digitales"
+      careers_url: https://mid.sachsen-anhalt.de/
+    notes: "LSBB über eigenen Arbeitgebernamen ausgeschlossen."
+
+  # --- Schleswig-Holstein (schleswig-holstein.de Stellensuche) -------------
+  # employer_name exakt aus Facette AusschreibendeBehoerde (Aug 2026).
+  # Nachgeordnete (Finanzämter, JVAs, Hochschulen, AIT …) haben eigene Namen.
+
+  - id: sh-stk
+    name: Der Ministerpräsident - Staatskanzlei Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Der Ministerpräsident - Staatskanzlei"
+      exclude_title_contains:
+        - "LKN.SH"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I
+    notes: "LKN.SH-Anwärterstellen laufen unter STK-Namen → Titel-Ausschluss."
+
+  - id: sh-mbwk
+    name: Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_names:
+        - "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein"
+        - "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/III/Service/Stellen
+    notes: "Aktuell oft 0 in Zentralfacette; Kurzform ohne Landes-Suffix kommt vor."
+
+  - id: sh-mi
+    name: Ministerium für Inneres, Kommunales, Wohnen und Sport des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Ministerium für Inneres, Kommunales, Wohnen und Sport des Landes Schleswig-Holstein"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/IV/iv_node
+    notes: "Polizei/LPA über eigene Behördennamen ausgeschlossen."
+
+  - id: sh-mjg
+    name: Ministerium für Justiz und Gesundheit des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Ministerium für Justiz und Gesundheit des Landes Schleswig-Holstein"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/II/ii_node
+    notes: "JVAs/Gerichte über eigene Behördennamen ausgeschlossen."
+
+  - id: sh-mekun
+    name: Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/V
+    notes: "employer_name aus Facette (Aug 2026)."
+
+  - id: sh-fin
+    name: Finanzministerium des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Finanzministerium des Landes Schleswig-Holstein"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/VI/vi_node
+    notes: "Landeskasse/AIT/Finanzämter über eigene Behördennamen ausgeschlossen."
+
+  - id: sh-mwvatt
+    name: Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Ministerium für Wirtschaft, Verkehr, Arbeit,Technologie und Tourismus des Landes Schleswig-Holstein"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/VII/vii_node
+    notes: "Facette ohne Leerzeichen nach 'Arbeit,' (Aug 2026)."
+
+  - id: sh-msjfsig
+    name: Ministerium für Soziales, Jugend, Familie, Senioren, Integration und Gleichstellung des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Ministerium für Soziales, Jugend, Familie, Senioren, Integration und Gleichstellung des Landes Schleswig-Holstein"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/VIII/viii_node
+    notes: "employer_name aus Facette (Aug 2026)."
+
+  - id: sh-mllev
+    name: Ministerium für Landwirtschaft, ländliche Räume, Europa und Verbraucherschutz des Landes Schleswig-Holstein
+    ebene: land
+    land: Schleswig-Holstein
+    type: karriere_sh
+    enabled: true
+    params:
+      employer_name: "Ministerium für Landwirtschaft, ländliche Räume, Europa und Verbraucherschutz des Landes Schleswig-Holstein"
+      careers_url: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/IX
+    notes: "Landesämter über eigene Behördennamen ausgeschlossen."
+
+  # --- Saarland (Interamt webservice_v2, partner-IDs Aug 2026) -------------
+  # Behoerde-Strings und partner_id aus dem öffentlichen Feed verifiziert.
+  # Polizei: partner 244 (eigener Behoerde-Suffix) — nicht aufgenommen.
+  # Finanzen/Wissenschaft: derzeit kein Partner mit offenen Stellen.
+
+  - id: sl-stk
+    name: Staatskanzlei des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "226"
+      behoerde_equals: "Staatskanzlei Saarland"
+      careers_url: https://www.saarland.de/stk/DE/service/stellenangebote
+    notes: "partner=226; Behoerde exakt (Aug 2026)."
+
+  - id: sl-mibs
+    name: Ministerium für Inneres, Bauen und Sport des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "243"
+      behoerde_equals: "Ministerium für Inneres, Bauen und Sport"
+      exclude_title_contains:
+        - "Landesverwaltungsamt"
+        - "Zentralen Ausländerbehörde"
+        - "Zentrale Ausländerbehörde"
+        - "Staatliche Hochbaubehörde"
+      careers_url: https://www.saarland.de/mibs/DE/service/stellenangebote
+    notes: "partner=243; Polizei über partner 244 ausgeschlossen; LVwA/ZAB/Hochbau via Titel."
+
+  - id: sl-mdj
+    name: Ministerium der Justiz des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "282"
+      behoerde_equals: "Ministerium der Justiz - Saarland"
+      exclude_title_contains:
+        - "Anstaltsärzt"
+      careers_url: https://www.saarland.de/mdj/DE/service/stellenangebote
+    notes: "partner=282; Anstaltsärzte (JVA) via Titel ausgeschlossen."
+
+  - id: sl-mbk
+    name: Ministerium für Bildung und Kultur des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "264"
+      behoerde_equals_any:
+        - "Ministerium für Bildung und Kultur des Saarlandes"
+        - "Ministerium für Bildung und Kultur"
+      exclude_title_contains:
+        - "Schuldienst"
+        - "Lehramt"
+        - "Schulen"
+        - "Quereinstieg"
+        - "Sprachförder"
+        - "Pädagogische Fachkräfte"
+        - "Vorbereitungsdienst"
+      careers_url: https://www.saarland.de/mbk/DE/service/stellenangebote
+    notes: "partner=264; Lehrkräfte/Schuldienst via Titel ausgeschlossen (nur Haus)."
+
+  - id: sl-mwide
+    name: Ministerium für Wirtschaft, Innovation, Digitales und Energie des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "235"
+      behoerde_equals: "Ministerium für Wirtschaft, Innovation, Digitales und Energie"
+      careers_url: https://www.saarland.de/mwide/DE/service/stellenangebote
+    notes: "partner=235; Behoerde exakt (Aug 2026)."
+
+  - id: sl-masfg
+    name: Ministerium für Arbeit, Soziales, Frauen und Gesundheit des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "281"
+      behoerde_equals: "Ministerium für Arbeit, Soziales, Frauen und Gesundheit - Saarland"
+      careers_url: https://www.saarland.de/masfg/DE/service/stellenangebote
+    notes: "partner=281; Landesamt für Soziales über eigenen Behoerde-Namen ausgeschlossen."
+
+  - id: sl-mukmav
+    name: Ministerium für Umwelt, Klima, Mobilität, Agrar und Verbraucherschutz des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "236"
+      behoerde_equals: "Ministerium für Umwelt, Klima, Mobilität, Agrar und Verbraucherschutz-Saarland"
+      exclude_title_contains:
+        - "LAV "
+        - "LUA "
+        - "Tierarzt"
+        - "Tierärzt"
+      careers_url: https://www.saarland.de/mukmav/DE/service/stellenangebote
+    notes: "partner=236; LAV/LUA/Tierarzt-Stellen laufen unter Ministeriums-Behoerde → Titel-Ausschluss."
+
+  - id: sl-mfw
+    name: Ministerium der Finanzen und für Wissenschaft des Saarlandes
+    ebene: land
+    land: Saarland
+    type: interamt
+    enabled: true
+    params:
+      partner_id: "225"
+      behoerde_contains: "Finanzen"
+      careers_url: https://www.saarland.de/mfw/DE/service/stellenangebote
+    notes: "Kein aktiver Interamt-Partner mit offenen Stellen (Aug 2026). partner=225 Platzhalter (leer) — bei ersten Treffern Partner-ID nachziehen."
+
+  # --- Thüringen (karriere.thueringen.de Craft-AJAX) -----------------------
+  # company-Strings aus Stellensuche-Facetten / Listings (Aug 2026).
+  # Nachgeordnete (Landesämter, Schulämter, JVA) haben eigene company-Namen.
+
+  - id: th-stk
+    name: Thüringer Staatskanzlei
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_name: "Thüringer Staatskanzlei"
+      exclude_title_contains:
+        - "Landeszentrale"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-staatskanzlei
+    notes: "Landeszentrale für politische Bildung unter STK-company → Titel-Ausschluss."
+
+  - id: th-fin
+    name: Thüringer Finanzministerium
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_name: "Thüringer Finanzministerium"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-finanzministerium
+    notes: "Landesamt für Finanzen / Finanzämter über eigene company-Namen."
+
+  - id: th-mi
+    name: Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_names:
+        - "Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung"
+        - "Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung - Referat 11"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung
+    notes: "Portal nutzt z. T. Referat-Suffix; Polizei/LVwA über eigene company."
+
+  - id: th-mbwk
+    name: Thüringer Ministerium für Bildung, Wissenschaft und Kultur
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_names:
+        - "Thüringer Ministerium für Bildung, Wissenschaft und Kultur"
+        - "Thüringer Ministerium für Bildung, Wissenschaft und Kultur 2"
+      exclude_title_contains:
+        - "Schulamt"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-bildung-wissenschaft-und-kultur
+    notes: "Portal-company teils mit Suffix ' 2'; Schulämter via Titel ausgeschlossen."
+
+  - id: th-mjmv
+    name: Thüringer Ministerium für Justiz, Migration und Verbraucherschutz
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_name: "Thüringer Ministerium für Justiz, Migration und Verbraucherschutz"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-justiz-migration-und-verbraucherschutz
+    notes: "Justizvollzug über eigenen company-Suffix ausgeschlossen."
+
+  - id: th-mwll
+    name: Thüringer Ministerium für Wirtschaft, Landwirtschaft und Ländlichen Raum
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_name: "Thüringer Ministerium für Wirtschaft, Landwirtschaft und Ländlichen Raum"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-wirtschaft-landwirtschaft-und-laendlichen-raum
+    notes: "Aktuell oft 0; TLLLR über eigenen company-Namen."
+
+  - id: th-msgef
+    name: Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_name: "Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-soziales-gesundheit-arbeit-und-familie
+    notes: "Aktuell oft 0; TLV über eigenen company-Namen."
+
+  - id: th-muenf
+    name: Thüringer Ministerium für Umwelt, Energie, Naturschutz und Forsten
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_name: "Thüringer Ministerium für Umwelt, Energie, Naturschutz und Forsten"
+      exclude_title_contains:
+        - "Nationalpark"
+        - "Naturparkverwaltung"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-umwelt-energie-naturschutz-und-forsten
+    notes: "Nationalpark/Naturpark unter Ministeriums-company → Titel-Ausschluss."
+
+  - id: th-mdi
+    name: Thüringer Ministerium für Digitales und Infrastruktur
+    ebene: land
+    land: Thüringen
+    type: karriere_th
+    enabled: true
+    params:
+      employer_name: "Thüringer Ministerium für Digitales und Infrastruktur"
+      careers_url: https://karriere.thueringen.de/unsere-geschaeftsbereiche/thueringer-ministerium-fuer-digitales-und-infrastruktur
+    notes: "Aktuell oft 0; TLBV/TLBG/TLRZ über eigene company-Namen."
+
+  # --- Rheinland-Pfalz (karriere.rlp.de Solr + Detail-DL, Aug 2026) --------
+  # Employer = Einsatzdienststelle wenn Ministerium/Staatskanzlei, sonst
+  # Ministeriumszeile aus Bewerbungsadresse (nur wenn Einsatzstelle nicht
+  # nachgeordnet). Nachgeordnete (Polizei, JVA, LBB, Finanzämter …) bleiben
+  # über Einsatzdienststelle erkennbar und matchen nicht.
+
+  - id: rp-stk
+    name: Staatskanzlei Rheinland-Pfalz
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Staatskanzlei Rheinland-Pfalz"
+      careers_url: https://www.rlp.de/
+    notes: "Portal teils nur Stadt als Einsatzdienststelle → Fallback Bewerbungsadresse."
+
+  - id: rp-masffj
+    name: Ministerium für Arbeit, Soziales, Frauen, Familie und Jugend
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_names:
+        - "Ministerium für Arbeit, Soziales, Frauen, Familie und Jugend"
+        - "Ministerium für Familie, Frauen, Kultur und Integration"
+      careers_url: https://masffj.rlp.de/
+    notes: "Alias: alter Ressortname vor Kabinett Schnieder (Mai 2026)."
+
+  - id: rp-mdi
+    name: Ministerium des Innern, für Integration und Verkehr
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Ministerium des Innern, für Integration und Verkehr"
+      careers_url: https://mdi.rlp.de/
+    notes: "Polizei/Hochschule der Polizei über eigene Einsatzdienststelle ausgeschlossen."
+
+  - id: rp-fm
+    name: Ministerium der Finanzen
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Ministerium der Finanzen"
+      careers_url: https://fm.rlp.de/
+    notes: "Finanzämter über eigene Einsatzdienststelle ausgeschlossen."
+
+  - id: rp-mjv
+    name: Ministerium der Justiz und für Verbraucherschutz
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Ministerium der Justiz und für Verbraucherschutz"
+      careers_url: https://mjv.rlp.de/
+    notes: "JVA/Gerichte über eigene Einsatzdienststelle ausgeschlossen."
+
+  - id: rp-mlwuf
+    name: Ministerium für Landwirtschaft, Weinbau, Umwelt und Forsten
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Ministerium für Landwirtschaft, Weinbau, Umwelt und Forsten"
+      careers_url: https://mlwuf.rlp.de/
+    notes: "Landesämter/DLR über eigene Einsatzdienststelle ausgeschlossen."
+
+  - id: rp-mkbwk
+    name: Ministerium für Kommunen, Bauen, Wohnen und Kultur
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Ministerium für Kommunen, Bauen, Wohnen und Kultur"
+      careers_url: https://mkbwk.rlp.de/
+
+  - id: rp-mwtek
+    name: Ministerium für Wirtschaft, Tourismus, Energie und Klima
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_names:
+        - "Ministerium für Wirtschaft, Tourismus, Energie und Klima"
+        - "Ministerium für Wirtschaft, Tourismus, Energie und Klima Rheinland-Pfalz"
+      careers_url: https://mwtek.rlp.de/
+    notes: "Portal hängt teils 'Rheinland-Pfalz' an den Ressortnamen."
+
+  - id: rp-bm
+    name: Ministerium für Bildung
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Ministerium für Bildung"
+      careers_url: https://bm.rlp.de/
+
+  - id: rp-mwwg
+    name: Ministerium für Wissenschaft, Weiterbildung und Gesundheit
+    ebene: land
+    land: Rheinland-Pfalz
+    type: karriere_rp
+    enabled: true
+    params:
+      employer_name: "Ministerium für Wissenschaft, Weiterbildung und Gesundheit"
+      careers_url: https://mwwg.rlp.de/
