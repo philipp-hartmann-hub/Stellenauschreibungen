@@ -45,6 +45,19 @@ CREATE TABLE IF NOT EXISTS crawl_runs (
     sources_failed INTEGER DEFAULT 0,
     notes TEXT
 );
+
+CREATE TABLE IF NOT EXISTS source_stats (
+    run_id     INTEGER NOT NULL,
+    source_id  TEXT NOT NULL,
+    adapter    TEXT,
+    count      INTEGER NOT NULL,
+    status     TEXT NOT NULL,
+    error      TEXT,
+    created_at TEXT NOT NULL,
+    PRIMARY KEY (run_id, source_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_source_stats_source ON source_stats(source_id);
 """
 
 
@@ -90,6 +103,65 @@ class JobStore:
             (utcnow_iso(), jobs_seen, sources_ok, sources_failed, notes, run_id),
         )
         self.conn.commit()
+
+    def record_source_stat(
+        self,
+        run_id: int,
+        source_id: str,
+        adapter: str | None,
+        count: int,
+        status: str,
+        error: str | None = None,
+    ) -> None:
+        self.conn.execute(
+            """
+            INSERT INTO source_stats (
+                run_id, source_id, adapter, count, status, error, created_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(run_id, source_id) DO UPDATE SET
+                adapter = excluded.adapter,
+                count = excluded.count,
+                status = excluded.status,
+                error = excluded.error,
+                created_at = excluded.created_at
+            """,
+            (run_id, source_id, adapter, count, status, error, utcnow_iso()),
+        )
+        self.conn.commit()
+
+    def list_source_stats_for_run(self, run_id: int) -> list[dict]:
+        rows = self.conn.execute(
+            """
+            SELECT run_id, source_id, adapter, count, status, error, created_at
+            FROM source_stats
+            WHERE run_id = ?
+            ORDER BY source_id
+            """,
+            (run_id,),
+        ).fetchall()
+        return [dict(r) for r in rows]
+
+    def list_recent_source_stats(
+        self,
+        source_id: str,
+        *,
+        exclude_run_id: int,
+        limit: int = 10,
+    ) -> list[dict]:
+        rows = self.conn.execute(
+            """
+            SELECT ss.run_id, ss.count, ss.status, ss.created_at
+            FROM source_stats ss
+            INNER JOIN crawl_runs cr ON cr.id = ss.run_id
+            WHERE ss.source_id = ?
+              AND ss.run_id != ?
+              AND cr.finished_at IS NOT NULL
+            ORDER BY ss.run_id DESC
+            LIMIT ?
+            """,
+            (source_id, exclude_run_id, limit),
+        ).fetchall()
+        return [dict(r) for r in rows]
 
     def upsert_jobs(self, jobs: Sequence[Job], seen_at: str | None = None) -> set[str]:
         """Insert/update jobs; return set of uids touched in this batch."""

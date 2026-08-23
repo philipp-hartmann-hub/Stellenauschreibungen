@@ -27,6 +27,12 @@ from bs4 import BeautifulSoup
 
 from models import Job, SourceConfig
 from storage import JobStore, utcnow_iso
+from health import (
+    detect_alerts,
+    format_alerts_note,
+    log_alerts,
+    write_health_json,
+)
 
 USER_AGENT = (
     "StellenMonitor/0.1 "
@@ -2454,9 +2460,11 @@ def run_crawl(
     registry_path: Path,
     db_path: Path,
     json_path: Path | None = None,
+    health_path: Path | None = None,
     source_filter: set[str] | None = None,
 ) -> int:
     sources = load_registry(registry_path)
+    source_names = {s.id: s.name for s in sources}
     http = HttpClient()
     store = JobStore(db_path)
     run_id = store.start_run()
@@ -2491,6 +2499,9 @@ def run_crawl(
                 msg = f"{source.id}: unknown adapter type '{source.type}' — skipped"
                 log.error(msg)
                 notes.append(msg)
+                store.record_source_stat(
+                    run_id, source.id, source.type, 0, "failed", msg
+                )
                 failed += 1
                 continue
             try:
@@ -2500,12 +2511,18 @@ def run_crawl(
                 log.info("  → %d jobs", len(jobs))
                 all_jobs.extend(jobs)
                 crawled_source_ids.append(source.id)
+                store.record_source_stat(
+                    run_id, source.id, source.type, len(jobs), "ok"
+                )
                 ok += 1
             except Exception as exc:
                 failed += 1
                 msg = f"{source.id}: {exc}"
                 log.exception("Source failed: %s", source.id)
                 notes.append(msg)
+                store.record_source_stat(
+                    run_id, source.id, source.type, 0, "failed", str(exc)
+                )
             time.sleep(PAUSE_BETWEEN_SOURCES)
 
         seen_at = utcnow_iso()
@@ -2527,6 +2544,15 @@ def run_crawl(
         if json_path:
             n = store.export_json(json_path, active_only=True)
             log.info("Wrote %d active jobs to %s", n, json_path)
+
+        alerts = detect_alerts(store, run_id, source_names)
+        health_out = health_path or (db_path.parent / "health.json")
+        write_health_json(health_out, alerts)
+        log.info("Wrote health report to %s (%d alerts)", health_out, len(alerts))
+        log_alerts(alerts)
+        alert_note = format_alerts_note(alerts)
+        if alert_note:
+            notes.append(alert_note)
 
         store.finish_run(
             run_id,
@@ -2565,6 +2591,12 @@ def main(argv: list[str] | None = None) -> int:
         help="Optional JSON export path (active jobs)",
     )
     parser.add_argument(
+        "--health",
+        type=Path,
+        default=repo_root / "data" / "health.json",
+        help="Health report JSON path",
+    )
+    parser.add_argument(
         "--only",
         type=str,
         default="",
@@ -2578,7 +2610,9 @@ def main(argv: list[str] | None = None) -> int:
         format="%(levelname)s %(message)s",
     )
     only = {s.strip() for s in args.only.split(",") if s.strip()} or None
-    return run_crawl(args.registry, args.db, args.json, source_filter=only)
+    return run_crawl(
+        args.registry, args.db, args.json, args.health, source_filter=only
+    )
 
 
 if __name__ == "__main__":
