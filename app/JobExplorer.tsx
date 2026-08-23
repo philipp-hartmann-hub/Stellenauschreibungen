@@ -8,11 +8,20 @@ type Props = {
   jobs: JobRecord[];
 };
 
+type SortMode = "ebene" | "title";
+
+function ebeneRank(value: string): number {
+  if (value === "bund") return 0;
+  if (value === "land") return 1;
+  return 2;
+}
+
 export function JobExplorer({ jobs }: Props) {
   const [q, setQ] = useState("");
   const [ebene, setEbene] = useState("alle");
   const [land, setLand] = useState("alle");
   const [ministerium, setMinisterium] = useState("alle");
+  const [sort, setSort] = useState<SortMode>("ebene");
 
   const lands = useMemo(() => {
     const set = new Set<string>();
@@ -32,7 +41,7 @@ export function JobExplorer({ jobs }: Props) {
 
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    return jobs.filter((j) => {
+    const list = jobs.filter((j) => {
       if (ebene !== "alle" && j.ebene !== ebene) return false;
       if (land !== "alle" && (j.land || "") !== land) return false;
       if (ministerium !== "alle" && j.source_id !== ministerium) return false;
@@ -43,7 +52,18 @@ export function JobExplorer({ jobs }: Props) {
         .toLowerCase();
       return hay.includes(needle);
     });
-  }, [jobs, q, ebene, land, ministerium]);
+
+    list.sort((a, b) => {
+      if (sort === "ebene") {
+        const byEbene = ebeneRank(a.ebene) - ebeneRank(b.ebene);
+        if (byEbene !== 0) return byEbene;
+      }
+      const byTitle = a.title.localeCompare(b.title, "de");
+      if (byTitle !== 0) return byTitle;
+      return a.source_name.localeCompare(b.source_name, "de");
+    });
+    return list;
+  }, [jobs, q, ebene, land, ministerium, sort]);
 
   return (
     <div className="space-y-8">
@@ -93,7 +113,21 @@ export function JobExplorer({ jobs }: Props) {
           </select>
         </label>
 
-        <label className="block md:col-span-2">
+        <label className="block">
+          <span className="mb-1 block text-sm text-[var(--muted)]">
+            Sortierung
+          </span>
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value as SortMode)}
+            className="w-full rounded-md border border-[var(--line)] bg-white/80 px-3 py-2"
+          >
+            <option value="ebene">Ebene (Bund zuerst)</option>
+            <option value="title">Alphabetisch</option>
+          </select>
+        </label>
+
+        <label className="block md:col-span-4">
           <span className="mb-1 block text-sm text-[var(--muted)]">
             Ministerium
           </span>
