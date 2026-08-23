@@ -77,6 +77,8 @@ export function JobExplorer({ jobs }: Props) {
       if (sort === "ebene") {
         const byEbene = ebeneRank(a.ebene) - ebeneRank(b.ebene);
         if (byEbene !== 0) return byEbene;
+        const byLand = (a.land || "").localeCompare(b.land || "", "de");
+        if (byLand !== 0) return byLand;
       }
       const byTitle = a.title.localeCompare(b.title, "de");
       if (byTitle !== 0) return byTitle;
