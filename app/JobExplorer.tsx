@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { JobRecord } from "@/lib/types";
 import { isNewJob } from "@/lib/new";
 
@@ -26,18 +26,38 @@ export function JobExplorer({ jobs }: Props) {
   const lands = useMemo(() => {
     const set = new Set<string>();
     for (const j of jobs) {
+      if (ebene !== "alle" && j.ebene !== ebene) continue;
       if (j.land) set.add(j.land);
     }
     return Array.from(set).sort((a, b) => a.localeCompare(b, "de"));
-  }, [jobs]);
+  }, [jobs, ebene]);
 
   const ministerien = useMemo(() => {
     const map = new Map<string, string>();
-    for (const j of jobs) map.set(j.source_id, j.source_name);
+    for (const j of jobs) {
+      if (ebene !== "alle" && j.ebene !== ebene) continue;
+      if (land !== "alle" && (j.land || "") !== land) continue;
+      map.set(j.source_id, j.source_name);
+    }
     return Array.from(map.entries()).sort((a, b) =>
       a[1].localeCompare(b[1], "de"),
     );
-  }, [jobs]);
+  }, [jobs, ebene, land]);
+
+  useEffect(() => {
+    if (land !== "alle" && !lands.includes(land)) {
+      setLand("alle");
+    }
+  }, [ebene, lands, land]);
+
+  useEffect(() => {
+    if (
+      ministerium !== "alle" &&
+      !ministerien.some(([id]) => id === ministerium)
+    ) {
+      setMinisterium("alle");
+    }
+  }, [ebene, land, ministerien, ministerium]);
 
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase();
