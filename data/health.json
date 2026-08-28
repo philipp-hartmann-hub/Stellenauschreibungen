@@ -1,4 +1,14 @@
 {
-  "generated_at": "2026-08-27T16:52:39+00:00",
-  "alerts": []
+  "generated_at": "2026-08-28T17:46:25+00:00",
+  "alerts": [
+    {
+      "source_id": "bmwe",
+      "source_name": "Bundesministerium für Wirtschaft und Energie",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "The read operation timed out"
+    }
+  ]
 }
