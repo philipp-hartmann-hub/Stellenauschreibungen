@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-08-28T17:46:25+00:00",
+  "generated_at": "2026-08-29T12:00:39+00:00",
   "alerts": [
     {
-      "source_id": "bmwe",
-      "source_name": "Bundesministerium für Wirtschaft und Energie",
-      "adapter": "generic_html",
+      "source_id": "he-mk",
+      "source_name": "Hessisches Ministerium für Kultus, Bildung und Chancen",
+      "adapter": "karriere_he",
+      "kind": "drop",
+      "baseline": 6.0,
+      "count": 2,
+      "error": null
+    },
+    {
+      "source_id": "bw-mwfk",
+      "source_name": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg",
+      "adapter": "karriere_bw",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "The read operation timed out"
+      "error": "'list' object has no attribute 'get'"
     }
   ]
 }
