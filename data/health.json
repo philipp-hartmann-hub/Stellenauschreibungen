@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:00:39+00:00",
+  "generated_at": "2026-08-30T10:50:20+00:00",
   "alerts": [
     {
       "source_id": "he-mk",
@@ -9,6 +9,15 @@
       "baseline": 6.0,
       "count": 2,
       "error": null
+    },
+    {
+      "source_id": "bmleh",
+      "source_name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "The read operation timed out"
     },
     {
       "source_id": "bw-mwfk",
