@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-08-30T10:50:20+00:00",
+  "generated_at": "2026-08-31T11:56:22+00:00",
   "alerts": [
+    {
+      "source_id": "by-stmgp",
+      "source_name": "Bayerisches Staatsministerium für Gesundheit, Pflege und Prävention",
+      "adapter": "karriere_by",
+      "kind": "drop",
+      "baseline": 5.0,
+      "count": 1,
+      "error": null
+    },
+    {
+      "source_id": "by-stmuv",
+      "source_name": "Bayerisches Staatsministerium für Umwelt und Verbraucherschutz",
+      "adapter": "karriere_by",
+      "kind": "drop",
+      "baseline": 9.0,
+      "count": 3,
+      "error": null
+    },
     {
       "source_id": "he-mk",
       "source_name": "Hessisches Ministerium für Kultus, Bildung und Chancen",
@@ -11,15 +29,6 @@
       "error": null
     },
     {
-      "source_id": "bmleh",
-      "source_name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "The read operation timed out"
-    },
-    {
       "source_id": "bw-mwfk",
       "source_name": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg",
       "adapter": "karriere_bw",
@@ -27,6 +36,15 @@
       "baseline": null,
       "count": 0,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "source_id": "by-stmjust",
+      "source_name": "Bayerisches Staatsministerium der Justiz",
+      "adapter": "karriere_by",
+      "kind": "zero",
+      "baseline": 3.0,
+      "count": 0,
+      "error": null
     }
   ]
 }
