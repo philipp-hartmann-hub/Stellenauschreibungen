@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:56:22+00:00",
+  "generated_at": "2026-09-01T10:28:04+00:00",
   "alerts": [
     {
       "source_id": "by-stmgp",
@@ -11,22 +11,22 @@
       "error": null
     },
     {
-      "source_id": "by-stmuv",
-      "source_name": "Bayerisches Staatsministerium für Umwelt und Verbraucherschutz",
-      "adapter": "karriere_by",
-      "kind": "drop",
-      "baseline": 9.0,
-      "count": 3,
-      "error": null
-    },
-    {
       "source_id": "he-mk",
       "source_name": "Hessisches Ministerium für Kultus, Bildung und Chancen",
       "adapter": "karriere_he",
       "kind": "drop",
       "baseline": 6.0,
-      "count": 2,
+      "count": 1,
       "error": null
+    },
+    {
+      "source_id": "by-stmd",
+      "source_name": "Bayerisches Staatsministerium für Digitales",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
       "source_id": "bw-mwfk",
@@ -36,15 +36,6 @@
       "baseline": null,
       "count": 0,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "source_id": "by-stmjust",
-      "source_name": "Bayerisches Staatsministerium der Justiz",
-      "adapter": "karriere_by",
-      "kind": "zero",
-      "baseline": 3.0,
-      "count": 0,
-      "error": null
     }
   ]
 }
