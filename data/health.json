@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-09-02T09:58:36+00:00",
+  "generated_at": "2026-09-03T10:12:32+00:00",
   "alerts": [
-    {
-      "source_id": "he-mk",
-      "source_name": "Hessisches Ministerium für Kultus, Bildung und Chancen",
-      "adapter": "karriere_he",
-      "kind": "drop",
-      "baseline": 6.0,
-      "count": 1,
-      "error": null
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
