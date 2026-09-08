@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-09-07T10:49:21+00:00",
+  "generated_at": "2026-09-08T10:11:59+00:00",
   "alerts": [
+    {
+      "source_id": "by-stmuv",
+      "source_name": "Bayerisches Staatsministerium für Umwelt und Verbraucherschutz",
+      "adapter": "karriere_by",
+      "kind": "drop",
+      "baseline": 8.0,
+      "count": 3,
+      "error": null
+    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -9,6 +18,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source_id": "bmftr",
+      "source_name": "Bundesministerium für Forschung, Technologie und Raumfahrt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "The read operation timed out"
     },
     {
       "source_id": "sh-stk",
@@ -99,6 +117,24 @@
       "baseline": null,
       "count": 0,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "source_id": "by-stmjust",
+      "source_name": "Bayerisches Staatsministerium der Justiz",
+      "adapter": "karriere_by",
+      "kind": "zero",
+      "baseline": 3.0,
+      "count": 0,
+      "error": null
+    },
+    {
+      "source_id": "be-senweb",
+      "source_name": "Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin",
+      "adapter": "karriere_be",
+      "kind": "zero",
+      "baseline": 4.0,
+      "count": 0,
+      "error": null
     }
   ]
 }
