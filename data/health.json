@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-09-10T10:04:40+00:00",
+  "generated_at": "2026-09-11T10:13:43+00:00",
   "alerts": [
+    {
+      "source_id": "by-stmuv",
+      "source_name": "Bayerisches Staatsministerium für Umwelt und Verbraucherschutz",
+      "adapter": "karriere_by",
+      "kind": "drop",
+      "baseline": 7.5,
+      "count": 1,
+      "error": null
+    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -11,103 +20,85 @@
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
-      "source_id": "rp-fm",
-      "source_name": "Ministerium der Finanzen",
-      "adapter": "karriere_rp",
+      "source_id": "sh-stk",
+      "source_name": "Der Ministerpräsident - Staatskanzlei Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "rp-mjv",
-      "source_name": "Ministerium der Justiz und für Verbraucherschutz",
-      "adapter": "karriere_rp",
+      "source_id": "sh-fin",
+      "source_name": "Finanzministerium des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "rp-mdi",
-      "source_name": "Ministerium des Innern, für Integration und Verkehr",
-      "adapter": "karriere_rp",
+      "source_id": "sh-mbwk",
+      "source_name": "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "rp-masffj",
-      "source_name": "Ministerium für Arbeit, Soziales, Frauen, Familie und Jugend",
-      "adapter": "karriere_rp",
+      "source_id": "sh-mekun",
+      "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "rp-bm",
-      "source_name": "Ministerium für Bildung",
-      "adapter": "karriere_rp",
+      "source_id": "sh-mi",
+      "source_name": "Ministerium für Inneres, Kommunales, Wohnen und Sport des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "rp-mkbwk",
-      "source_name": "Ministerium für Kommunen, Bauen, Wohnen und Kultur",
-      "adapter": "karriere_rp",
+      "source_id": "sh-mjg",
+      "source_name": "Ministerium für Justiz und Gesundheit des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "rp-mlwuf",
-      "source_name": "Ministerium für Landwirtschaft, Weinbau, Umwelt und Forsten",
-      "adapter": "karriere_rp",
+      "source_id": "sh-mllev",
+      "source_name": "Ministerium für Landwirtschaft, ländliche Räume, Europa und Verbraucherschutz des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "rp-mwtek",
-      "source_name": "Ministerium für Wirtschaft, Tourismus, Energie und Klima",
-      "adapter": "karriere_rp",
+      "source_id": "sh-msjfsig",
+      "source_name": "Ministerium für Soziales, Jugend, Familie, Senioren, Integration und Gleichstellung des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
-      "source_id": "bw-mwfk",
-      "source_name": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg",
-      "adapter": "karriere_bw",
+      "source_id": "sh-mwvatt",
+      "source_name": "Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "source_id": "rp-mwwg",
-      "source_name": "Ministerium für Wissenschaft, Weiterbildung und Gesundheit",
-      "adapter": "karriere_rp",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
-    },
-    {
-      "source_id": "rp-stk",
-      "source_name": "Staatskanzlei Rheinland-Pfalz",
-      "adapter": "karriere_rp",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "timed out"
     },
     {
       "source_id": "by-stmjust",
@@ -119,9 +110,9 @@
       "error": null
     },
     {
-      "source_id": "be-senweb",
-      "source_name": "Senatsverwaltung für Wirtschaft, Energie und Betriebe Berlin",
-      "adapter": "karriere_be",
+      "source_id": "bmds",
+      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+      "adapter": "generic_html",
       "kind": "zero",
       "baseline": 3.0,
       "count": 0,
