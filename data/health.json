@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T10:13:43+00:00",
+  "generated_at": "2026-09-12T10:13:18+00:00",
   "alerts": [
     {
-      "source_id": "by-stmuv",
-      "source_name": "Bayerisches Staatsministerium für Umwelt und Verbraucherschutz",
-      "adapter": "karriere_by",
-      "kind": "drop",
-      "baseline": 7.5,
-      "count": 1,
-      "error": null
+      "source_id": "aa",
+      "source_name": "Auswärtiges Amt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
     },
     {
       "source_id": "by-stmd",
@@ -18,6 +18,123 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source_id": "by-stmb",
+      "source_name": "Bayerisches Staatsministerium für Wohnen, Bau und Verkehr",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bkamt",
+      "source_name": "Bundeskanzleramt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmf",
+      "source_name": "Bundesministerium der Finanzen",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmjv",
+      "source_name": "Bundesministerium der Justiz und für Verbraucherschutz",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmvg",
+      "source_name": "Bundesministerium der Verteidigung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmi",
+      "source_name": "Bundesministerium des Innern",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmbfsfj",
+      "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmds",
+      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmftr",
+      "source_name": "Bundesministerium für Forschung, Technologie und Raumfahrt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmg",
+      "source_name": "Bundesministerium für Gesundheit",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmwe",
+      "source_name": "Bundesministerium für Wirtschaft und Energie",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmwsb",
+      "source_name": "Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bmz",
+      "source_name": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
     },
     {
       "source_id": "sh-stk",
@@ -38,6 +155,33 @@
       "error": "timed out"
     },
     {
+      "source_id": "bb-mdf",
+      "source_name": "Ministerium der Finanzen Brandenburg",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "sl-mfw",
+      "source_name": "Ministerium der Finanzen und für Wissenschaft des Saarlandes",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "sl-mdj",
+      "source_name": "Ministerium der Justiz des Saarlandes",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
       "source_id": "sh-mbwk",
       "source_name": "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -47,9 +191,63 @@
       "error": "timed out"
     },
     {
+      "source_id": "sl-masfg",
+      "source_name": "Ministerium für Arbeit, Soziales, Frauen und Gesundheit des Saarlandes",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "mv-bm",
+      "source_name": "Ministerium für Bildung und Kindertagesförderung Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "sl-mbk",
+      "source_name": "Ministerium für Bildung und Kultur des Saarlandes",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
       "source_id": "sh-mekun",
       "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "mv-fm",
+      "source_name": "Ministerium für Finanzen und Digitalisierung Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "mv-im",
+      "source_name": "Ministerium für Inneres und Bau Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "sl-mibs",
+      "source_name": "Ministerium für Inneres, Bauen und Sport des Saarlandes",
+      "adapter": "interamt",
       "kind": "fail",
       "baseline": null,
       "count": 0,
@@ -74,9 +272,45 @@
       "error": "timed out"
     },
     {
+      "source_id": "mv-jm",
+      "source_name": "Ministerium für Justiz, Gleichstellung und Verbraucherschutz Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "mv-lm",
+      "source_name": "Ministerium für Klimaschutz, Landwirtschaft, ländliche Räume und Umwelt Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "bw-mk",
+      "source_name": "Ministerium für Kultus, Jugend und Sport Baden-Württemberg",
+      "adapter": "karriere_bw",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "source_id": "sh-mllev",
       "source_name": "Ministerium für Landwirtschaft, ländliche Räume, Europa und Verbraucherschutz des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "mv-sm",
+      "source_name": "Ministerium für Soziales, Gesundheit und Sport Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
       "kind": "fail",
       "baseline": null,
       "count": 0,
@@ -92,6 +326,33 @@
       "error": "timed out"
     },
     {
+      "source_id": "sl-mukmav",
+      "source_name": "Ministerium für Umwelt, Klima, Mobilität, Agrar und Verbraucherschutz des Saarlandes",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "mv-wm",
+      "source_name": "Ministerium für Wirtschaft, Infrastruktur, Tourismus und Arbeit Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "sl-mwide",
+      "source_name": "Ministerium für Wirtschaft, Innovation, Digitales und Energie des Saarlandes",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
       "source_id": "sh-mwvatt",
       "source_name": "Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -101,22 +362,31 @@
       "error": "timed out"
     },
     {
-      "source_id": "by-stmjust",
-      "source_name": "Bayerisches Staatsministerium der Justiz",
-      "adapter": "karriere_by",
-      "kind": "zero",
-      "baseline": 3.0,
+      "source_id": "mv-wkm",
+      "source_name": "Ministerium für Wissenschaft, Kultur, Bundes- und Europaangelegenheiten Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
       "count": 0,
-      "error": null
+      "error": "timed out"
     },
     {
-      "source_id": "bmds",
-      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-      "adapter": "generic_html",
-      "kind": "zero",
-      "baseline": 3.0,
+      "source_id": "mv-stk",
+      "source_name": "Ministerpräsidentin und Staatskanzlei Mecklenburg-Vorpommern",
+      "adapter": "karriere_mv",
+      "kind": "fail",
+      "baseline": null,
       "count": 0,
-      "error": null
+      "error": "timed out"
+    },
+    {
+      "source_id": "sl-stk",
+      "source_name": "Staatskanzlei des Saarlandes",
+      "adapter": "interamt",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
     }
   ]
 }
