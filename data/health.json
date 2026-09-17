@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:29:11+00:00",
+  "generated_at": "2026-09-17T10:29:14+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -9,24 +9,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "source_id": "bmi",
-      "source_name": "Bundesministerium des Innern",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "The read operation timed out"
-    },
-    {
-      "source_id": "bmbfsfj",
-      "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "The read operation timed out"
     },
     {
       "source_id": "sh-stk",
