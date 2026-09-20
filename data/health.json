@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:03:22+00:00",
+  "generated_at": "2026-09-20T10:10:18+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -9,96 +9,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "source_id": "sh-stk",
-      "source_name": "Der Ministerpräsident - Staatskanzlei Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-fin",
-      "source_name": "Finanzministerium des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-mbwk",
-      "source_name": "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-mekun",
-      "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-mi",
-      "source_name": "Ministerium für Inneres, Kommunales, Wohnen und Sport des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-mjg",
-      "source_name": "Ministerium für Justiz und Gesundheit des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-mllev",
-      "source_name": "Ministerium für Landwirtschaft, ländliche Räume, Europa und Verbraucherschutz des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-msjfsig",
-      "source_name": "Ministerium für Soziales, Jugend, Familie, Senioren, Integration und Gleichstellung des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "sh-mwvatt",
-      "source_name": "Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "timed out"
-    },
-    {
-      "source_id": "rp-stk",
-      "source_name": "Staatskanzlei Rheinland-Pfalz",
-      "adapter": "karriere_rp",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
     }
   ]
 }
