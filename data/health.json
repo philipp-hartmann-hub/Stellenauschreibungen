@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-09-24T10:35:18+00:00",
+  "generated_at": "2026-09-25T10:45:43+00:00",
   "alerts": [
+    {
+      "source_id": "th-mdi",
+      "source_name": "Thüringer Ministerium für Digitales und Infrastruktur",
+      "adapter": "karriere_th",
+      "kind": "drop",
+      "baseline": 6.0,
+      "count": 2,
+      "error": null
+    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -38,15 +47,6 @@
       "error": "timed out"
     },
     {
-      "source_id": "st-mf",
-      "source_name": "Ministerium der Finanzen des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-    },
-    {
       "source_id": "sh-mbwk",
       "source_name": "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -56,24 +56,6 @@
       "error": "timed out"
     },
     {
-      "source_id": "st-ms",
-      "source_name": "Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-    },
-    {
-      "source_id": "st-mb",
-      "source_name": "Ministerium für Bildung des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-    },
-    {
       "source_id": "sh-mekun",
       "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -81,24 +63,6 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
-    },
-    {
-      "source_id": "st-mid",
-      "source_name": "Ministerium für Infrastruktur und Digitales des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-    },
-    {
-      "source_id": "st-mi",
-      "source_name": "Ministerium für Inneres und Sport des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
     },
     {
       "source_id": "sh-mi",
@@ -119,15 +83,6 @@
       "error": "timed out"
     },
     {
-      "source_id": "st-mj",
-      "source_name": "Ministerium für Justiz und Verbraucherschutz des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-    },
-    {
       "source_id": "sh-mllev",
       "source_name": "Ministerium für Landwirtschaft, ländliche Räume, Europa und Verbraucherschutz des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -146,15 +101,6 @@
       "error": "timed out"
     },
     {
-      "source_id": "st-mwl",
-      "source_name": "Ministerium für Wirtschaft, Tourismus, Landwirtschaft und Forsten des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-    },
-    {
       "source_id": "sh-mwvatt",
       "source_name": "Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -164,15 +110,6 @@
       "error": "timed out"
     },
     {
-      "source_id": "st-mwu",
-      "source_name": "Ministerium für Wissenschaft, Energie, Klimaschutz und Umwelt des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
-    },
-    {
       "source_id": "rp-stk",
       "source_name": "Staatskanzlei Rheinland-Pfalz",
       "adapter": "karriere_rp",
@@ -180,15 +117,6 @@
       "baseline": null,
       "count": 0,
       "error": "Server disconnected without sending a response."
-    },
-    {
-      "source_id": "st-stk",
-      "source_name": "Staatskanzlei und Ministerium für Kultur des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server error '503 Backend fetch failed' for url 'https://karriere.sachsen-anhalt.de/stellenangebote'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
     }
   ]
 }
