@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-09-25T10:45:43+00:00",
+  "generated_at": "2026-09-26T10:22:36+00:00",
   "alerts": [
-    {
-      "source_id": "th-mdi",
-      "source_name": "Thüringer Ministerium für Digitales und Infrastruktur",
-      "adapter": "karriere_th",
-      "kind": "drop",
-      "baseline": 6.0,
-      "count": 2,
-      "error": null
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -108,15 +99,6 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
-    },
-    {
-      "source_id": "rp-stk",
-      "source_name": "Staatskanzlei Rheinland-Pfalz",
-      "adapter": "karriere_rp",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
     }
   ]
 }
