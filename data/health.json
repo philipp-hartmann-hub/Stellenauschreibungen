@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:22:36+00:00",
+  "generated_at": "2026-09-27T11:05:00+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -99,6 +99,15 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
+    },
+    {
+      "source_id": "by-stmwi",
+      "source_name": "Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie",
+      "adapter": "generic_html",
+      "kind": "zero",
+      "baseline": 5.5,
+      "count": 0,
+      "error": null
     }
   ]
 }
