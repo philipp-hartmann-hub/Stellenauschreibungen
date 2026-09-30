@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:56:51+00:00",
+  "generated_at": "2026-09-30T11:41:02+00:00",
   "alerts": [
     {
       "source_id": "th-mdi",
@@ -38,15 +38,6 @@
       "error": "timed out"
     },
     {
-      "source_id": "rp-mdi",
-      "source_name": "Ministerium des Innern, für Integration und Verkehr",
-      "adapter": "karriere_rp",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
-    },
-    {
       "source_id": "sh-mbwk",
       "source_name": "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -54,15 +45,6 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
-    },
-    {
-      "source_id": "rp-masffj",
-      "source_name": "Ministerium für Arbeit, Soziales, Frauen, Familie und Jugend",
-      "adapter": "karriere_rp",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
     },
     {
       "source_id": "sh-mekun",
@@ -117,15 +99,6 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
-    },
-    {
-      "source_id": "rp-stk",
-      "source_name": "Staatskanzlei Rheinland-Pfalz",
-      "adapter": "karriere_rp",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
     }
   ]
 }
