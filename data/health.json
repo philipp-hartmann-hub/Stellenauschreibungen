@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-09-30T11:41:02+00:00",
+  "generated_at": "2026-10-01T12:06:56+00:00",
   "alerts": [
-    {
-      "source_id": "th-mdi",
-      "source_name": "Thüringer Ministerium für Digitales und Infrastruktur",
-      "adapter": "karriere_th",
-      "kind": "drop",
-      "baseline": 5.0,
-      "count": 1,
-      "error": null
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -99,6 +90,33 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
+    },
+    {
+      "source_id": "aa",
+      "source_name": "Auswärtiges Amt",
+      "adapter": "generic_html",
+      "kind": "zero",
+      "baseline": 5.0,
+      "count": 0,
+      "error": null
+    },
+    {
+      "source_id": "by-stmas",
+      "source_name": "Bayerisches Staatsministerium für Familie, Arbeit und Soziales",
+      "adapter": "karriere_by",
+      "kind": "zero",
+      "baseline": 3.0,
+      "count": 0,
+      "error": null
+    },
+    {
+      "source_id": "he-md",
+      "source_name": "Hessisches Ministerium für Digitalisierung und Innovation",
+      "adapter": "karriere_he",
+      "kind": "zero",
+      "baseline": 3.0,
+      "count": 0,
+      "error": null
     }
   ]
 }
