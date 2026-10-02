@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:06:56+00:00",
+  "generated_at": "2026-10-02T11:35:27+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -9,6 +9,24 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source_id": "bmjv",
+      "source_name": "Bundesministerium der Justiz und für Verbraucherschutz",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Server disconnected without sending a response."
+    },
+    {
+      "source_id": "bmleh",
+      "source_name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "sh-stk",
@@ -90,15 +108,6 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
-    },
-    {
-      "source_id": "aa",
-      "source_name": "Auswärtiges Amt",
-      "adapter": "generic_html",
-      "kind": "zero",
-      "baseline": 5.0,
-      "count": 0,
-      "error": null
     },
     {
       "source_id": "by-stmas",
