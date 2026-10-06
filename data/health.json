@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-10-05T12:47:53+00:00",
+  "generated_at": "2026-10-06T12:32:49+00:00",
   "alerts": [
-    {
-      "source_id": "aa",
-      "source_name": "Auswärtiges Amt",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -101,22 +92,103 @@
       "error": "timed out"
     },
     {
-      "source_id": "by-stmas",
-      "source_name": "Bayerisches Staatsministerium für Familie, Arbeit und Soziales",
-      "adapter": "karriere_by",
-      "kind": "zero",
-      "baseline": 3.0,
+      "source_id": "hb-fin",
+      "source_name": "Senator für Finanzen der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
       "count": 0,
-      "error": null
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source_id": "he-md",
-      "source_name": "Hessisches Ministerium für Digitalisierung und Innovation",
-      "adapter": "karriere_he",
-      "kind": "zero",
-      "baseline": 3.0,
+      "source_id": "hb-kb",
+      "source_name": "Senator für Kinder und Bildung der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
       "count": 0,
-      "error": null
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-kultur",
+      "source_name": "Senator für Kultur der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-arbeit",
+      "source_name": "Senatorin für Arbeit, Soziales, Jugend und Integration der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-bau",
+      "source_name": "Senatorin für Bau, Mobilität und Stadtentwicklung der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-gesundheit",
+      "source_name": "Senatorin für Gesundheit, Frauen und Verbraucherschutz der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-inneres",
+      "source_name": "Senatorin für Inneres und Sport der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-justiz",
+      "source_name": "Senatorin für Justiz und Verfassung der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-umwelt",
+      "source_name": "Senatorin für Umwelt, Klima und Wissenschaft der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-wirtschaft",
+      "source_name": "Senatorin für Wirtschaft, Häfen und Transformation der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "hb-sk",
+      "source_name": "Senatskanzlei der Freien Hansestadt Bremen",
+      "adapter": "karriere_hb",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Client error '403 Forbidden' for url 'https://www.karriere.bremen.de/stellenangebote-34126?skip=0&max=10'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     }
   ]
 }
