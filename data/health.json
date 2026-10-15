@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-10-14T10:23:35+00:00",
+  "generated_at": "2026-10-15T10:05:12+00:00",
   "alerts": [
+    {
+      "source_id": "sl-mdj",
+      "source_name": "Ministerium der Justiz des Saarlandes",
+      "adapter": "interamt",
+      "kind": "drop",
+      "baseline": 6.0,
+      "count": 1,
+      "error": null
+    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
