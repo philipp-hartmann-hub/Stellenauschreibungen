@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:48:10+00:00",
+  "generated_at": "2026-10-19T10:57:35+00:00",
   "alerts": [
     {
       "source_id": "sl-mdj",
@@ -7,7 +7,16 @@
       "adapter": "interamt",
       "kind": "drop",
       "baseline": 6.0,
-      "count": 1,
+      "count": 2,
+      "error": null
+    },
+    {
+      "source_id": "sl-mukmav",
+      "source_name": "Ministerium für Umwelt, Klima, Mobilität, Agrar und Verbraucherschutz des Saarlandes",
+      "adapter": "interamt",
+      "kind": "drop",
+      "baseline": 9.0,
+      "count": 2,
       "error": null
     },
     {
