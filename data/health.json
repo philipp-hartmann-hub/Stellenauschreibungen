@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-10-23T10:14:46+00:00",
+  "generated_at": "2026-10-24T09:41:36+00:00",
   "alerts": [
-    {
-      "source_id": "sh-mekun",
-      "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
-      "adapter": "karriere_sh",
-      "kind": "drop",
-      "baseline": 5.0,
-      "count": 1,
-      "error": null
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -18,15 +9,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "source_id": "bmg",
-      "source_name": "Bundesministerium für Gesundheit",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
     },
     {
       "source_id": "nrw-mf",
@@ -126,105 +108,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source_id": "ni-stk",
-      "source_name": "Niedersächsische Staatskanzlei",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mf",
-      "source_name": "Niedersächsisches Finanzministerium",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mk",
-      "source_name": "Niedersächsisches Kultusministerium",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mj",
-      "source_name": "Niedersächsisches Ministerium der Justiz",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mbe",
-      "source_name": "Niedersächsisches Ministerium für Bundes- und Europaangelegenheiten und Regionale Entwicklung",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mel",
-      "source_name": "Niedersächsisches Ministerium für Ernährung, Landwirtschaft und Verbraucherschutz",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mi",
-      "source_name": "Niedersächsisches Ministerium für Inneres, Sport und Digitalisierung",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-ms",
-      "source_name": "Niedersächsisches Ministerium für Soziales, Arbeit, Gesundheit und Gleichstellung",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mu",
-      "source_name": "Niedersächsisches Ministerium für Umwelt, Energie und Klimaschutz",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mw",
-      "source_name": "Niedersächsisches Ministerium für Wirtschaft, Verkehr und Bauen",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
-    },
-    {
-      "source_id": "ni-mwk",
-      "source_name": "Niedersächsisches Ministerium für Wissenschaft und Kultur",
-      "adapter": "karriere_ni",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "'utf-8' codec can't decode byte 0xfc in position 543: invalid start byte"
     },
     {
       "source_id": "hb-fin",
@@ -333,6 +216,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "sh-mekun",
+      "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "zero",
+      "baseline": 5.0,
+      "count": 0,
+      "error": null
     }
   ]
 }
