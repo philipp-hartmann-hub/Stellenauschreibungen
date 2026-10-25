@@ -12,7 +12,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -36,7 +36,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -60,7 +60,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -84,7 +84,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -103,7 +103,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -122,7 +122,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -141,7 +141,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -160,7 +160,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -179,7 +179,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -198,7 +198,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -217,7 +217,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -236,7 +236,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -255,7 +255,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -274,7 +274,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -293,7 +293,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -312,7 +312,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -331,7 +331,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -350,7 +350,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -369,7 +369,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -388,7 +388,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -407,7 +407,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -426,7 +426,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -445,7 +445,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -464,7 +464,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -483,7 +483,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -502,7 +502,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -521,7 +521,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -540,7 +540,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -559,7 +559,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -578,7 +578,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -597,7 +597,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -616,7 +616,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -635,7 +635,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -654,7 +654,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -673,7 +673,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -692,7 +692,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -711,7 +711,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-26T06:11:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -730,7 +730,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-26T06:11:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -749,7 +749,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -768,7 +768,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -787,7 +787,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-09T10:16:07+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -806,7 +806,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-09T10:16:07+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -825,7 +825,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-16T10:29:11+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -844,7 +844,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-16T10:29:11+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -863,7 +863,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-16T10:29:11+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -882,7 +882,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-16T10:29:11+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -901,7 +901,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-23T10:30:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -920,7 +920,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-30T11:41:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -939,7 +939,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-09-30T11:41:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -958,7 +958,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -977,7 +977,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -996,7 +996,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -1015,7 +1015,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.verkuendung-bayern.de/baymbl/?ressort=5&publicationType=stellenausschreibung&itemsPerPage=50"
@@ -1034,7 +1034,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 590,
@@ -1071,7 +1071,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 680,
@@ -1110,7 +1110,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2257,
@@ -1149,7 +1149,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2190,
@@ -1188,7 +1188,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2214,
@@ -1227,7 +1227,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2161,
@@ -1266,7 +1266,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2229,
@@ -1305,7 +1305,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2230,
@@ -1344,7 +1344,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2226,
@@ -1383,7 +1383,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2232,
@@ -1422,7 +1422,7 @@
     "land": "Hessen",
     "adapter": "karriere_he",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "__metadata": {
@@ -1496,7 +1496,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44331",
@@ -1594,7 +1594,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1073,
@@ -1634,7 +1634,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -1683,7 +1683,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-01T12:06:56+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -1779,7 +1779,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -1875,7 +1875,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 524,
@@ -1912,7 +1912,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 523,
@@ -1951,7 +1951,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 521,
@@ -1990,7 +1990,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1700,
@@ -2029,7 +2029,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1714,
@@ -2068,7 +2068,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1699,
@@ -2107,7 +2107,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1712,
@@ -2146,7 +2146,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1662,
@@ -2185,7 +2185,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1717,
@@ -2224,7 +2224,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -2243,7 +2243,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-bildung-familie-senioren-frauen-und-jugend/63"
@@ -2262,7 +2262,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58"
@@ -2281,7 +2281,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-08-22T18:46:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "2530226",
@@ -2307,7 +2307,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2155,
@@ -2344,7 +2344,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2076,
@@ -2383,7 +2383,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -2406,7 +2406,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "43611",
@@ -2500,7 +2500,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2064,
@@ -2539,7 +2539,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "236",
@@ -2590,7 +2590,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
@@ -2609,7 +2609,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -2628,7 +2628,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -2647,7 +2647,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-29T11:56:51+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2032,
@@ -2686,7 +2686,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-30T11:41:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2035,
@@ -2725,7 +2725,7 @@
     "land": "Hessen",
     "adapter": "karriere_he",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "__metadata": {
@@ -2799,7 +2799,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -2823,7 +2823,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -2842,7 +2842,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40173,
@@ -2859,7 +2859,7 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281378,
+          "uid": 281852,
           "location_street": "Winzererstraße 9",
           "location_zip": "80797",
           "location_city": "München"
@@ -2880,7 +2880,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -2976,7 +2976,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -3072,7 +3072,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-10T11:59:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -3168,7 +3168,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40020,
@@ -3185,7 +3185,7 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281285,
+          "uid": 281759,
           "location_street": "Winzererstraße 9",
           "location_zip": "80797",
           "location_city": "München"
@@ -3206,7 +3206,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -3302,7 +3302,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -3398,7 +3398,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3420,7 +3420,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3444,7 +3444,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3475,7 +3475,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3499,7 +3499,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3523,7 +3523,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3547,7 +3547,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3571,7 +3571,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3595,7 +3595,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -3644,7 +3644,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-28T12:28:58+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3668,7 +3668,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44350",
@@ -3768,7 +3768,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.stmwi.bayern.de/ministerium/karriere/"
@@ -3787,7 +3787,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-justiz/56"
@@ -3806,7 +3806,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3830,7 +3830,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -3853,7 +3853,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 703,
@@ -3893,7 +3893,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 707,
@@ -3932,7 +3932,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44132",
@@ -4026,7 +4026,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40255,
@@ -4043,7 +4043,7 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281426,
+          "uid": 281900,
           "location_street": "Michael-Bauer-Straße 30",
           "location_zip": "93138",
           "location_city": "Lappersdorf"
@@ -4064,7 +4064,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-09-30T11:41:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Büromitarbeiterin/Büromitarbeiter (w/m/d)",
@@ -4096,7 +4096,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Bürosachbearbeiter*in für das Referat 52 - MLEUV - 26/46/52",
@@ -4128,7 +4128,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Bürosachbearbeiter/in (w/m/d) Vorzimmer der Abteilungsleitung 3 (Abteilung Steuern)",
@@ -4151,7 +4151,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -4200,7 +4200,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-01T12:06:56+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2051,
@@ -4240,7 +4240,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2148,
@@ -4280,7 +4280,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44227",
@@ -4380,7 +4380,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-08-22T18:28:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "282",
@@ -4431,7 +4431,7 @@
     "land": "Brandenburg",
     "adapter": "interamt",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "228",
@@ -4483,7 +4483,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -4514,7 +4514,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-01T10:28:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -4565,7 +4565,7 @@
     "land": "Rheinland-Pfalz",
     "adapter": "karriere_rp",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "19561",
@@ -4593,7 +4593,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-des-innern-und-fuer-heimat/58"
@@ -4612,7 +4612,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 527,
@@ -4651,7 +4651,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 530,
@@ -4691,7 +4691,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-08-22T18:46:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "2530238",
@@ -4702,32 +4702,6 @@
       "deadline": "2027-05-31",
       "posted_at": "2026-03-31",
       "internal_id": "0018864"
-    }
-  },
-  {
-    "uid": "d59b69a25c06e670abfa459c",
-    "title": "Duales Studium zum/ zur Verfassungsschützer/-in",
-    "url": "https://karriere.thueringen.de/Stellenangebote/duales-studium-zum-zur-verfassungsschuetzer-in",
-    "location": "Erfurt",
-    "posted_at": "2026-09-29",
-    "deadline": "2026-12-31",
-    "source_id": "th-mi",
-    "source_name": "Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung",
-    "ebene": "land",
-    "land": "Thüringen",
-    "adapter": "karriere_th",
-    "first_seen": "2026-09-30T11:41:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "job_id": "4526601",
-      "title": "Duales Studium zum/ zur Verfassungsschützer/-in",
-      "employer": "Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung - Referat 11",
-      "url": "https://karriere.thueringen.de/Stellenangebote/duales-studium-zum-zur-verfassungsschuetzer-in",
-      "location": "Erfurt",
-      "deadline": "2026-12-31",
-      "posted_at": "2026-09-29",
-      "internal_id": "0144457"
     }
   },
   {
@@ -4743,7 +4717,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-09-26T10:22:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4518739",
@@ -4769,7 +4743,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -4792,7 +4766,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-09-21T11:15:19+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "43901",
@@ -4886,7 +4860,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1720,
@@ -4926,7 +4900,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1698,
@@ -4966,7 +4940,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -4985,7 +4959,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -5004,7 +4978,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
@@ -5023,29 +4997,10 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-gesundheit/64"
-    }
-  },
-  {
-    "uid": "2fbf543b2332a3e579297f0a",
-    "title": "eine Sachbearbeiterin /ein Sachbearbeiter (m/w/d) für das Referat S7 „Koordinierung Datenlabore, IT-Services“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-035",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25928540",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {
@@ -5061,7 +5016,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "236",
@@ -5112,7 +5067,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-08-22T18:28:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "282",
@@ -5163,7 +5118,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-28T12:28:58+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5187,7 +5142,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5211,7 +5166,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5235,7 +5190,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-28T12:28:58+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5259,7 +5214,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4550249",
@@ -5285,7 +5240,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5309,7 +5264,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5333,7 +5288,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "264",
@@ -5384,7 +5339,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5408,7 +5363,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -5427,7 +5382,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "236",
@@ -5478,7 +5433,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4573076",
@@ -5504,7 +5459,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4555678",
@@ -5530,7 +5485,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4555566",
@@ -5556,7 +5511,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-09-29T11:56:51+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Fachleiter/in und Fachreferent/in (w/m/d) für das Fach Geschichte",
@@ -5579,7 +5534,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44280",
@@ -5685,7 +5640,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44281",
@@ -5789,7 +5744,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-09-15T10:33:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "43810",
@@ -5883,7 +5838,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -5931,7 +5886,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40260,
@@ -5948,7 +5903,7 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281431,
+          "uid": 281905,
           "location_street": "Hans-Högn-Straße 12",
           "location_zip": "95030",
           "location_city": "Hof"
@@ -5969,7 +5924,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -5992,7 +5947,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6023,7 +5978,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44119",
@@ -6121,7 +6076,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6143,7 +6098,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6165,7 +6120,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6196,7 +6151,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6218,7 +6173,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6242,7 +6197,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6265,7 +6220,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-03T10:55:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6288,7 +6243,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-30T11:41:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6310,7 +6265,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-03T10:55:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6333,7 +6288,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6356,7 +6311,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-10T11:59:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6379,7 +6334,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6402,7 +6357,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2233,
@@ -6441,7 +6396,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6465,7 +6420,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-03T10:55:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6488,7 +6443,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6511,7 +6466,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6534,7 +6489,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2170,
@@ -6574,7 +6529,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2107,
@@ -6614,7 +6569,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-11T10:13:43+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1893,
@@ -6654,7 +6609,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-08-22T17:56:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1439460",
@@ -6678,7 +6633,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -6697,7 +6652,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -6719,7 +6674,7 @@
     "land": "Bayern",
     "adapter": "gjb",
     "first_seen": "2026-08-22T07:30:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "513",
@@ -6827,7 +6782,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundeskanzleramt/52"
@@ -6846,7 +6801,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1505163",
@@ -6870,7 +6825,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -6889,7 +6844,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.bmleh.de/DE/ministerium/stellenangebote-und-ausschreibungen/stellenangebote-und-ausschreibungen_tabelle.html"
@@ -6908,7 +6863,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "264",
@@ -6959,7 +6914,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-08-22T10:29:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -7055,7 +7010,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40046,
@@ -7072,7 +7027,7 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281306,
+          "uid": 281780,
           "location_street": "Obere Stadt 1",
           "location_zip": "84130",
           "location_city": "Dingolfing"
@@ -7093,7 +7048,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-08-22T10:29:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -7189,7 +7144,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 563,
@@ -7229,7 +7184,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -7325,7 +7280,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-09-25T10:45:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -7421,7 +7376,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7443,7 +7398,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1280,
@@ -7483,7 +7438,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7514,7 +7469,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1278,
@@ -7555,7 +7510,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7579,7 +7534,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7603,52 +7558,13 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
         "32"
       ],
       "employer": "Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt"
-    }
-  },
-  {
-    "uid": "0e0759d409a7bf7a180ab7b7",
-    "title": "Koordinator/in für Studium Generale und transformative Bildung (m/w/d) 75 %",
-    "url": "https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen/einzelansicht/job/koordinatorin-fuer-studium-generale-und-transformative-bildung-mwd-75",
-    "location": "Freiburg",
-    "posted_at": null,
-    "deadline": "25. Oktober 2026",
-    "source_id": "bw-mwfk",
-    "source_name": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg",
-    "ebene": "land",
-    "land": "Baden-Württemberg",
-    "adapter": "karriere_bw",
-    "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "id": 2088,
-      "title": "Koordinator/in für Studium Generale und transformative Bildung (m/w/d) 75 %",
-      "location": "Freiburg",
-      "additional_locations": 0,
-      "department": "Pädagogische Hochschule Freiburg",
-      "field_of_activity": "Wissenschaft, Forschung und Kunst",
-      "additional_field_of_activity": 0,
-      "compensation_short": "",
-      "application_deadline": "25. Oktober 2026",
-      "start_date": "1. Dezember 2026",
-      "text": "Koordinator/in für Studium Generale und transformative Bildung (m/w/d) 75 %",
-      "employment_type": [
-        "Arbeitsverhältnis"
-      ],
-      "employment_duration": [
-        "Unbefristet"
-      ],
-      "employment_scopes": [
-        "Teilzeit 75"
-      ],
-      "url": "https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen/einzelansicht/job/koordinatorin-fuer-studium-generale-und-transformative-bildung-mwd-75"
     }
   },
   {
@@ -7664,7 +7580,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7688,7 +7604,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7712,7 +7628,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7735,7 +7651,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44335",
@@ -7837,7 +7753,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44159",
@@ -7930,7 +7846,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2058,
@@ -7969,7 +7885,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -7993,7 +7909,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2111,
@@ -8032,7 +7948,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2114,
@@ -8071,7 +7987,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8095,7 +8011,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8119,7 +8035,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8143,7 +8059,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8174,7 +8090,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8205,7 +8121,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2060,
@@ -8244,7 +8160,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2203,
@@ -8283,7 +8199,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8307,7 +8223,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8338,7 +8254,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8360,7 +8276,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8391,7 +8307,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44245",
@@ -8507,7 +8423,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2147,
@@ -8546,7 +8462,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2197,
@@ -8585,7 +8501,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8608,7 +8524,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2117,
@@ -8647,7 +8563,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2202,
@@ -8686,7 +8602,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2160,
@@ -8726,7 +8642,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44330",
@@ -8824,7 +8740,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-08-22T18:28:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -8876,7 +8792,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8900,7 +8816,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8924,7 +8840,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -8948,7 +8864,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2211,
@@ -8975,25 +8891,6 @@
     }
   },
   {
-    "uid": "afb3bcc4f04b641b4bc6fdd9",
-    "title": "Mehrere Bürosachbearbeiterinnen / mehrere Bürosachbearbeiter (m/w/d) im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-034",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25928510",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
-    }
-  },
-  {
     "uid": "4abd4eb5acf64dc13b7321a4",
     "title": "Mehrere Richterinnen bzw. Richter auf Probe (Besoldungsgruppe R 1 BbgBesO) für die Arbeitsgerichtsbarkeit",
     "url": "https://karriere-in-brandenburg.de/stellenangebote/22141",
@@ -9006,7 +8903,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Mehrere Richterinnen bzw. Richter auf Probe (Besoldungsgruppe R 1 BbgBesO) für die Arbeitsgerichtsbarkeit",
@@ -9038,7 +8935,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -9062,7 +8959,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-09-28T12:28:58+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "43966",
@@ -9156,7 +9053,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -9187,7 +9084,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": true,
@@ -9235,7 +9132,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": true,
@@ -9283,7 +9180,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2218,
@@ -9323,7 +9220,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "264",
@@ -9374,7 +9271,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2180,
@@ -9413,7 +9310,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.stmwi.bayern.de/ministerium/karriere/"
@@ -9432,7 +9329,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -9463,7 +9360,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -9494,7 +9391,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Mitarbeiter/in (m/w/d) Poststelle und Schriftgutverwaltung",
@@ -9526,7 +9423,7 @@
     "land": "Rheinland-Pfalz",
     "adapter": "karriere_rp",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "19663",
@@ -9554,7 +9451,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2137,
@@ -9593,7 +9490,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4583312",
@@ -9619,7 +9516,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2228,
@@ -9658,7 +9555,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-03T10:55:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44095",
@@ -9752,7 +9649,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2171,
@@ -9791,7 +9688,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2212,
@@ -9831,7 +9728,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2200,
@@ -9870,7 +9767,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2146,
@@ -9907,7 +9804,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -9955,7 +9852,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -10003,7 +9900,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1500628",
@@ -10027,7 +9924,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1499124",
@@ -10051,7 +9948,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1501274",
@@ -10075,7 +9972,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -10128,7 +10025,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2100,
@@ -10168,7 +10065,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10199,7 +10096,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10223,31 +10120,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "client_ids": [
-        "25",
-        "84",
-        "102"
-      ],
-      "employer": "Senatsverwaltung für Bildung, Jugend und Familie (Schule)"
-    }
-  },
-  {
-    "uid": "902ba99ff6001a7c294495eb",
-    "title": "Oberstudienrätin/Oberstudienrat (m/w/d) - Fachleiter/-in als Qualitätsbeauftragte/-r - Schulentwicklung",
-    "url": "https://www.karriereportal-stellen.berlin.de/OberstudienraetinOberstudienrat-mwd-Fachleiter-in-als-Qual-de-j70311.html",
-    "location": "A14",
-    "posted_at": null,
-    "deadline": "2026-10-24",
-    "source_id": "be-senbjf",
-    "source_name": "Senatsverwaltung für Bildung, Jugend und Familie Berlin",
-    "ebene": "land",
-    "land": "Berlin",
-    "adapter": "karriere_be",
-    "first_seen": "2026-09-25T10:45:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10271,31 +10144,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "client_ids": [
-        "25",
-        "84",
-        "102"
-      ],
-      "employer": "Senatsverwaltung für Bildung, Jugend und Familie (Schule)"
-    }
-  },
-  {
-    "uid": "b5b5bd065b08a0c99e6ce23c",
-    "title": "Oberstudienrätin/Oberstudienrat (m/w/d) - Fachleiter/-in Deutsch (FS, BFS)",
-    "url": "https://www.karriereportal-stellen.berlin.de/OberstudienraetinOberstudienrat-mwd-Fachleiter-in-Deutsch--de-j70305.html",
-    "location": "A14",
-    "posted_at": null,
-    "deadline": "2026-10-24",
-    "source_id": "be-senbjf",
-    "source_name": "Senatsverwaltung für Bildung, Jugend und Familie Berlin",
-    "ebene": "land",
-    "land": "Berlin",
-    "adapter": "karriere_be",
-    "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10319,31 +10168,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "client_ids": [
-        "25",
-        "84",
-        "102"
-      ],
-      "employer": "Senatsverwaltung für Bildung, Jugend und Familie (Schule)"
-    }
-  },
-  {
-    "uid": "d2ea735b22edbc918de4ff86",
-    "title": "Oberstudienrätin/Oberstudienrat (m/w/d) - Fachleiter/-in Heizung und Klimatechnik",
-    "url": "https://www.karriereportal-stellen.berlin.de/OberstudienraetinOberstudienrat-mwd-Fachleiter-in-Heizung--de-j70312.html",
-    "location": "A14",
-    "posted_at": null,
-    "deadline": "2026-10-24",
-    "source_id": "be-senbjf",
-    "source_name": "Senatsverwaltung für Bildung, Jugend und Familie Berlin",
-    "ebene": "land",
-    "land": "Berlin",
-    "adapter": "karriere_be",
-    "first_seen": "2026-09-25T10:45:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10367,7 +10192,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10391,31 +10216,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "client_ids": [
-        "25",
-        "84",
-        "102"
-      ],
-      "employer": "Senatsverwaltung für Bildung, Jugend und Familie (Schule)"
-    }
-  },
-  {
-    "uid": "88889ce774b140e1ded96067",
-    "title": "Oberstudienrätin/Oberstudienrat (m/w/d) - Fachleiter/-in Sport / Gesundheitserziehung (OG, FOS)",
-    "url": "https://www.karriereportal-stellen.berlin.de/OberstudienraetinOberstudienrat-mwd-Fachleiter-in-Sport-Ge-de-j70306.html",
-    "location": "A14",
-    "posted_at": null,
-    "deadline": "2026-10-24",
-    "source_id": "be-senbjf",
-    "source_name": "Senatsverwaltung für Bildung, Jugend und Familie Berlin",
-    "ebene": "land",
-    "land": "Berlin",
-    "adapter": "karriere_be",
-    "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10439,7 +10240,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10463,7 +10264,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10494,7 +10295,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10518,7 +10319,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10541,7 +10342,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10572,7 +10373,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10603,7 +10404,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10625,7 +10426,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10647,7 +10448,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 970,
@@ -10686,7 +10487,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 554,
@@ -10725,7 +10526,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 332,
@@ -10762,7 +10563,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 989,
@@ -10801,7 +10602,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -10824,7 +10625,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -10873,7 +10674,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -10922,7 +10723,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -10973,7 +10774,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11023,7 +10824,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11073,7 +10874,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11123,7 +10924,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11173,7 +10974,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11223,7 +11024,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11274,7 +11075,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11325,7 +11126,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11376,7 +11177,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11427,7 +11228,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -11477,7 +11278,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-08-22T17:56:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1257493",
@@ -11501,7 +11302,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2179,
@@ -11540,7 +11341,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2177,
@@ -11579,7 +11380,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-11T10:13:43+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1895,
@@ -11619,7 +11420,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-23T10:30:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1977,
@@ -11659,7 +11460,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 257,
@@ -11698,7 +11499,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-10T11:59:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2134,
@@ -11737,7 +11538,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-09-23T10:30:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -11833,7 +11634,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -11855,7 +11656,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -11878,7 +11679,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44126",
@@ -11976,7 +11777,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12000,7 +11801,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12024,7 +11825,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12047,7 +11848,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2217,
@@ -12086,7 +11887,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12110,7 +11911,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-08-09T13:09:40+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://bmas.stellen.center/"
@@ -12129,7 +11930,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 995,
@@ -12168,7 +11969,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12191,7 +11992,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.stmwi.bayern.de/ministerium/karriere/"
@@ -12210,7 +12011,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44117",
@@ -12304,7 +12105,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Referatsleiter*in für das Referat 54\" - MLEUV - 26/28/54",
@@ -12336,7 +12137,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4550114",
@@ -12347,46 +12148,6 @@
       "deadline": "2026-10-30",
       "posted_at": "2026-10-08",
       "internal_id": "0146223"
-    }
-  },
-  {
-    "uid": "1481e0979b16b959886afad5",
-    "title": "Referatsleitung mit stellvertretender Abteilungsleitung (w/m/d) für das Referat „Observation, Operative Technik“",
-    "url": "https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen/einzelansicht/job/referatsleitung-mit-stellvertretender-abteilungsleitung-wmd-fuer-das-referat-observation-operative-technik",
-    "location": "Stuttgart",
-    "posted_at": null,
-    "deadline": "25. Oktober 2026",
-    "source_id": "bw-mi",
-    "source_name": "Ministerium des Inneren, für Digitalisierung und Europa Baden-Württemberg",
-    "ebene": "land",
-    "land": "Baden-Württemberg",
-    "adapter": "karriere_bw",
-    "first_seen": "2026-09-25T10:45:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "id": 2012,
-      "title": "Referatsleitung mit stellvertretender Abteilungsleitung (w/m/d) für das Referat „Observation, Operative Technik“",
-      "location": "Stuttgart",
-      "additional_locations": 0,
-      "department": "Landesamt für Verfassungsschutz Baden-Württemberg, Stuttgart",
-      "field_of_activity": "Ordnung und Sicherheit",
-      "additional_field_of_activity": 0,
-      "compensation_short": "bis Bes. Gr. A 15 LBesGBW",
-      "application_deadline": "25. Oktober 2026",
-      "start_date": "Ab sofort",
-      "text": "Referatsleitung mit stellvertretender Abteilungsleitung (w/m/d) für das Referat „Observation, Operative Technik“",
-      "employment_type": [
-        "Arbeits- oder Beamtenverhältnis"
-      ],
-      "employment_duration": [
-        "Unbefristet"
-      ],
-      "employment_scopes": [
-        "Vollzeit",
-        "Teilzeit"
-      ],
-      "url": "https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen/einzelansicht/job/referatsleitung-mit-stellvertretender-abteilungsleitung-wmd-fuer-das-referat-observation-operative-technik"
     }
   },
   {
@@ -12402,7 +12163,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -12440,6 +12201,32 @@
     }
   },
   {
+    "uid": "9bcb723f3ebc8aedf00a63b1",
+    "title": "Referent \"Klimaschutz\" im Referat 35 des TMUENF (m/w/d)*",
+    "url": "https://karriere.thueringen.de/Stellenangebote/referent-klimaschutz-im-referat-35-des-tmuenf-m-w-d",
+    "location": "Erfurt",
+    "posted_at": "2026-10-06",
+    "deadline": "2026-10-31",
+    "source_id": "th-muenf",
+    "source_name": "Thüringer Ministerium für Umwelt, Energie, Naturschutz und Forsten",
+    "ebene": "land",
+    "land": "Thüringen",
+    "adapter": "karriere_th",
+    "first_seen": "2026-10-07T12:19:52+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
+    "active": true,
+    "raw": {
+      "job_id": "4545641",
+      "title": "Referent \"Klimaschutz\" im Referat 35 des TMUENF (m/w/d)*",
+      "employer": "Thüringer Ministerium für Umwelt, Energie, Naturschutz und Forsten",
+      "url": "https://karriere.thueringen.de/Stellenangebote/referent-klimaschutz-im-referat-35-des-tmuenf-m-w-d",
+      "location": "Erfurt",
+      "deadline": "2026-10-31",
+      "posted_at": "2026-10-06",
+      "internal_id": "0145918"
+    }
+  },
+  {
     "uid": "859c3fb4332d10c3ac84d9a1",
     "title": "Referent (m/w/d) für Förderangelegenheiten der Fischerei und Aquakultur im Referat 35 - Tierische Erzeugnisse",
     "url": "https://www.karriere.sachsen.de/karriere/stellenanzeige.jsp?id=48024",
@@ -12452,7 +12239,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": true,
@@ -12503,7 +12290,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2256,
@@ -12543,7 +12330,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1324,
@@ -12583,7 +12370,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-29T11:56:51+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "235",
@@ -12634,7 +12421,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1246,
@@ -12674,7 +12461,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Referent*in \"Immissionsschutzrechtliche Genehmigungsverfahren\" - MLEUV - 26/42/54",
@@ -12706,7 +12493,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12728,7 +12515,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Referent*in für das Referat 54 - MLEUV - 26/25/54",
@@ -12760,7 +12547,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12782,7 +12569,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4555495",
@@ -12808,7 +12595,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12839,7 +12626,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Referent/in (w/m/d) Geschäftsstellenleitung der Jugend- und Familienministerkonferenz",
@@ -12862,7 +12649,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -12884,7 +12671,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4578898",
@@ -12910,7 +12697,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4550234",
@@ -12936,7 +12723,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4581718",
@@ -12962,7 +12749,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4581824",
@@ -12988,7 +12775,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2119,
@@ -13027,7 +12814,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4550450",
@@ -13053,7 +12840,7 @@
     "land": "Hessen",
     "adapter": "karriere_he",
     "first_seen": "2026-09-15T10:33:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "__metadata": {
@@ -13115,25 +12902,6 @@
     }
   },
   {
-    "uid": "d52976d06444c3dab9ec1360",
-    "title": "Referentin / Referent (w/m/d) im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) im Referat S 3 „Changemanagement, Personalentwicklung\" - BMDS-2026-033",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25911952",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "bmds",
-    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
-    }
-  },
-  {
     "uid": "f9cfadbfc98b05ec10c7d955",
     "title": "Referentin bzw. Referent (m/w/d) Fachanwendung InA.Net",
     "url": "https://stellen.hamburg.de/index.php?ac=jobad&id=44310",
@@ -13146,7 +12914,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44310",
@@ -13248,7 +13016,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -13271,7 +13039,7 @@
     "land": "Hessen",
     "adapter": "karriere_he",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "__metadata": {
@@ -13345,7 +13113,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -13441,7 +13209,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -13463,7 +13231,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-01T10:28:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -13486,7 +13254,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-01T10:28:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -13537,7 +13305,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Regionalplaner (m/w/d) bei der Regionalen Planungsgemeinschaft Prignitz-Oberhavel",
@@ -13569,7 +13337,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2142,
@@ -13609,7 +13377,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2213,
@@ -13649,7 +13417,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -13680,7 +13448,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -13711,7 +13479,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1271,
@@ -13751,7 +13519,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "236",
@@ -13802,7 +13570,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -13851,7 +13619,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 39923,
@@ -13895,7 +13663,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4570422",
@@ -13921,7 +13689,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-09-29T11:56:51+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -13970,7 +13738,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Sachbearbeiter*in für das Referat 13 \"Haushalt-BdH - MLEUV - 26/43/13",
@@ -14002,7 +13770,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2222,
@@ -14042,7 +13810,7 @@
     "land": "Bayern",
     "adapter": "interamt",
     "first_seen": "2026-10-03T10:55:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "588",
@@ -14102,7 +13870,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4586050",
@@ -14128,7 +13896,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Sachbearbeiter/in (w/m/d) Cyberabwehr",
@@ -14151,7 +13919,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Sachbearbeiter/in (w/m/d) für Tourismus",
@@ -14174,7 +13942,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Sachbearbeiter/in (w/m/d) Lärmschutz, immissionsschutzbezogene IT-Fachanwendungen",
@@ -14197,7 +13965,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Sachbearbeiter/in (w/m/d) Social Media und digitale Kommunikation",
@@ -14220,7 +13988,7 @@
     "land": "Mecklenburg-Vorpommern",
     "adapter": "karriere_mv",
     "first_seen": "2026-09-17T10:29:14+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Sachbearbeiter/in (w/m/d) Statistik und Finanzhilfe der Ersatzschulen",
@@ -14243,7 +14011,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4564637",
@@ -14269,7 +14037,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -14300,7 +14068,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-14T10:23:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2158,
@@ -14340,7 +14108,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2123,
@@ -14379,7 +14147,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2198,
@@ -14420,7 +14188,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2225,
@@ -14460,7 +14228,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-29T11:56:51+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2029,
@@ -14498,7 +14266,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2163,
@@ -14537,7 +14305,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2149,
@@ -14576,7 +14344,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2193,
@@ -14615,7 +14383,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2199,
@@ -14654,7 +14422,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2236,
@@ -14693,7 +14461,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44169",
@@ -14793,7 +14561,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1823,
@@ -14833,7 +14601,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -14852,7 +14620,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1499022",
@@ -14876,7 +14644,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-01T12:06:56+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2046,
@@ -14917,7 +14685,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-09-29T11:56:51+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -15013,7 +14781,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40085,
@@ -15030,7 +14798,7 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281319,
+          "uid": 281793,
           "location_street": "Winzererstraße 9",
           "location_zip": "80797",
           "location_city": "München"
@@ -15051,7 +14819,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40087,
@@ -15068,7 +14836,7 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281321,
+          "uid": 281795,
           "location_street": "Winzererstraße 9",
           "location_zip": "80797",
           "location_city": "München"
@@ -15089,7 +14857,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Sachbearbeiterin/Sachbearbeiter (weiblich/männlich/divers) im Referat 47 \"Prüfdienst Kranken- und Pflegeversicherung (PDK)\"",
@@ -15121,7 +14889,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1821,
@@ -15161,7 +14929,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -15210,7 +14978,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "281",
@@ -15249,70 +15017,6 @@
     }
   },
   {
-    "uid": "f2a2f502d5abc82fa6ac7d94",
-    "title": "Sachbearbeitung (m/w/d) Bildungszeit",
-    "url": "https://karriere-in-brandenburg.de/stellenangebote/21416",
-    "location": "Potsdam",
-    "posted_at": "2026-09-29",
-    "deadline": "2026-10-25",
-    "source_id": "bb-mbjs",
-    "source_name": "Ministerium für Bildung, Jugend und Sport Brandenburg",
-    "ebene": "land",
-    "land": "Brandenburg",
-    "adapter": "karriere_bb",
-    "first_seen": "2026-10-01T12:06:56+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "title": "Sachbearbeitung (m/w/d) Bildungszeit",
-      "id": 21416,
-      "employer": "Ministerium für Bildung, Jugend und Sport des Landes Brandenburg",
-      "employerType": "0",
-      "type": 92,
-      "profession": 103,
-      "classification": 125,
-      "workingTime": "2",
-      "temporary": "2",
-      "area": 198,
-      "city": "Potsdam",
-      "vacancy": "25.10.2026",
-      "vacancyDate": 1792879200,
-      "onlineDate": 1790719200
-    }
-  },
-  {
-    "uid": "681edfd90451ae4a7724f054",
-    "title": "Sachbearbeitung (m/w/d) Ganztagsangebote und gemeinsamer Unterricht",
-    "url": "https://karriere-in-brandenburg.de/stellenangebote/21426",
-    "location": "Potsdam",
-    "posted_at": "2026-09-29",
-    "deadline": "2026-10-25",
-    "source_id": "bb-mbjs",
-    "source_name": "Ministerium für Bildung, Jugend und Sport Brandenburg",
-    "ebene": "land",
-    "land": "Brandenburg",
-    "adapter": "karriere_bb",
-    "first_seen": "2026-10-01T12:06:56+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "title": "Sachbearbeitung (m/w/d) Ganztagsangebote und gemeinsamer Unterricht",
-      "id": 21426,
-      "employer": "Ministerium für Bildung, Jugend und Sport des Landes Brandenburg",
-      "employerType": "0",
-      "type": 92,
-      "profession": 103,
-      "classification": 125,
-      "workingTime": "1",
-      "temporary": "2",
-      "area": 198,
-      "city": "Potsdam",
-      "vacancy": "25.10.2026",
-      "vacancyDate": 1792879200,
-      "onlineDate": 1790719200
-    }
-  },
-  {
     "uid": "a4bb6cebc3278978c5335ced",
     "title": "Sachbearbeitung (m/w/d) im Referat 34 \"Verwaltungsbehörde ESF\"",
     "url": "https://karriere.thueringen.de/Stellenangebote/sachbearbeitung-m-w-d-im-referat-34-verwaltungsbehoerde-esf",
@@ -15325,7 +15029,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4539828",
@@ -15351,7 +15055,7 @@
     "land": "Rheinland-Pfalz",
     "adapter": "karriere_rp",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "19647",
@@ -15367,32 +15071,6 @@
     }
   },
   {
-    "uid": "7e9b0f608671fdf2091c8c88",
-    "title": "Sachbearbeitung (m/w/d) im Referat 63 „Erzieherische Hilfen“ im Sachgebiet „Landesjugendamt: Zentrale Adoptionsstelle“",
-    "url": "https://karriere.thueringen.de/Stellenangebote/sachbearbeitung-m-w-d-im-referat-63-erzieherische-hilfen-im-sachgebiet-landesjugendamt-zentrale-adoptionsstelle",
-    "location": "Erfurt",
-    "posted_at": "2026-10-16",
-    "deadline": "2026-11-06",
-    "source_id": "th-msgef",
-    "source_name": "Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie",
-    "ebene": "land",
-    "land": "Thüringen",
-    "adapter": "karriere_th",
-    "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "job_id": "4572652",
-      "title": "Sachbearbeitung (m/w/d) im Referat 63 „Erzieherische Hilfen“ im Sachgebiet „Landesjugendamt: Zentrale Adoptionsstelle“",
-      "employer": "Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie",
-      "url": "https://karriere.thueringen.de/Stellenangebote/sachbearbeitung-m-w-d-im-referat-63-erzieherische-hilfen-im-sachgebiet-landesjugendamt-zentrale-adoptionsstelle",
-      "location": "Erfurt",
-      "deadline": "2026-11-06",
-      "posted_at": "2026-10-16",
-      "internal_id": "0147566"
-    }
-  },
-  {
     "uid": "342fda9ad355854d0a8256cf",
     "title": "Sachbearbeitung (m/w/d) im Referat 63 „Erzieherische Hilfen“ ZV",
     "url": "https://karriere.thueringen.de/Stellenangebote/sachbearbeitung-m-w-d-im-referat-63-erzieherische-hilfen-zv",
@@ -15405,7 +15083,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4571109",
@@ -15431,7 +15109,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -15527,7 +15205,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2122,
@@ -15567,7 +15245,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2192,
@@ -15607,7 +15285,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -15629,7 +15307,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -15651,7 +15329,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -15700,7 +15378,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-08T12:24:20+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 329,
@@ -15740,7 +15418,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 314,
@@ -15780,7 +15458,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-17T10:29:14+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "235",
@@ -15831,7 +15509,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-03T10:55:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -15853,7 +15531,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -15875,7 +15553,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -15899,7 +15577,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -15995,39 +15673,13 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
         "32"
       ],
       "employer": "Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt"
-    }
-  },
-  {
-    "uid": "013efce509323c4d4c3818c8",
-    "title": "Sachbearbeitung IT System- und Nutzerbetreuung (m/w/d) im Thüringer Zentrum für Forensische Psychiatrie",
-    "url": "https://karriere.thueringen.de/Stellenangebote/sachbearbeitung-it-system-und-nutzerbetreuung-m-w-d-im-thueringer-zentrum-fuer-forensische-psychiatrie",
-    "location": null,
-    "posted_at": "2026-10-16",
-    "deadline": "2026-11-06",
-    "source_id": "th-msgef",
-    "source_name": "Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie",
-    "ebene": "land",
-    "land": "Thüringen",
-    "adapter": "karriere_th",
-    "first_seen": "2026-10-18T09:48:10+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "job_id": "4572622",
-      "title": "Sachbearbeitung IT System- und Nutzerbetreuung (m/w/d) im Thüringer Zentrum für Forensische Psychiatrie",
-      "employer": "Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie",
-      "url": "https://karriere.thueringen.de/Stellenangebote/sachbearbeitung-it-system-und-nutzerbetreuung-m-w-d-im-thueringer-zentrum-fuer-forensische-psychiatrie",
-      "location": null,
-      "deadline": "2026-11-06",
-      "posted_at": "2026-10-16",
-      "internal_id": "0147563"
     }
   },
   {
@@ -16043,7 +15695,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1455648",
@@ -16067,7 +15719,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1503394",
@@ -16091,7 +15743,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16114,7 +15766,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "42619",
@@ -16222,7 +15874,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16245,7 +15897,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16268,7 +15920,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44270",
@@ -16380,7 +16032,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2209,
@@ -16420,7 +16072,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44200",
@@ -16514,7 +16166,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44137",
@@ -16608,7 +16260,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16632,7 +16284,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1500516",
@@ -16656,7 +16308,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16680,7 +16332,7 @@
     "land": "Hessen",
     "adapter": "karriere_he",
     "first_seen": "2026-09-30T11:41:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "__metadata": {
@@ -16754,7 +16406,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16778,7 +16430,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16802,7 +16454,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2181,
@@ -16841,7 +16493,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16863,7 +16515,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16885,7 +16537,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -16909,7 +16561,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-13T13:04:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2152,
@@ -16948,7 +16600,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "4544092",
@@ -16974,7 +16626,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17005,7 +16657,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17036,7 +16688,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17067,7 +16719,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17098,7 +16750,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17122,7 +16774,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17146,7 +16798,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44343",
@@ -17240,7 +16892,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-26T10:22:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -17292,7 +16944,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-26T10:22:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -17344,7 +16996,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-26T10:22:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -17396,7 +17048,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-26T10:22:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -17448,7 +17100,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17472,7 +17124,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17496,7 +17148,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17520,7 +17172,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17551,7 +17203,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2165,
@@ -17591,7 +17243,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17615,7 +17267,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
@@ -17634,7 +17286,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44230",
@@ -17728,7 +17380,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-01T10:28:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1803,
@@ -17768,7 +17420,7 @@
     "land": "Rheinland-Pfalz",
     "adapter": "karriere_rp",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "19574",
@@ -17796,7 +17448,7 @@
     "land": "Rheinland-Pfalz",
     "adapter": "karriere_rp",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "19662",
@@ -17824,7 +17476,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17832,30 +17484,6 @@
         "37"
       ],
       "employer": "Senatsverwaltung für Finanzen"
-    }
-  },
-  {
-    "uid": "7dbc2d66b2bc756d84f4efc1",
-    "title": "Studiendirektorin/Studiendirektor (m/w/d) - Fachbereichsleiter/-in Wirtschafts- und Sozialkunde",
-    "url": "https://www.karriereportal-stellen.berlin.de/StudiendirektorinStudiendirektor-mwd-Fachbereichsleiter-in-de-j70309.html",
-    "location": "A15",
-    "posted_at": null,
-    "deadline": "2026-10-24",
-    "source_id": "be-senbjf",
-    "source_name": "Senatsverwaltung für Bildung, Jugend und Familie Berlin",
-    "ebene": "land",
-    "land": "Berlin",
-    "adapter": "karriere_be",
-    "first_seen": "2026-09-25T10:45:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "client_ids": [
-        "25",
-        "84",
-        "102"
-      ],
-      "employer": "Senatsverwaltung für Bildung, Jugend und Familie (Schule)"
     }
   },
   {
@@ -17871,31 +17499,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "client_ids": [
-        "25",
-        "84",
-        "102"
-      ],
-      "employer": "Senatsverwaltung für Bildung, Jugend und Familie (Schule)"
-    }
-  },
-  {
-    "uid": "22865eb07e3238b478c2d1fd",
-    "title": "Studiendirektorin/Studiendirektor (m/w/d) - Qualitätsbeauftragte/-r",
-    "url": "https://www.karriereportal-stellen.berlin.de/StudiendirektorinStudiendirektor-mwd-Qualitaetsbeauftragte-de-j70303.html",
-    "location": "A15",
-    "posted_at": null,
-    "deadline": "2026-10-24",
-    "source_id": "be-senbjf",
-    "source_name": "Senatsverwaltung für Bildung, Jugend und Familie Berlin",
-    "ebene": "land",
-    "land": "Berlin",
-    "adapter": "karriere_be",
-    "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17919,7 +17523,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -17943,7 +17547,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1276,
@@ -17983,7 +17587,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1273,
@@ -18023,7 +17627,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-08-22T17:10:13+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -18072,7 +17676,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2075,
@@ -18113,7 +17717,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-02T09:58:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1818,
@@ -18153,7 +17757,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18184,7 +17788,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18208,7 +17812,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-15T10:33:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18239,7 +17843,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18261,7 +17865,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18283,7 +17887,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18307,7 +17911,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18330,7 +17934,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18353,7 +17957,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2221,
@@ -18392,7 +17996,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2067,
@@ -18432,7 +18036,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-01T12:06:56+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44059",
@@ -18514,25 +18118,6 @@
     }
   },
   {
-    "uid": "c5f368c28065ddcdb91016d8",
-    "title": "Techniker/Technikerin (w/m/d) der Elektrotechnik oder Versorgungstechnik",
-    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25779224",
-    "location": null,
-    "posted_at": null,
-    "deadline": null,
-    "source_id": "aa",
-    "source_name": "Auswärtiges Amt",
-    "ebene": "bund",
-    "land": null,
-    "adapter": "generic_html",
-    "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/auswaertiges-amt/2"
-    }
-  },
-  {
     "uid": "366056080f876326be0fcb52",
     "title": "Technische Assistentin/Technischer Assistent (w, m, d) für die Überwachung der Umweltradioaktivität – Gammaspektrometrie, in-situ-und Ortsdosisleistungsmessungen, Probenahme in der Strahlenmessstelle Berlin",
     "url": "https://www.karriereportal-stellen.berlin.de/Technische-AssistentinTechnischer-Assistent-w-m-d-fuer-die-de-j69683.html",
@@ -18545,7 +18130,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-29T11:56:51+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18567,7 +18152,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2241,
@@ -18606,7 +18191,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-24T09:41:36+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44354",
@@ -18704,7 +18289,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18728,7 +18313,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2184,
@@ -18767,7 +18352,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2128,
@@ -18806,7 +18391,7 @@
     "land": null,
     "adapter": "generic_html",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-der-finanzen/55"
@@ -18825,7 +18410,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-07T12:19:52+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2110,
@@ -18864,7 +18449,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-22T10:29:38+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1974,
@@ -18904,7 +18489,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -18927,7 +18512,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 684,
@@ -18967,7 +18552,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 700,
@@ -19007,7 +18592,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-17T09:32:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -19031,7 +18616,7 @@
     "land": "Saarland",
     "adapter": "interamt",
     "first_seen": "2026-09-01T10:28:04+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "243",
@@ -19082,7 +18667,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-09T12:04:42+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2125,
@@ -19121,7 +18706,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -19145,7 +18730,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2253,
@@ -19184,7 +18769,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-23T10:14:46+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -19206,7 +18791,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -19228,7 +18813,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2182,
@@ -19255,6 +18840,32 @@
     }
   },
   {
+    "uid": "87cda2dd6255228fc3730ca6",
+    "title": "Volljurist/-in (A 14 ThürBesO/E 13 TV-L) im Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung",
+    "url": "https://karriere.thueringen.de/Stellenangebote/volljurist-in-a-14-thuerbeso-e-13-tv-l-im-thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung",
+    "location": "Erfurt",
+    "posted_at": "2026-10-15",
+    "deadline": "2026-11-12",
+    "source_id": "th-mi",
+    "source_name": "Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung",
+    "ebene": "land",
+    "land": "Thüringen",
+    "adapter": "karriere_th",
+    "first_seen": "2026-10-16T10:02:02+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
+    "active": true,
+    "raw": {
+      "job_id": "4567819",
+      "title": "Volljurist/-in (A 14 ThürBesO/E 13 TV-L) im Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung",
+      "employer": "Thüringer Ministerium für Inneres, Kommunales und Landesentwicklung - Referat 11",
+      "url": "https://karriere.thueringen.de/Stellenangebote/volljurist-in-a-14-thuerbeso-e-13-tv-l-im-thueringer-ministerium-fuer-inneres-kommunales-und-landesentwicklung",
+      "location": "Erfurt",
+      "deadline": "2026-11-12",
+      "posted_at": "2026-10-15",
+      "internal_id": "0147206"
+    }
+  },
+  {
     "uid": "dcccc6a25e2c69a709710193",
     "title": "Volljurist/in als Vollzugsleitung in einer Justizvollzugsanstalt (m/w/d)",
     "url": "https://karriere-in-brandenburg.de/stellenangebote/22165",
@@ -19267,7 +18878,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Volljurist/in als Vollzugsleitung in einer Justizvollzugsanstalt (m/w/d)",
@@ -19299,7 +18910,7 @@
     "land": "Thüringen",
     "adapter": "karriere_th",
     "first_seen": "2026-08-22T18:46:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "3130989",
@@ -19325,7 +18936,7 @@
     "land": "Sachsen",
     "adapter": "karriere_sachsen",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "fromApplicantManagement": false,
@@ -19373,7 +18984,7 @@
     "land": "Bayern",
     "adapter": "generic_html",
     "first_seen": "2026-08-22T07:23:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "list_url": "https://www.stmwi.bayern.de/ministerium/karriere/"
@@ -19392,7 +19003,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2054,
@@ -19432,7 +19043,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 947,
@@ -19472,7 +19083,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 727,
@@ -19513,7 +19124,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 510,
@@ -19553,7 +19164,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 505,
@@ -19593,7 +19204,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 503,
@@ -19633,7 +19244,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-08-22T06:34:47+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 500,
@@ -19673,7 +19284,7 @@
     "land": "Brandenburg",
     "adapter": "interamt",
     "first_seen": "2026-09-24T10:35:18+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "partner": "228",
@@ -19724,7 +19335,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-09-23T10:30:33+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 1995,
@@ -19763,7 +19374,7 @@
     "land": "Niedersachsen",
     "adapter": "karriere_ni",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "Dienststellen": [
@@ -19859,7 +19470,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-08-22T17:56:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "828316",
@@ -19883,7 +19494,7 @@
     "land": "Hessen",
     "adapter": "karriere_he",
     "first_seen": "2026-09-17T10:29:14+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "__metadata": {
@@ -19957,7 +19568,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -19980,7 +19591,7 @@
     "land": "Schleswig-Holstein",
     "adapter": "karriere_sh",
     "first_seen": "2026-08-22T17:56:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "1399224",
@@ -20004,7 +19615,7 @@
     "land": "Rheinland-Pfalz",
     "adapter": "karriere_rp",
     "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "job_id": "19547",
@@ -20032,7 +19643,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20054,7 +19665,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20085,7 +19696,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20116,7 +19727,7 @@
     "land": "Bayern",
     "adapter": "karriere_by",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "uid": 40016,
@@ -20133,51 +19744,12 @@
       "intern": 0,
       "locations": [
         {
-          "uid": 281274,
+          "uid": 281748,
           "location_street": "Winzererstraße 9",
           "location_zip": "80797",
           "location_city": "München"
         }
       ]
-    }
-  },
-  {
-    "uid": "68705d318920c63a86926c37",
-    "title": "W2-Professur „intelligente Hydrauliksysteme“",
-    "url": "https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen/einzelansicht/job/w2-professur-intelligente-hydrauliksysteme",
-    "location": "Ulm",
-    "posted_at": null,
-    "deadline": "25. Oktober 2026",
-    "source_id": "bw-mwfk",
-    "source_name": "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg",
-    "ebene": "land",
-    "land": "Baden-Württemberg",
-    "adapter": "karriere_bw",
-    "first_seen": "2026-10-02T11:35:27+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
-    "active": true,
-    "raw": {
-      "id": 2063,
-      "title": "W2-Professur „intelligente Hydrauliksysteme“",
-      "location": "Ulm",
-      "additional_locations": 0,
-      "department": "Technische Hochschule Ulm",
-      "field_of_activity": "Wissenschaft, Forschung und Kunst",
-      "additional_field_of_activity": 1,
-      "compensation_short": "W2",
-      "application_deadline": "25. Oktober 2026",
-      "start_date": "Ab sofort",
-      "text": "",
-      "employment_type": [
-        "Beamtenverhältnis"
-      ],
-      "employment_duration": [
-        "Unbefristet"
-      ],
-      "employment_scopes": [
-        "Vollzeit"
-      ],
-      "url": "https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen/einzelansicht/job/w2-professur-intelligente-hydrauliksysteme"
     }
   },
   {
@@ -20193,7 +19765,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20217,7 +19789,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-09-05T09:26:39+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20248,7 +19820,7 @@
     "land": "Hamburg",
     "adapter": "gjb",
     "first_seen": "2026-10-12T13:20:05+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "ID": "44195",
@@ -20342,7 +19914,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-08-22T06:51:06+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20365,7 +19937,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20396,7 +19968,7 @@
     "land": null,
     "adapter": "successfactors",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "jobLocationShort": [
@@ -20441,7 +20013,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20465,7 +20037,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20489,7 +20061,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20513,7 +20085,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20537,7 +20109,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-20T10:16:29+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20561,7 +20133,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20585,7 +20157,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20609,7 +20181,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20633,7 +20205,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20657,7 +20229,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20681,7 +20253,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20705,7 +20277,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20729,7 +20301,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20753,7 +20325,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20777,7 +20349,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20801,7 +20373,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20825,7 +20397,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20849,7 +20421,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20873,7 +20445,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-05T12:47:53+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20897,7 +20469,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20921,7 +20493,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-19T10:57:35+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20945,7 +20517,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-21T10:18:59+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20969,7 +20541,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -20993,7 +20565,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -21017,7 +20589,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -21041,7 +20613,7 @@
     "land": "Berlin",
     "adapter": "karriere_be",
     "first_seen": "2026-10-22T10:21:25+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "client_ids": [
@@ -21065,7 +20637,7 @@
     "land": "Hessen",
     "adapter": "karriere_he",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "__metadata": {
@@ -21139,7 +20711,7 @@
     "land": "Brandenburg",
     "adapter": "karriere_bb",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "title": "Zweite Vorzimmerkraft des Staatssekretärs (w/m/d)  im „Büro des Ministers und des Staatssekretärs sowie für Kabinett-, Landtags- und Bundesratsangelegenheiten“ (MB 1.202/2026)",
@@ -21171,7 +20743,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-15T10:05:12+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2168,
@@ -21211,7 +20783,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-06T12:32:49+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2084,
@@ -21251,7 +20823,7 @@
     "land": "Baden-Württemberg",
     "adapter": "karriere_bw",
     "first_seen": "2026-10-16T10:02:02+00:00",
-    "last_seen": "2026-10-24T09:41:36+00:00",
+    "last_seen": "2026-10-25T09:58:43+00:00",
     "active": true,
     "raw": {
       "id": 2187,
@@ -21275,6 +20847,63 @@
         "Teilzeit 50 %"
       ],
       "url": "https://karriere.baden-wuerttemberg.de/de/startseite/stellenanzeigen/einzelansicht/job/oekotrophologin-oekotrophologe-wmd-univm-sc-oder-ernaehrungswissenschaftlerin-ernaehrungswissenschaftler-wmd-univmsc"
+    }
+  },
+  {
+    "uid": "2fbf543b2332a3e579297f0a",
+    "title": "eine Sachbearbeiterin /ein Sachbearbeiter (m/w/d) für das Referat S7 „Koordinierung Datenlabore, IT-Services“ im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-035",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25928540",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-10-23T10:14:46+00:00",
+    "last_seen": "2026-10-24T09:41:36+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "afb3bcc4f04b641b4bc6fdd9",
+    "title": "Mehrere Bürosachbearbeiterinnen / mehrere Bürosachbearbeiter (m/w/d) im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) - BMDS-2026-034",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25928510",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-10-23T10:14:46+00:00",
+    "last_seen": "2026-10-24T09:41:36+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
+    }
+  },
+  {
+    "uid": "d52976d06444c3dab9ec1360",
+    "title": "Referentin / Referent (w/m/d) im Bundesministerium für Digitales und Staatsmodernisierung (BMDS) im Referat S 3 „Changemanagement, Personalentwicklung\" - BMDS-2026-033",
+    "url": "https://karriere.bund.de/arbeiten-bei-uns/stellenangebote//25911952",
+    "location": null,
+    "posted_at": null,
+    "deadline": null,
+    "source_id": "bmds",
+    "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+    "ebene": "bund",
+    "land": null,
+    "adapter": "generic_html",
+    "first_seen": "2026-10-23T10:14:46+00:00",
+    "last_seen": "2026-10-24T09:41:36+00:00",
+    "active": true,
+    "raw": {
+      "list_url": "https://karriere.bund.de/die-bundesverwaltung/behoerden-und-organisationen/bundesministerium-fuer-digitales-und-staatsmodernisierung/125"
     }
   },
   {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:41:36+00:00",
+  "generated_at": "2026-10-25T09:58:43+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -9,6 +9,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source_id": "bmds",
+      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "The read operation timed out"
     },
     {
       "source_id": "nrw-mf",
@@ -216,6 +225,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "bb-mbjs",
+      "source_name": "Ministerium für Bildung, Jugend und Sport Brandenburg",
+      "adapter": "karriere_bb",
+      "kind": "zero",
+      "baseline": 3.0,
+      "count": 0,
+      "error": null
     },
     {
       "source_id": "sh-mekun",
