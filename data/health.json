@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:58:43+00:00",
+  "generated_at": "2026-10-26T11:18:46+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -11,13 +11,22 @@
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
+      "source_id": "bmbfsfj",
+      "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Server disconnected without sending a response."
+    },
+    {
       "source_id": "bmds",
       "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "The read operation timed out"
+      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "nrw-mf",
@@ -240,7 +249,7 @@
       "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
       "kind": "zero",
-      "baseline": 5.0,
+      "baseline": 4.0,
       "count": 0,
       "error": null
     }
