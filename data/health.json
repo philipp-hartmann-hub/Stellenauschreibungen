@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:34:02+00:00",
+  "generated_at": "2026-10-29T11:41:40+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -9,15 +9,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-    },
-    {
-      "source_id": "bmds",
-      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "nrw-mf",
@@ -227,11 +218,11 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source_id": "bb-mbjs",
-      "source_name": "Ministerium für Bildung, Jugend und Sport Brandenburg",
-      "adapter": "karriere_bb",
+      "source_id": "by-stmwi",
+      "source_name": "Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie",
+      "adapter": "generic_html",
       "kind": "zero",
-      "baseline": 3.0,
+      "baseline": 4.0,
       "count": 0,
       "error": null
     },
@@ -241,6 +232,15 @@
       "adapter": "karriere_ni",
       "kind": "zero",
       "baseline": 4.0,
+      "count": 0,
+      "error": null
+    },
+    {
+      "source_id": "th-mbwk",
+      "source_name": "Thüringer Ministerium für Bildung, Wissenschaft und Kultur",
+      "adapter": "karriere_th",
+      "kind": "zero",
+      "baseline": 3.0,
       "count": 0,
       "error": null
     }
