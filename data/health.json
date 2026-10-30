@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-10-29T11:41:40+00:00",
+  "generated_at": "2026-10-30T11:35:05+00:00",
   "alerts": [
+    {
+      "source_id": "aa",
+      "source_name": "Auswärtiges Amt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Server disconnected without sending a response."
+    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -9,6 +18,24 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source_id": "bkamt",
+      "source_name": "Bundeskanzleramt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:993: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmds",
+      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Server disconnected without sending a response."
     },
     {
       "source_id": "nrw-mf",
@@ -218,29 +245,11 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source_id": "by-stmwi",
-      "source_name": "Bayerisches Staatsministerium für Wirtschaft, Landesentwicklung und Energie",
-      "adapter": "generic_html",
-      "kind": "zero",
-      "baseline": 4.0,
-      "count": 0,
-      "error": null
-    },
-    {
       "source_id": "ni-mel",
       "source_name": "Niedersächsisches Ministerium für Ernährung, Landwirtschaft und Verbraucherschutz",
       "adapter": "karriere_ni",
       "kind": "zero",
-      "baseline": 4.0,
-      "count": 0,
-      "error": null
-    },
-    {
-      "source_id": "th-mbwk",
-      "source_name": "Thüringer Ministerium für Bildung, Wissenschaft und Kultur",
-      "adapter": "karriere_th",
-      "kind": "zero",
-      "baseline": 3.0,
+      "baseline": 3.5,
       "count": 0,
       "error": null
     }
