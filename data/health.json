@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-10-30T11:35:05+00:00",
+  "generated_at": "2026-10-31T11:04:52+00:00",
   "alerts": [
-    {
-      "source_id": "aa",
-      "source_name": "Auswärtiges Amt",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -20,22 +11,13 @@
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
-      "source_id": "bkamt",
-      "source_name": "Bundeskanzleramt",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:993: The handshake operation timed out"
-    },
-    {
       "source_id": "bmds",
       "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "nrw-mf",
@@ -249,7 +231,7 @@
       "source_name": "Niedersächsisches Ministerium für Ernährung, Landwirtschaft und Verbraucherschutz",
       "adapter": "karriere_ni",
       "kind": "zero",
-      "baseline": 3.5,
+      "baseline": 3.0,
       "count": 0,
       "error": null
     }
