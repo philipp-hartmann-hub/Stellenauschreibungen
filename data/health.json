@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-11-01T11:59:28+00:00",
+  "generated_at": "2026-11-02T13:38:11+00:00",
   "alerts": [
+    {
+      "source_id": "by-stmas",
+      "source_name": "Bayerisches Staatsministerium für Familie, Arbeit und Soziales",
+      "adapter": "karriere_by",
+      "kind": "drop",
+      "baseline": 5.0,
+      "count": 1,
+      "error": null
+    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
