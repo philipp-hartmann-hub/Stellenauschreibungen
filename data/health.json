@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:21:51+00:00",
+  "generated_at": "2026-11-06T13:19:00+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -11,13 +11,94 @@
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
+      "source_id": "bmjv",
+      "source_name": "Bundesministerium der Justiz und für Verbraucherschutz",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmvg",
+      "source_name": "Bundesministerium der Verteidigung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmi",
+      "source_name": "Bundesministerium des Innern",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Server disconnected without sending a response."
+    },
+    {
       "source_id": "bmbfsfj",
       "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmds",
+      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmftr",
+      "source_name": "Bundesministerium für Forschung, Technologie und Raumfahrt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
       "error": "Server disconnected without sending a response."
+    },
+    {
+      "source_id": "bmg",
+      "source_name": "Bundesministerium für Gesundheit",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmz",
+      "source_name": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "sh-stk",
+      "source_name": "Der Ministerpräsident - Staatskanzlei Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "sh-fin",
+      "source_name": "Finanzministerium des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
     },
     {
       "source_id": "nrw-mf",
@@ -47,6 +128,15 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
+      "source_id": "sh-mbwk",
+      "source_name": "Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
       "source_id": "nrw-mags",
       "source_name": "Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen",
       "adapter": "karriere_nrw",
@@ -56,6 +146,15 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
+      "source_id": "sh-mekun",
+      "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
       "source_id": "nrw-mhkbd",
       "source_name": "Ministerium für Heimat, Kommunales, Bau und Digitalisierung des Landes Nordrhein-Westfalen",
       "adapter": "karriere_nrw",
@@ -63,6 +162,24 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "sh-mi",
+      "source_name": "Ministerium für Inneres, Kommunales, Wohnen und Sport des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
+      "source_id": "sh-mjg",
+      "source_name": "Ministerium für Justiz und Gesundheit des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
     },
     {
       "source_id": "nrw-mkjfgfi",
@@ -92,6 +209,15 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
+      "source_id": "sh-mllev",
+      "source_name": "Ministerium für Landwirtschaft, ländliche Räume, Europa und Verbraucherschutz des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
+    },
+    {
       "source_id": "nrw-msb",
       "source_name": "Ministerium für Schule und Bildung des Landes Nordrhein-Westfalen",
       "adapter": "karriere_nrw",
@@ -99,6 +225,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "sh-msjfsig",
+      "source_name": "Ministerium für Soziales, Jugend, Familie, Senioren, Integration und Gleichstellung des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
     },
     {
       "source_id": "nrw-muv",
@@ -117,6 +252,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "sh-mwvatt",
+      "source_name": "Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein",
+      "adapter": "karriere_sh",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "timed out"
     },
     {
       "source_id": "hb-fin",
@@ -225,15 +369,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source_id": "sn-smf",
-      "source_name": "Sächsisches Staatsministerium der Finanzen",
-      "adapter": "karriere_sachsen",
-      "kind": "zero",
-      "baseline": 3.0,
-      "count": 0,
-      "error": null
     }
   ]
 }
