@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-11-06T13:19:00+00:00",
+  "generated_at": "2026-11-07T12:01:35+00:00",
   "alerts": [
+    {
+      "source_id": "th-msgef",
+      "source_name": "Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie",
+      "adapter": "karriere_th",
+      "kind": "drop",
+      "baseline": 5.5,
+      "count": 2,
+      "error": null
+    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -11,71 +20,8 @@
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
-      "source_id": "bmjv",
-      "source_name": "Bundesministerium der Justiz und für Verbraucherschutz",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
-      "source_id": "bmvg",
-      "source_name": "Bundesministerium der Verteidigung",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
-      "source_id": "bmi",
-      "source_name": "Bundesministerium des Innern",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
-    },
-    {
-      "source_id": "bmbfsfj",
-      "source_name": "Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
       "source_id": "bmds",
       "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
-      "source_id": "bmftr",
-      "source_name": "Bundesministerium für Forschung, Technologie und Raumfahrt",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
-    },
-    {
-      "source_id": "bmg",
-      "source_name": "Bundesministerium für Gesundheit",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
-      "source_id": "bmz",
-      "source_name": "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
@@ -369,6 +315,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "be-sk",
+      "source_name": "Senatskanzlei Berlin",
+      "adapter": "karriere_be",
+      "kind": "zero",
+      "baseline": 3.0,
+      "count": 0,
+      "error": null
     }
   ]
 }
