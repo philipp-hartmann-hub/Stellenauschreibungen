@@ -1,24 +1,6 @@
 {
-  "generated_at": "2026-11-08T12:16:59+00:00",
+  "generated_at": "2026-11-09T14:12:17+00:00",
   "alerts": [
-    {
-      "source_id": "th-msgef",
-      "source_name": "Thüringer Ministerium für Soziales, Gesundheit, Arbeit und Familie",
-      "adapter": "karriere_th",
-      "kind": "drop",
-      "baseline": 5.0,
-      "count": 1,
-      "error": null
-    },
-    {
-      "source_id": "aa",
-      "source_name": "Auswärtiges Amt",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -29,13 +11,13 @@
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
-      "source_id": "bmf",
-      "source_name": "Bundesministerium der Finanzen",
+      "source_id": "bmds",
+      "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server disconnected without sending a response."
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
       "source_id": "sh-stk",
@@ -63,15 +45,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source_id": "st-mf",
-      "source_name": "Ministerium der Finanzen des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 111] Connection refused"
     },
     {
       "source_id": "nrw-mj",
@@ -110,24 +83,6 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source_id": "st-ms",
-      "source_name": "Ministerium für Arbeit, Soziales, Gesundheit und Gleichstellung des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 111] Connection refused"
-    },
-    {
-      "source_id": "st-mb",
-      "source_name": "Ministerium für Bildung des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 111] Connection refused"
-    },
-    {
       "source_id": "sh-mekun",
       "source_name": "Ministerium für Energiewende, Klimaschutz, Umwelt und Natur des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -146,24 +101,6 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source_id": "st-mid",
-      "source_name": "Ministerium für Infrastruktur und Digitales des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 111] Connection refused"
-    },
-    {
-      "source_id": "st-mi",
-      "source_name": "Ministerium für Inneres und Sport des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
-    },
-    {
       "source_id": "sh-mi",
       "source_name": "Ministerium für Inneres, Kommunales, Wohnen und Sport des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -180,15 +117,6 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
-    },
-    {
-      "source_id": "st-mj",
-      "source_name": "Ministerium für Justiz und Verbraucherschutz des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "nrw-mkjfgfi",
@@ -263,15 +191,6 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source_id": "st-mwl",
-      "source_name": "Ministerium für Wirtschaft, Tourismus, Landwirtschaft und Forsten des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 111] Connection refused"
-    },
-    {
       "source_id": "sh-mwvatt",
       "source_name": "Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein",
       "adapter": "karriere_sh",
@@ -279,15 +198,6 @@
       "baseline": null,
       "count": 0,
       "error": "timed out"
-    },
-    {
-      "source_id": "st-mwu",
-      "source_name": "Ministerium für Wissenschaft, Energie, Klimaschutz und Umwelt des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 111] Connection refused"
     },
     {
       "source_id": "hb-fin",
