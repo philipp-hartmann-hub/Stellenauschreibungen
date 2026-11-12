@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:03:03+00:00",
+  "generated_at": "2026-11-12T14:07:26+00:00",
   "alerts": [
     {
       "source_id": "aa",
@@ -38,22 +38,40 @@
       "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
+      "source_id": "bmvg",
+      "source_name": "Bundesministerium der Verteidigung",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmi",
+      "source_name": "Bundesministerium des Innern",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Server disconnected without sending a response."
+    },
+    {
       "source_id": "bmds",
       "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "timed out"
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
-      "source_id": "bmleh",
-      "source_name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "source_id": "bmwe",
+      "source_name": "Bundesministerium für Wirtschaft und Energie",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
       "source_id": "sh-stk",
@@ -344,13 +362,13 @@
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source_id": "be-sk",
-      "source_name": "Senatskanzlei Berlin",
-      "adapter": "karriere_be",
-      "kind": "zero",
-      "baseline": 3.0,
+      "source_id": "st-stk",
+      "source_name": "Staatskanzlei und Ministerium für Kultur des Landes Sachsen-Anhalt",
+      "adapter": "karriere_st",
+      "kind": "fail",
+      "baseline": null,
       "count": 0,
-      "error": null
+      "error": "[Errno 104] Connection reset by peer"
     }
   ]
 }
