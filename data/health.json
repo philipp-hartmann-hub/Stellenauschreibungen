@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:07:26+00:00",
+  "generated_at": "2026-11-13T13:26:33+00:00",
   "alerts": [
     {
       "source_id": "aa",
@@ -38,40 +38,13 @@
       "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
-      "source_id": "bmvg",
-      "source_name": "Bundesministerium der Verteidigung",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
-      "source_id": "bmi",
-      "source_name": "Bundesministerium des Innern",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "Server disconnected without sending a response."
-    },
-    {
       "source_id": "bmds",
       "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
-      "source_id": "bmwe",
-      "source_name": "Bundesministerium für Wirtschaft und Energie",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
+      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "sh-stk",
@@ -153,6 +126,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source_id": "st-mi",
+      "source_name": "Ministerium für Inneres und Sport des Landes Sachsen-Anhalt",
+      "adapter": "karriere_st",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "sh-mi",
