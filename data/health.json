@@ -1,15 +1,6 @@
 {
-  "generated_at": "2026-11-13T13:26:33+00:00",
+  "generated_at": "2026-11-14T12:30:04+00:00",
   "alerts": [
-    {
-      "source_id": "aa",
-      "source_name": "Auswärtiges Amt",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
     {
       "source_id": "by-stmd",
       "source_name": "Bayerisches Staatsministerium für Digitales",
@@ -20,31 +11,13 @@
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
     {
-      "source_id": "bkamt",
-      "source_name": "Bundeskanzleramt",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
-      "source_id": "bmf",
-      "source_name": "Bundesministerium der Finanzen",
-      "adapter": "generic_html",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "_ssl.c:994: The handshake operation timed out"
-    },
-    {
       "source_id": "bmds",
       "source_name": "Bundesministerium für Digitales und Staatsmodernisierung",
       "adapter": "generic_html",
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
+      "error": "_ssl.c:994: The handshake operation timed out"
     },
     {
       "source_id": "sh-stk",
@@ -126,15 +99,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source_id": "st-mi",
-      "source_name": "Ministerium für Inneres und Sport des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "sh-mi",
@@ -342,15 +306,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source_id": "st-stk",
-      "source_name": "Staatskanzlei und Ministerium für Kultur des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
     }
   ]
 }
