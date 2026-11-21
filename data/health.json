@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:18:37+00:00",
+  "generated_at": "2026-11-21T13:45:43+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -9,6 +9,15 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source_id": "bmleh",
+      "source_name": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "[Errno 104] Connection reset by peer"
     },
     {
       "source_id": "sh-stk",
@@ -297,15 +306,6 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '403 Forbidden' for url 'https://api.karriere.nrw/v1/jobs/stellenausschreibungen/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source_id": "st-stk",
-      "source_name": "Staatskanzlei und Ministerium für Kultur des Landes Sachsen-Anhalt",
-      "adapter": "karriere_st",
-      "kind": "fail",
-      "baseline": null,
-      "count": 0,
-      "error": "[Errno 104] Connection reset by peer"
     }
   ]
 }
