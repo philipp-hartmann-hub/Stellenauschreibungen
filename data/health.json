@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:09:49+00:00",
+  "generated_at": "2026-11-25T15:55:07+00:00",
   "alerts": [
     {
       "source_id": "by-stmd",
@@ -9,6 +9,24 @@
       "baseline": null,
       "count": 0,
       "error": "Client error '404 Not Found' for url 'https://www.stmd.bayern.de/ministerium/karriere'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    },
+    {
+      "source_id": "bmftr",
+      "source_name": "Bundesministerium für Forschung, Technologie und Raumfahrt",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "_ssl.c:994: The handshake operation timed out"
+    },
+    {
+      "source_id": "bmwe",
+      "source_name": "Bundesministerium für Wirtschaft und Energie",
+      "adapter": "generic_html",
+      "kind": "fail",
+      "baseline": null,
+      "count": 0,
+      "error": "Server disconnected without sending a response."
     },
     {
       "source_id": "sh-stk",
@@ -305,7 +323,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-mbwk",
@@ -314,7 +332,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-mdi",
@@ -323,7 +341,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-mi",
@@ -332,7 +350,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-mjmv",
@@ -341,7 +359,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-msgef",
@@ -350,7 +368,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-muenf",
@@ -359,7 +377,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-mwll",
@@ -368,7 +386,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     },
     {
       "source_id": "th-stk",
@@ -377,7 +395,7 @@
       "kind": "fail",
       "baseline": null,
       "count": 0,
-      "error": "Server error '503 Service Unavailable' for url 'https://karriere.thueringen.de/stellensuche'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      "error": "Server error '500 Internal Server Error' for url 'https://karriere.thueringen.de/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
     }
   ]
 }
